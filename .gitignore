@@ -50,3 +50,7 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+# Configuracion de Local de obsidian
+.obsidian/
+*.json
