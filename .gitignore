@@ -54,3 +54,4 @@ dkms.conf
 # Configuracion de Local de obsidian
 .obsidian/
 *.json
+
