@@ -15,7 +15,7 @@ ____
 
 Ordenamiento por el método _Inserción_ [[Ordenamiento Inserción.pdf|PDF]]
 Esta técnica ...
-``` C
+``` cpp
 	# include <stdio.h>
 	
 	int Lista[8] = {10,70,55,19,100,63,47,23};
@@ -59,7 +59,7 @@ Esta técnica ...
 ```
 
 Ordenamiento por el método _Burbuja_ [[Ordenamiento Burbuja.pdf|PDF]]
-``` C
+``` cpp
 	# include <stdio.h>
 	
 	int Lista[8] = {70,80,50,20,35,90,60,42};
@@ -115,7 +115,7 @@ Ordenamiento por el método _Mezcla_ [[Ordenamiento Mezcla.pdf|PDF]]
 ### El problema de la busqueda
 
 Búsqueda _Binaria_
-``` c
+``` cpp
 	# include <stdio.h>
 	
 	int busquedaBinaria();
@@ -172,7 +172,7 @@ Estructuras estáticas
 Los arreglos son un tipo de estructuras de datos que contienen un número determinado de elementos y todos los elementos han de ser del mismo tipo, estas son estructuras de datos homogéneas.
 Por ejemplo al declarar una arreglo de tipo PERSONA, arr\[10] (un arreglo con capacidad para contener hasta 10 personas) el programa reservará una cantidad de memoria fija más allá de que durante su ejecución la utilice o no.
 
-``` Cpp
+``` cpp
 class PERSONA {
 	public:
 		char nombre[30];
@@ -189,7 +189,7 @@ Estructuras dinámicas [[Estructuras de Datos en C.pdf|PDF]]
 La diferencia con la Estructura estática esta dada en que la cantidad de elementos de la colección puede variar durante la ejecución del programa aumentando o disminuyendo y, en consecuencia, utilizando mayor o menor cantidad de memoria.
 Un nodo simplemente es una estructura que define valores más una referencia (puntero de tipo Nodo*) para apuntar al siguiente nodo de la colección.
 
-``` C
+``` cpp
 struct Nodo {
   int Dato;
   float Valor;
@@ -202,7 +202,7 @@ Listas simplemente enlazadas
 [[Listas.pdf|PDF]]
 
 __Enlazar nuevo nodo__
-``` C
+``` cpp
 # include <stdio.h>
 # include <iostream>
 

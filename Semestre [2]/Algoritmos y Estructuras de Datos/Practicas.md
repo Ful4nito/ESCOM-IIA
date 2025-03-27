@@ -1,12 +1,12 @@
 ## UNIDAD I
 __Algoritmos fundamentales__
 ____
-### Practica 1
+### Práctica 1
 __Ordenamiento Burbuja__  180225
 
 Un programa que pide al usuario cuantos números aleatorios desea generar, estos estarán en el rango de 0 a 100, posteriormente serán ordenados con el método _burbuja_ aplicando solamente una iteración.
 
-``` c
+``` cpp
 // Baez Pacheco Jonathan Leon
 
 # include <stdio.h>
@@ -45,41 +45,82 @@ int main() {
 }
 ```
 ____
-### Practica 2
+### Práctica 2
 __Objeto con datos ingresados por el usuario__  250225
 
 Genere un programa que pida al usuario que inserte los datos de un alumno tales como Nombre completo, Boleta y grupo, estos deberán ser almacenados en un objeto, puede ser utilizando _class_ ó _struct_ , después mostrar los datos del alumno en pantalla.
 
-``` C
-// Baez Pacheco Jonatha Leon
+``` cpp
+// Baez Pacheco Jonathhan Leon      
 
-# include <stdio.h>
-# include <stdlib.h>
+#include <stdio.h>
+#include <stdlib.h>
 
-class ALUMNO {
-	char nombre[30];
-	int boleta;
-	char grupo[5];
+class ALUMNO{
+  public:
+    char nombre[30];
+    int boleta;
+    char grupo[5];
 } Alumno;
 
-int main(void) {
-	printf("Inserte nombre del alumno: ");
-	scanf("%[^\n]s", Alumno.nombre);
-	printf("Boleta: ");
-	scanf("%i", &Alumno.boleta);
-	printf("Greupo: ");
-	scanf("%s", Alumno.grupo);
-	
-	printf(" 1  %-30s", Alumno.nombre);
-	printf("%-11i ", Alumno.boleta, );
-	printf("%-5s\n", Alumno.grupo);
+int main (void) {
+  
+    printf("Inserte nombre del alumno: ");
+    scanf("%[^\n]s", Alumno.nombre);
+    printf("Boleta: ");
+    scanf("%i", &Alumno.boleta);
+    printf("Grupo: ");
+    scanf("%s", Alumno.grupo);
+  
+    printf("\n 1  %-30s %-11i %-5s\n", Alumno.nombre, Alumno.boleta, Alumno.grupo);
+
 }
 ```
 ____
-### Practica 3
+### Práctica 3
 __Lista simplemente enlazada: agregar y mostrar objeto__
 
-``` c
+``` cpp
+// Baez Pacheco Jonathan Leon   
+
+# include <stdio.h>
+# include <iostream>
+
+struct NODO {
+	int valor;
+	NODO* sig;
+};
+
+int main(void) {
+  NODO *inicial, *actual;
+
+  inicial = new(NODO);
+  inicial->valor = 5;
+  inicial->sig = new(NODO);
+
+  actual = inicial->sig;
+  actual->valor = 10;
+  actual->sig = new(NODO);
+  
+  actual = actual->sig;
+  actual->valor = 15;
+  actual->sig = NULL;
+
+  actual = inicial;
+
+  while(actual->sig != NULL) {
+    printf(" %i\n", actual->valor);
+    actual = actual->sig;
+  }
+  printf(" %i\n", actual->valor);
+
+}
+```
+____
+### Práctica 4
+__Lista simplemente enlazada: agregar al inicio, al final y mostrar objetos__
+
+``` cpp
 // Baez Pacheco Jonathan Leon 
 
 # include <stdio.h>
@@ -108,11 +149,11 @@ int main() {
     printf("   1 Agregar nodo\n");
     printf("   2 Mostrar lista\n");
     printf("   3 Salir\n");
-    printf("   Que opcion quieres: ");
+    printf("   Que opcion queres: ");
     scanf("%i", &opcion);
     
     switch (opcion) {
-      case 1: // Agregar nodos
+      case 1:
         aux = new nodo;
         if (aux == NULL) {
           printf("  No hay mas espacio en la memoria.\n");
@@ -129,14 +170,15 @@ int main() {
         }
         actual->sig = aux;
         actual = aux;
+
         break;
-				
-      case 2: // Mostrar nodos
+      case 2:
         aux = inicial;
         if (aux == NULL) {
           printf("\n La lista esta vacia.\n");
           break;
         }
+        
         i = 0;
         while (aux->sig != NULL) {
           printf("\n Nodo %-4i Valor %i", i+1, aux->valor);
@@ -144,12 +186,11 @@ int main() {
           i += 1;
         }
         printf("\n Nodo %-4i Valor %i\n", i+1, aux->valor);
+
         break;
-				
       case 3:
         menu = 0;
         break;
-				
       default:
         break;
     }
@@ -157,110 +198,10 @@ int main() {
 }
 ```
 ____
-### Practica 4
-__Lista simplemente enlazada: agregar al inicio, al final y mostrar objetos__
-
-``` c
-// Baez Pacheco Jonathan Leon 
-
-# include <stdio.h>
-# include <iostream>
-
-struct nodo {
-  int valor;
-  nodo *sig;
-};
-
-typedef nodo *apunodo;
-
-apunodo inicial, aux, actual;
-
-int menu = 1;
-int opcion = 0;
-int i = 0;
-
-int main() {
-  inicial = NULL;
-  aux = NULL;
-  actual = NULL;
-  
-  while (menu == 1) {
-    printf("\n Lista simplemente ligada\n");
-    printf("   1 Insertar nodo al inicio\n");
-		printf("   2 Agregar nodo al final\n");
-    printf("   3 Mostrar lista\n");
-    printf("   4 Salir\n");
-    printf("   Que opcion quieres: ");
-    scanf("%i", &opcion);
-    
-    switch (opcion) {
-      case 1: // Agregar al inicio
-        aux = new nodo;
-        if (aux == NULL) {
-          printf("  No hay mas espacio en la memoria.\n");
-          break;
-        }
-        printf("   Inserte valor: ");
-        scanf("%i", &aux->valor);
-        aux->sig = NULL; 
-
-        if (inicial == NULL) {
-          inicial = aux;
-          actual = aux;
-          break;
-        }
-        aux->sig = inicial;
-        inicial = aux;
-        break;
-				
-      case 2: // Agregar al final
-        aux = new nodo;
-        if (aux == NULL) {
-          printf("  No hay mas espacio en la memoria.\n");
-          break;
-        }
-        printf("   Inserte valor: ");
-        scanf("%i", &aux->valor);
-        aux->sig = NULL; 
-        if (inicial == NULL) {
-          inicial = aux;
-          actual = aux;
-          break;
-        }
-        actual->sig = aux;
-        actual = aux;
-        break;
-				
-      case 3: // Mostrar Lista
-        aux = inicial;
-        if (aux == NULL) {
-          printf("\n La lista esta vacia.\n");
-          break;
-        }
-        i = 0;
-        while (aux->sig != NULL) {
-          printf("\n Nodo %-4i Valor %i", i+1, aux->valor);
-          aux = aux->sig;
-          i += 1;
-        }
-        printf("\n Nodo %-4i Valor %i\n", i+1, aux->valor);
-        break;
-				
-      case 4:
-        menu = 0;
-        break;
-				
-      default:
-        break;
-    }
-  }
-}
-```
-____
-### Practica 5
+### Práctica 5
 __Lista simplemente enlazada: agregar al inicio, al final, mostrar y eliminar objetos__
 
-``` c
+``` cpp
 // Baez Pacheco Jonathan Leon
 
 # include <stdio.h>
@@ -288,15 +229,15 @@ int main(void) {
   while(menu == 1) {
     printf("\n Lista de alumnos simplemente ligada\n");
     printf("    1 Insertar nodo al inicio\n");
-    printf("    2 Agregar nodo al final\n");
+    printf("    2 Insertar nodo al final\n");
     printf("    3 Mostrar todos los nodos\n");
     printf("    4 Buscar valor por boleta\n");
     printf("    5 Salir\n");
-    printf("    Que opcion quieres: ");
+    printf("    Elija una opcion: ");
     scanf("%i", &opcion);
 
     switch(opcion) {
-      case 1: // Insertar nodo al inicio
+      case 1:
         aux = new ALUMNO;
 
         if (aux == NULL) {
@@ -320,7 +261,7 @@ int main(void) {
         inicial = aux;
         break;
 
-      case 2: // Agregar nodo al final
+      case 2:
         aux = new ALUMNO;
 
         if (aux == NULL) {
@@ -344,7 +285,7 @@ int main(void) {
         actual = aux;
         break;
 
-      case 3: // Mostrar la lista
+      case 3:
         if (inicial == NULL) {
           printf(" La lista esta vacia\n");
           break;
@@ -359,7 +300,7 @@ int main(void) {
         printf(" %-12i %-12s %.1f\n", aux->boleta, aux->nombre, aux->promedio);
         break;
       
-      case 4: // Buscar nodo por campo boleta
+      case 4:
         if (inicial == NULL) {
           printf(" La lista esta vacia\n");
           break;
@@ -397,8 +338,7 @@ ____
 ### Práctica 6
 __Lista enlazada__
 
-
-``` c
+``` cpp
 // Baez Pacheco Jonathan Leon
 
 # include <stdio.h>
@@ -416,7 +356,6 @@ int menu = 1;
 int opcion = 0;
 int dato = 0;
 int renglon = 0;
-int divisor = 3;
 
 int main(void) {
   inicial = NULL;
@@ -430,7 +369,7 @@ int main(void) {
   printf("  |  3 Agregar nodo ordenadamente   |\n");
   printf("  |  4 Mostrar todos los nodos      |\n");
   printf("  |  5 Buscar nodo por valor        |\n");
-  printf("  |  6 Eliminar nodo por condicion  |\n");
+  printf("  |  6 Eliminar nodo por valor      |\n");
   printf("  |  7 SALIR                        |\n");
   printf("  ===================================\n");
   
@@ -447,7 +386,7 @@ int main(void) {
           printf("  No hay más espacio en memoria.\n");
           break;
         }
-        printf("\n  Inserte el nuevo valor: ");
+        printf("  Inserte el nuevo valor: ");
         scanf("%i", &aux->valor);
         aux->sig = NULL;
 
@@ -468,7 +407,7 @@ int main(void) {
           printf("  No hay mas espacio en memoria.\n");
           break;
         }
-        printf("\n  Inserte el nuevo valor: ");
+        printf("  Inserte el nuevo valor: ");
         scanf("%i", &aux->valor);
         aux->sig = NULL;
 
@@ -491,11 +430,13 @@ int main(void) {
         aux = new nodo;
 
         if (aux == NULL) {
+        printf("\n  Inserte valor a buscar: ");
+        scanf("%i", &dato);
           printf("  No hay mas espacio en memoria.\n");
           break;
         }
 
-        printf("\n  Inserte el nuevo valor: ");
+        printf("  Inserte el nuevo valor: ");
         scanf("%i", &aux->valor);
         aux->sig = NULL;
 
@@ -568,7 +509,7 @@ int main(void) {
           break;
         }
 
-        printf("\n  Inserte valor a buscar: ");
+        printf("  Inserte valor a buscar: ");
         scanf("%i", &dato);
         aux = inicial;
         while ((dato != aux->valor) && (aux->sig != NULL)) {
@@ -591,30 +532,38 @@ int main(void) {
           break;
         }
 
+        printf("  Inserte valor a eliminar: ");
+        scanf("%i", &dato);
+        
         actual = inicial;
-        if ((inicial->valor%divisor) == 0) {
-          inicial = inicial->sig;
-          delete(actual);
-        }
-
         anterior = inicial;
-        actual = inicial->sig;
+
         while (actual->sig != NULL) {
-          if ((actual->valor%divisor) == 0) {
+          if (inicial == actual) { 
+            if (actual->valor == dato) {
+              inicial = inicial->sig;
+              actual = inicial;
+              delete(anterior);
+            }
+            else {
+              actual = actual->sig;
+            }
+          }
+          else if (actual->valor == dato) {
             anterior->sig = actual->sig;
-            actual = actual->sig;
             delete(actual);
+            actual = anterior->sig;
           }
           else {
-            anterior = actual;
             actual = actual->sig;
+            anterior = anterior->sig;
           }
         }
-
-        if ((actual->valor%divisor) == 0) {
+        if (actual->valor == dato) {
           anterior->sig = NULL;
           delete(actual);
         }
+
         break;
 
 /* ------------------------------------------------------------------------------------- */        
@@ -627,4 +576,11 @@ int main(void) {
     }
   }
 }
+```
+
+____
+### Práctica 7
+__Quien sabe__
+``` cpp
+// Baez Pacheco Jonathan Leon
 ```

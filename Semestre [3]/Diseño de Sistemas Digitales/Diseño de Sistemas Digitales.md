@@ -1,6 +1,6 @@
 #Tercero #Tecnologicas 
 [[disenoSistemasDigitales_IIA2020.pdf|Programa Sintético: Diseño de Sistemas Digitales]]
-Profesor: 
+Profesor: Jonathan Baez
 ____
 
 ## UNIDAD I

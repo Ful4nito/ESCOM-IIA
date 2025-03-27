@@ -4,23 +4,19 @@ Profesor:
 ____
 
 ## UNIDAD I
-__1__
+__Principios de diseño de Sistemas Digitales__
 ____
 
 ## UNIDAD II
-__1__
+__Tecnología y lenguajes de descripción de dispositivos lógicos programables__
 ____
 
 ## UNIDAD III
-__1__
+__Lógica Combinacional__
 ____
 
 ## UNIDAD IV
-__1__
-____
-
-## UNIDAD V
-__1__
+__Elementos básicos de Memoria__
 ____
 
 

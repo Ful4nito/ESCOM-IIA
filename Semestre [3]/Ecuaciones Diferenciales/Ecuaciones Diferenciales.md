@@ -7,16 +7,18 @@ ____
 __Ecuaciones diferenciales de primer orden__
 ____
 
-### Ecuaciones separables
+### Clasificación de las ecuaciones diferenciales
+
+### Métodos de solución
+==Ecuaciones separables==
 Una ecuación diferencial de primer orden de la forma
 $$\frac{dy}{dx}=g(x)h(y)$$
 se dice que es separable o que tiene variables separables.
 
-### Factor integrante
-
-### Ecuaciones exactas
-
-### Sustitución
+==Factor integrante==
+==Ecuaciones exactas==
+==Ecuaciones lineales==
+==Sustitución==
 
 ## UNIDAD II
 __Ecuaciones diferenciales de orden superior__

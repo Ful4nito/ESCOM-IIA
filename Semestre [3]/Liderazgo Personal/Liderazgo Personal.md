@@ -74,7 +74,7 @@ __Interacción e influencia en relaciones colaborativas__
 ____
 ### Interacción con personas
 
-__Desarrollo humano__
+==Desarrollo humano==
 _Desarrollo físico_ Cambios en el cuerpo y el cerebro (crecimiento, maduración, y envejecimiento).
 _Desarrollo cognitivo_ Evolución el pensamiento, la memoria, el aprendizaje y la resolución de problemas (por ejemplo, teorías de Piaget sobre como los niños desarrollan el pensamiento lógico).
 _Desarrollo emocional y social_ Formación de la identidad, manejo de emociones, relaciones con los demás, desarrollo moral (como la teoría del apego o la de Erikson sobre las etapas psicosociales).
@@ -91,7 +91,7 @@ __Actividad desarrollo personal__
 5. ¿Qué beneficios esperas obtener con tu desarrollo personal?
 		Tener la facilidad para manejar las relaciones de cualquier tipo con las personas.
 
-__Desarrollo personal__
+==Desarrollo personal==
 El desarrollo personal se refiere al proceso mediante el cual una persona trabaja en su crecimiento conscientemente y bienestar para alcanzar su máximo rendimiento.
 Un proceso de superación y crecimiento ayuda a la persona a identificar sus verdaderos intereses y objetivos vitales para adquirir y potenciar los recursos necesarios para alcanzarlos y así dar sentido a su vida.
 
@@ -113,13 +113,22 @@ __Beneficios del desarrollo personal__
 
 __Elementos clave del desarrollo personal__
 
-__Autoconocimiento__
+==Autoconocimiento==
 Hablar de conocimiento es una área amplia 
 La palabra autoconocimiento se compone del prefijo "auto"  que significa y el sustantivo conocimiento que se refiere a la capacidad de comprender mediante la razón. 
-_Auto aceptación_
-_Auto regulación_
-_Auto observación_
-_Auto control_
+__Auto aceptación__ 
+
+__Auto regulación__ 
+
+1. _Pausa consciente._ Cuando sientas que vas a reaccionar impulsivamente (enojarte, contestar mal, comer por ansiedad, etc.), haz una pausa de 5 segundos antes de actuar. Respira profundo y pregúntate "¿Esto me va a ayudar a largo plazo?" esa breve pausa puede cambiar totalmente tu respuesta.
+2. _Respiración Profunda._ Haz respiraciones lentas y controladas. inhala por la nariz contando hasta 4. Sostén la respiración contando hasta 4. Exhala por la boca contando hasta 6. Esto calma el sistema nervioso y te devuelve al momento presente.
+3. _Etiqueta tus emociones._ Cuando algo te altere, ponle nombre a lo que sientes: "estoy sintiendo frustración", "siento ansiedad". Ponerle nombre a la emoción la hace menos intensa y te permite gestionarla.
+4. _Dialogo interno positivo._ Se consciente de como te hablas. Sustituye frases como: "soy un desastre" por "estoy aprendiendo, no pasa nada". Eso ayuda a no engancharte en emociones negativas.
+5. _Planifica tu respuesta._ Si ya sabes que ciertas situaciones te sacan de control (por ejemplo, discusiones, trafico, trabajo), piensa con anticipación como quisieras reaccionar la próxima vez, así reduces la reacción automática.
+6. _Escribe un diario emocional._ Dedica 5-10 minutos al día a escribir cómo te sientes, por qué y como reaccionaste, te ayudará a detectar patrones y ver en que situación te cuesta mas autorregularte. 
+
+__Auto observación__
+__Auto control__
 
 ____
 
