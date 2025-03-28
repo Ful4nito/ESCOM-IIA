@@ -363,14 +363,15 @@ int main(void) {
   actual = NULL;
   aux = NULL;
 
-  printf("\n  Lista de alumnos simplemente ligada\n");
+  printf("\n  Lista de nodos simplemente enlazada\n");
   printf("  |  1 Agragar nodo al inicio       |\n");
   printf("  |  2 Agregar nodo al final        |\n");
   printf("  |  3 Agregar nodo ordenadamente   |\n");
   printf("  |  4 Mostrar todos los nodos      |\n");
   printf("  |  5 Buscar nodo por valor        |\n");
   printf("  |  6 Eliminar nodo por valor      |\n");
-  printf("  |  7 SALIR                        |\n");
+  printf("  |  7 Ordenar por burbuja          |\n");
+  printf("  |  8 SALIR                        |\n");
   printf("  ===================================\n");
   
   while(menu == 1) {
@@ -430,8 +431,6 @@ int main(void) {
         aux = new nodo;
 
         if (aux == NULL) {
-        printf("\n  Inserte valor a buscar: ");
-        scanf("%i", &dato);
           printf("  No hay mas espacio en memoria.\n");
           break;
         }
@@ -567,7 +566,36 @@ int main(void) {
         break;
 
 /* ------------------------------------------------------------------------------------- */        
-      case 7: //                          <===  SALIR                                 7 
+      case 7: //                          <===  Ordenar por burbuja dinamicamente     7 
+        if (inicial == NULL) {
+          printf("  La lista esta vacia. \n");
+          printf("  No hay numeros que ordenar.");
+        }
+        cambio = 0;
+        aux = inicial;
+        actual = inicial->sig;
+
+        while (actual->sig != NULL) {
+          if (aux->valor > actual->valor) {
+            aux->sig = actual->sig;
+            actual->sig = aux;
+            cambio = 1;
+
+            if ((aux == inicial) && (cambio == 1)) {
+              inicial = aux;
+              break;
+            }
+            else if (cambio == 1) {
+              anterior->sig = actual;
+ 
+              anterior = actual;
+              actual = aux->sig;
+            }
+            cambio = 0;
+          }
+        }
+/* ------------------------------------------------------------------------------------- */        
+      case 8: //                          <===  SALIR                                 8 
         menu = 0;
         break;
 
