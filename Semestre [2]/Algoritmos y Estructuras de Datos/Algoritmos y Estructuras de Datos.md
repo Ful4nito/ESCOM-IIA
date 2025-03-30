@@ -16,46 +16,48 @@ ____
 Ordenamiento por el método _Inserción_ [[Ordenamiento Inserción.pdf|PDF]]
 Esta técnica ...
 ``` cpp
-	# include <stdio.h>
+// Baez Pacheco Jonathan Leon
+
+# include <stdio.h>
 	
-	int Lista[8] = {10,70,55,19,100,63,47,23};
-	int n = sizeof(Lista)/sizeof(int);
-	int posicion = 0;
-	int i, j = 1;
-	int temp = 0;
+int Lista[8] = {10,70,55,19,100,63,47,23};
+int n = sizeof(Lista)/sizeof(int);
+int posicion = 0;
+int i, j = 1;
+int temp = 0;
 	
-	void imprimirArreglo();
+void imprimirArreglo();
 	
 	int main() {
-	  printf("\n\nArreglo de %d elementos:\n",n);
-	  imprimirArreglo();
-	  printf("\nOrdenando por Insercion ...\n");
+	printf("\n\nArreglo de %d elementos:\n",n);
+	imprimirArreglo();
+	printf("\nOrdenando por Insercion ...\n");
 	  
-	  for (j=1; j<n; j++) {
-	    temp = Lista[j];
-	    i = j;
-	
-	    while (i >= 0) {
-	      if (Lista[i-1] > temp) {
-	        Lista[i] = Lista[i-1];
-	        i -= 1;
-	      }
-	      else {
-	        Lista[i] = temp;
-	        break;
-	      }  
-	    }
+	for (j=1; j<n; j++) {
+		temp = Lista[j];
+		i = j;
 	    
-	  imprimirArreglo(); 
-	  } 
+	    while (i >= 0) {
+	    if (Lista[i-1] > temp) {
+		    Lista[i] = Lista[i-1];
+		    i -= 1;
+	    }
+	    else {
+		    Lista[i] = temp;
+	    break;
+	    }  
 	}
+    
+	imprimirArreglo(); 
+	} 
+}
 	
-	void imprimirArreglo() {
-	  for(int k=0; k<n; k++) {
-	    printf("%d ", Lista[k]);
-	  }
-	  printf("\n");
+void imprimirArreglo() {
+	for(int k=0; k<n; k++) {
+		printf("%d ", Lista[k]);
 	}
+	printf("\n");
+}
 ```
 
 Ordenamiento por el método _Burbuja_ [[Ordenamiento Burbuja.pdf|PDF]]
