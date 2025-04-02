@@ -342,283 +342,6 @@ __Lista enlazada__
 // Baez Pacheco Jonathan Leon
 
 # include <stdio.h>
-# include <iostream>
-
-struct nodo {
-  int valor;
-  nodo *sig;
-};
-
-typedef nodo *apunodo;
-apunodo inicial, anterior, actual, aux;
-
-int menu = 1;
-int opcion = 0;
-int dato = 0;
-int renglon = 0;
-
-int main(void) {
-  inicial = NULL;
-  anterior = NULL;
-  actual = NULL;
-  aux = NULL;
-
-  printf("\n  Lista de nodos simplemente enlazada\n");
-  printf("  |  1 Agragar nodo al inicio       |\n");
-  printf("  |  2 Agregar nodo al final        |\n");
-  printf("  |  3 Agregar nodo ordenadamente   |\n");
-  printf("  |  4 Mostrar todos los nodos      |\n");
-  printf("  |  5 Buscar nodo por valor        |\n");
-  printf("  |  6 Eliminar nodo por valor      |\n");
-  printf("  |  7 Ordenar por burbuja          |\n");
-  printf("  |  8 SALIR                        |\n");
-  printf("  ===================================\n");
-  
-  while(menu == 1) {
-    printf("\n  Elige una operacion >>> ");
-    scanf("%i", &opcion);
-
-    switch(opcion) {
-/* ------------------------------------------------------------------------------------- */        
-      case 1: //                           <===  Agregar nodo al inicio               1
-        aux = new nodo;
-
-        if (aux == NULL) {
-          printf("  No hay más espacio en memoria.\n");
-          break;
-        }
-        printf("  Inserte el nuevo valor: ");
-        scanf("%i", &aux->valor);
-        aux->sig = NULL;
-
-        if (inicial == NULL) {
-          inicial = aux;
-          actual = aux;
-          break;
-        }
-        aux->sig = inicial;
-        inicial = aux;
-        break;
-
-/* ------------------------------------------------------------------------------------- */        
-      case 2: //                           <===  Agregar nodo al final                2
-        aux = new nodo;
-
-        if (aux == NULL) {
-          printf("  No hay mas espacio en memoria.\n");
-          break;
-        }
-        printf("  Inserte el nuevo valor: ");
-        scanf("%i", &aux->valor);
-        aux->sig = NULL;
-
-        if (inicial == NULL) {
-          inicial = aux;
-          actual = aux;
-          break;
-        }
-        actual = inicial;
-        
-        while (actual->sig != NULL) {
-          actual = actual->sig;
-        }
-        actual->sig = aux;
-        actual = aux;
-        break;
-
-/* ------------------------------------------------------------------------------------- */        
-      case 3: //                           <===  Agregar nodo ordenadamente      3       
-        aux = new nodo;
-
-        if (aux == NULL) {
-          printf("  No hay mas espacio en memoria.\n");
-          break;
-        }
-
-        printf("  Inserte el nuevo valor: ");
-        scanf("%i", &aux->valor);
-        aux->sig = NULL;
-
-        if (inicial == NULL) {
-          inicial = aux;
-          actual = aux;
-        }
-        else {
-          actual = inicial;
-
-          if (aux->valor < actual->valor) {
-            aux->sig = actual;
-            inicial = aux;
-          }
-          else {
-            while (actual->valor <= aux->valor && actual->sig != NULL) {
-              anterior = actual;
-              actual = actual->sig;
-            }
-
-            if (actual->valor > aux->valor) {
-              aux->sig = actual;
-              anterior->sig = aux;
-            }
-            else {
-              actual->sig = aux;
-            }
-          }  
-        }  
-        break;
-
-/* ------------------------------------------------------------------------------------- */        
-      case 4: //                           <===  Mostrar lista de nodos               4     
-        if (inicial == NULL) {
-          printf("  La lista esta vacia.\n");
-          break;
-        }
-
-        printf("\n");
-        for (renglon = 0; renglon < 5; renglon ++) {
-          aux = inicial;
-          while (aux->sig != NULL) {
-            if (renglon == 0 || renglon == 4) {
-              printf(" ========    ");
-            }
-            else if (renglon == 1 || renglon == 3) {
-              printf(" |      |    ");
-            }
-            else {
-              printf(" |  %-3i | ==>", aux->valor);
-            }
-            aux = aux->sig;
-          }
-          if (renglon == 0 || renglon == 4) {
-            printf(" ========\n");
-          }
-          else if (renglon == 1 || renglon == 3) {
-            printf(" |      |\n");
-          }
-          else {
-            printf(" |  %-3i |\n", aux->valor);
-          }
-        }  
-        printf("\n");
-        break;
-      
-/* ------------------------------------------------------------------------------------- */        
-      case 5: //                           <===  Buscar nodo y mostrar ubicacion      5
-        if (inicial == NULL) {
-          printf("  La lista esta vacia.\n");
-          break;
-        }
-
-        printf("  Inserte valor a buscar: ");
-        scanf("%i", &dato);
-        aux = inicial;
-        while ((dato != aux->valor) && (aux->sig != NULL)) {
-          aux = aux->sig;
-        }
-
-        if (dato != aux->valor) {
-          printf("  No se encontro el nodo con valor %i\n", dato);
-          break;
-        }
-        else {
-          printf("  La ubicacion del nodo es %p\n", aux);
-        }
-        break;
-
-/* ------------------------------------------------------------------------------------- */        
-      case 6: //                           <===  Eliminar nodo dada una condicion     6
-        if (inicial == NULL) {
-          printf("  La lista esta vacia.\n");
-          break;
-        }
-
-        printf("  Inserte valor a eliminar: ");
-        scanf("%i", &dato);
-        
-        actual = inicial;
-        anterior = inicial;
-
-        while (actual->sig != NULL) {
-          if (inicial == actual) { 
-            if (actual->valor == dato) {
-              inicial = inicial->sig;
-              actual = inicial;
-              delete(anterior);
-            }
-            else {
-              actual = actual->sig;
-            }
-          }
-          else if (actual->valor == dato) {
-            anterior->sig = actual->sig;
-            delete(actual);
-            actual = anterior->sig;
-          }
-          else {
-            actual = actual->sig;
-            anterior = anterior->sig;
-          }
-        }
-        if (actual->valor == dato) {
-          anterior->sig = NULL;
-          delete(actual);
-        }
-
-        break;
-
-/* ------------------------------------------------------------------------------------- */        
-      case 7: //                          <===  Ordenar por burbuja dinamicamente     7 
-        if (inicial == NULL) {
-          printf("  La lista esta vacia. \n");
-          printf("  No hay numeros que ordenar.");
-        }
-        cambio = 0;
-        aux = inicial;
-        actual = inicial->sig;
-
-        while (actual->sig != NULL) {
-          if (aux->valor > actual->valor) {
-            aux->sig = actual->sig;
-            actual->sig = aux;
-            cambio = 1;
-
-            if ((aux == inicial) && (cambio == 1)) {
-              inicial = aux;
-              break;
-            }
-            else if (cambio == 1) {
-              anterior->sig = actual;
- 
-              anterior = actual;
-              actual = aux->sig;
-            }
-            cambio = 0;
-          }
-        }
-/* ------------------------------------------------------------------------------------- */        
-      case 8: //                          <===  SALIR                                 8 
-        menu = 0;
-        break;
-
-      default:
-        break;
-    }
-  }
-}
-```
-
-____
-### Práctica 7
-__Quien sabe__
-``` cpp
-// Baez Pacheco Jonathan Leon
-```
-
-## Práctica Nodos
-``` cpp
-// Baez Pacheco Jonathan Leon
-
-# include <stdio.h>
 # include <time.h>
 # include <iostream>
 
@@ -646,7 +369,7 @@ int main(void) {
 
   srand(time(NULL));
 
-  printf("\n  Lista de nodos simplemente enlazada\n");
+  printf("\n  Lista de alumnos simplemente ligada\n");
   printf("  |  1 Agragar nodo al inicio       |\n");
   printf("  |  2 Agregar nodo al final        |\n");
   printf("  |  3 Agregar nodo ordenadamente   |\n");
@@ -841,7 +564,6 @@ int main(void) {
 
               if (aux == inicial) {
                 inicial = actual;
-                anterior = actual;
               }
               else {
                 anterior->sig = actual;
@@ -953,5 +675,114 @@ int main(void) {
         break;
     }
   }
+}
+```
+
+____
+### Práctica 7
+__Quien sabe__
+``` cpp
+// Jonathan Leon Baez Pacheco 
+
+# include <stdio.h>
+# include <iostream>
+
+struct NODO {
+  int valor;
+  NODO *sig, *ant;
+};
+
+NODO *inicial, *aux, *actual;
+
+int menu = 1;
+int opcion = 0;
+
+int main () {
+  inicial = NULL;
+  aux = NULL;
+  actual = NULL;
+
+
+  printf("\n  Lista de nodos doblemente enlazada");
+  printf("\n  | 1 Agregar nodo al inicio       |");
+  printf("\n  | 2 Mostrar nodo al final        |");
+  printf("\n  | 3 Mostrar nodos                |");
+  printf("\n  | 4 SALIR                        |");
+  printf("\n  ==================================");
+
+  while (menu == 1) {
+    printf("\n   Elige una opcion >>> ");
+    scanf("%i", &opcion);
+
+    switch (opcion) {
+    case 1 : // INSERTAR AL INICIO
+      aux = new(NODO);
+      if (aux == NULL) {
+        printf("   No hay mas espacio en memoria.\n");
+      }
+      else {
+        printf("   Inserte valor: ");
+        scanf("%i", &aux->valor);
+      
+        if (inicial == NULL) {
+          inicial = aux;
+          aux->sig = NULL;
+          aux->ant = NULL;
+        }
+        else {
+          aux->sig = inicial;
+          aux->ant = NULL;
+          inicial = aux;
+        }
+      }
+      break;
+
+    case 2 : // INSERTAR AL FINAL
+    aux = new(NODO);
+    if (aux == NULL) {
+      printf("   No hay mas espacio en memoria.\n");
+      break;
+    }
+
+    printf("   Inserte valor: ");
+    scanf("%i", &aux->valor);
+    
+    if (inicial == NULL) {
+      inicial = aux;
+      aux->sig = NULL;
+      aux->ant = NULL;
+    }
+    else {
+      actual = inicial;
+      while (actual->sig != NULL) {
+        actual = actual->sig;
+      }
+      actual->sig = aux;
+    }
+    break;
+
+    case 3 : // MOSTRAR NODOS
+      if (inicial == NULL) {
+        printf("   La lista esta vacia.\n");
+        break;
+      }
+
+      actual = inicial;
+      while (actual->sig != NULL) {
+        printf("%3i  ", actual->valor);
+        actual = actual->sig;
+      }
+      printf("%3i  \n", actual->valor);
+      break;
+
+    case 4 :
+      menu = 0;
+      break;
+    
+    default:
+      break;
+    }
+  }
+  
 }
 ```
