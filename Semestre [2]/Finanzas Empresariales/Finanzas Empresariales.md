@@ -107,8 +107,6 @@ __Partes del balance__
 
 
 
-
-
 ## UNIDAD 3
 __Análisis financiero__
 ____
