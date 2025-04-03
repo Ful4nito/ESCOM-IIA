@@ -57,3 +57,4 @@ dkms.conf
 
 # PDF con tamaño mayor a 50Mib
 *ignore.pdf
+
