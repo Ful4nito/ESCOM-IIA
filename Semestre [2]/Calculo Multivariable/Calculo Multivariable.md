@@ -13,13 +13,18 @@ Candidatos a campo vectorial
 ¿Qué es un vector?
 Una colección de objetos 
 
+__Dependencia e independencia lineal__
+
+==Productos con vectores==
+__Producto escalar__
+
 __Producto punto__
 
 __Producto cruz__
 
 __Productos triples__
 
-__Dependencia e independencia lineal__
+
 
 ### Funciones vectoriales
 

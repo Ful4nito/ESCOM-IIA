@@ -200,10 +200,6 @@ struct Nodo {
 }Nodo;
 ```
 
-
-Listas simplemente enlazadas 
-[[Listas.pdf|PDF]]
-
 __Enlazar nuevo nodo__
 ``` cpp
 # include <stdio.h>
@@ -227,10 +223,12 @@ __Buscar un nodo__
 __Eliminar un nodo__
 
 ==Listas doblemente enlazadas==
-
-una lista doblemente enlazada es una estructura de datos que consiste en un conjunto de nodos enlazados secuencialmente. Cada nodo contiene tres campos, dos para los llamados enlaces, que son referencias al nodo siguiente y al anterior en la secuencia de nodos, y otro más para el almacenamiento de la información (en este caso un entero). El enlace al nodo anterior del primer nodo y el enlace al nodo siguiente del último nodo, apuntan a un tipo de nodo que marca el final de la lista, normalmente un nodo centinela o puntero null, para facilitar el recorrido de la lista. Si existe un único nodo centinela, entonces la lista es circular a través del nodo centinela.
+Una lista doblemente enlazada es una estructura de datos que consiste en un conjunto de nodos enlazados secuencialmente. Cada nodo contiene al menos tres campos, dos para realizar el enlace, que son referencias al nodo siguiente y al anterior en la secuencia de nodos, y otro más para el almacenamiento de la información. 
+Existen dos maneras de marcar el inicio y el final de una lista doblemente enlazada, esto puede ser haciendo que el enlace anterior del nodo inicial y el enlace siguiente del nodo final apunten a `NULL` o bien, se apunten a si mismos.
 
 El doble enlace de los nodos permite recorrer la lista en cualquier dirección. Mientras que agregar o eliminar un nodo en una lista doblemente enlazada requiere cambiar más enlaces que en estas mismas operaciones en una lista enlazada simple, las operaciones son más simples porque no hay necesidad de mantener guardado el nodo anterior durante el recorrido, ni necesidad de recorrer la lista para hallar el nodo anterior, la referencia al nodo que se quiere eliminar o insertar es lo único necesario.
+
+==Listas circulares==
 
 ### Tablas hash
 
@@ -274,8 +272,6 @@ Referencias
 Data Camp Team. (2023). **What Is an Algorithm?**. Recuperado 14 febrero 2025 de Data Camp, [https://www.datacamp.com/blog/what-is-an-algorithm](https://www.datacamp.com/blog/what-is-an-algorithm)
 
 François Aubry. (2024). **Data Structures: A Comprehensive Guide With Python Examples**. Recuperado 14 febrero 2025 de Data Camp, [https://www.datacamp.com/tutorial/data-structures-guide-python](https://www.datacamp.com/tutorial/data-structures-guide-python)
-
-
 
 ### Tarea Exposición
 __Representación de grafos en listas y matrices de adyacencia__

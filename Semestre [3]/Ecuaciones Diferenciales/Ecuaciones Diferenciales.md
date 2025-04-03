@@ -17,7 +17,6 @@ se dice que es separable o que tiene variables separables.
 
 ==Factor integrante==
 ==Ecuaciones exactas==
-==Ecuaciones lineales==
 ==Sustitución==
 
 ## UNIDAD II
