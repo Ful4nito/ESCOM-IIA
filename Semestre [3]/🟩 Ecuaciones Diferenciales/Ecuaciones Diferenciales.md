@@ -23,23 +23,23 @@ _NOTA_ No hay necesidad de emplear dos constantes cuando se integra una ecuació
 
 __1.__ $\frac{dy}{dx}=sen\space5x$
 
-__2.__ ${\color{}\frac{dy}{dx}=(x+1)²}$
+__2.__ $\frac{dy}{dx}=(x+1)^{2}$
 
-__3.__ $\frac{dy}{dx}=sen\space5x$
+__3.__ $dx+e^{3x}dy=0$
 
-__4.__ ${\color{}\frac{dy}{dx}=(x+1)²}$
+__4.__ $dy-(y-1)^{2}dx=0$
 
 __5.__ $x\frac{dy}{dx}=4y$
 
-__6.__ ${\color{}\frac{dy}{dx}=(x+1)²}$
+__6.__ $\frac{dy}{dx}+2xy^{2}=0$
 
-__7.__ $\frac{dy}{dx}=sen\space5x$
+__7.__ $\frac{dy}{dx}=e^{3x+2y}$
 
-__8.__ ${\color{}\frac{dy}{dx}=(x+1)²}$
+__8.__ $e^{x}y\frac{dy}{dx}=e^{-y}+e^{-2x-y}$
 
-__9.__ $\frac{dy}{dx}=sen\space5x$
+__9.__ $y\ln x\frac{dx}{dy}=\Bigl(\frac{y+1}{x}\Bigr)^{2}$
 
-__10.__ ${\color{}\frac{dy}{dx}=(x+1)²}$
+__10.__ $\frac{dy}{dx}=\Bigl(\frac{2y+3}{4x+5}\Bigr)^{2}$
 
 
 #### Factor integrante
