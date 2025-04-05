@@ -130,6 +130,8 @@ __Auto regulación__
 __Auto observación__
 __Auto control__
 
+==Autoestima==
+
 ### Principios y valores
 
 ### Relaciones y redes
