@@ -15,6 +15,9 @@ Una ecuación diferencial de primer orden de la forma
 $$\frac{dy}{dx}=g(x)h(y)$$
 se dice que es separable o que tiene variables separables.
 
+$\frac{dy}{dx}=y²xe^{3x+4y}$
+
+
 ==Factor integrante==
 ==Ecuaciones exactas==
 ==Sustitución==
