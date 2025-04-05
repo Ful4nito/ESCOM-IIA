@@ -15,7 +15,7 @@ Una colección de objetos
 
 __Dependencia e independencia lineal__
 
-==Productos con vectores==
+#### Productos con vectores 
 __Producto escalar__
 
 __Producto punto__
@@ -23,8 +23,6 @@ __Producto punto__
 __Producto cruz__
 
 __Productos triples__
-
-
 
 ### Funciones vectoriales
 

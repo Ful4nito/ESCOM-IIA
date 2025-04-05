@@ -162,7 +162,7 @@ ____
 
 ### Listas
 
-==Estructuras de datos==
+#### Estructuras de datos
 Estructuras de datos en C
 Una estructura es una colección de elementos, a estos elementos individuales de la estructura se les llama campos.
 
@@ -187,7 +187,7 @@ class PERSONA {
 PERSONA arr[10];
 ```
 
-==Listas simplemente enlazadas==
+#### Listas simplemente enlazadas
 Estructuras dinámicas [[Estructuras de Datos en C.pdf|PDF]]
 La diferencia con la Estructura estática esta dada en que la cantidad de elementos de la colección puede variar durante la ejecución del programa aumentando o disminuyendo y, en consecuencia, utilizando mayor o menor cantidad de memoria.
 Un nodo simplemente es una estructura que define valores más una referencia (puntero de tipo Nodo*) para apuntar al siguiente nodo de la colección.
@@ -222,13 +222,13 @@ __Mostrar lista de nodos__
 __Buscar un nodo__
 __Eliminar un nodo__
 
-==Listas doblemente enlazadas==
+#### Listas doblemente enlazadas
 Una lista doblemente enlazada es una estructura de datos que consiste en un conjunto de nodos enlazados secuencialmente. Cada nodo contiene al menos tres campos, dos para realizar el enlace, que son referencias al nodo siguiente y al anterior en la secuencia de nodos, y otro más para el almacenamiento de la información. 
 Existen dos maneras de marcar el inicio y el final de una lista doblemente enlazada, esto puede ser haciendo que el enlace anterior del nodo inicial y el enlace siguiente del nodo final apunten a `NULL` o bien, se apunten a si mismos.
 
 El doble enlace de los nodos permite recorrer la lista en cualquier dirección. Mientras que agregar o eliminar un nodo en una lista doblemente enlazada requiere cambiar más enlaces que en estas mismas operaciones en una lista enlazada simple, las operaciones son más simples porque no hay necesidad de mantener guardado el nodo anterior durante el recorrido, ni necesidad de recorrer la lista para hallar el nodo anterior, la referencia al nodo que se quiere eliminar o insertar es lo único necesario.
 
-==Listas circulares==
+#### Listas circulares
 
 ### Tablas hash
 
