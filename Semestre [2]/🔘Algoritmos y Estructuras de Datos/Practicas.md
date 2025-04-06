@@ -1,5 +1,5 @@
 ## UNIDAD I
-__Algoritmos fundamentales__
+~~Algoritmos fundamentales~~
 ____
 ### Práctica 1
 __Ordenamiento Burbuja__  180225

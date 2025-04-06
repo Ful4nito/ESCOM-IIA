@@ -4,7 +4,7 @@ Profesor: Miguel Abel Leon Estrada 'Mandrake'
 ____
 
 ## UNIDAD I
-__Vectores y funciones vectoriales__
+~~Vectores y funciones vectoriales~~
 ____
 ### Sistemas de coordenadas
 __Campos vectoriales__
@@ -16,6 +16,7 @@ Una colección de objetos
 __Dependencia e independencia lineal__
 
 #### Productos con vectores 
+
 __Producto escalar__
 
 __Producto punto__
@@ -31,14 +32,14 @@ __Productos triples__
 
 
 ## UNIDAD II
-__Derivadas Parciales__
+~~Derivadas Parciales~~
 ____
 
 ## UNIDAD III
-__Integrales múltiples__
+~~Integrales múltiples~~
 ____
 
 ## UNIDAD IV
-__Teoremas de Integración__
+~~Teoremas de Integración~~
 ____
 

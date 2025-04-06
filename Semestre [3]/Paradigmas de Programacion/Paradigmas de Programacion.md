@@ -4,15 +4,15 @@ Profesor:
 ____
 ----
 ## UNIDAD I
-__Introducción a los lenguajes de programación y sus paradigmas__
+~~Introducción a los lenguajes de programación y sus paradigmas~~
 
 ----
 ## UNIDAD II
-__Programación Orientada a Objetos__
+~~Programación Orientada a Objetos~~
 
 ----
 ## UNIDAD III
-__Lenguajes multiparadigma y de uso específico__
+~~Lenguajes multiparadigma y de uso específico~~
 
 ____
 

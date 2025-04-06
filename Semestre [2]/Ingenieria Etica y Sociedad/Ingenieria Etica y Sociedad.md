@@ -4,17 +4,17 @@ Profesor:
 ____
 
 ## UNIDAD I
-__Desarrollo histórico del conocimiento científico y tecnológico__
+~~Desarrollo histórico del conocimiento científico y tecnológico~~
 ____
 
 ## UNIDAD II
-__Revoluciones Industriales; tecnología e impacto__
+~~Revoluciones Industriales; tecnología e impacto~~
 ____
 
-# UNIDAD III
-__Ingeniería y sociedad__
+## UNIDAD III
+~~Ingeniería y sociedad~~
 ____
 
 ## UNIDAD IV
-__Ética e ingeniería en inteligencia artificial__
+~~Ética e ingeniería en inteligencia artificial~~
 ____

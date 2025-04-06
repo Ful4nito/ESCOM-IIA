@@ -4,13 +4,11 @@ Profesor: Tonahtiu Arturo Ramirez Romero
 ____
 
 ## UNIDAD I
-__Algoritmos fundamentales__
+~~Algoritmos fundamentales~~
 ____
-
 [Representación grafica de algoritmos fundamentales](https://visualgo.net/en)
 
 ### Algoritmia
-
 ### El problema del ordenamiento
 
 Ordenamiento por el método _Inserción_ [[Ordenamiento Inserción.pdf|PDF]]
@@ -114,7 +112,7 @@ Ordenamiento por el método _Mezcla_ [[Ordenamiento Mezcla.pdf|PDF]]
 	//
 ```
 
-### El problema de la busqueda
+### El problema de la búsqueda
 
 Búsqueda _Binaria_
 ``` cpp
@@ -153,16 +151,17 @@ Búsqueda _Exhaustiva_
 
 ### Exploración exhaustiva y vuelta atrás 
 Back-tracking
-
-## UNIDAD II
-__Estructuras de datos lineales__
 ____
+## UNIDAD II
+~~Estructuras de datos lineales~~
+
 ### Pila
 ### Cola
 
 ### Listas
 
 #### Estructuras de datos
+
 Estructuras de datos en C
 Una estructura es una colección de elementos, a estos elementos individuales de la estructura se les llama campos.
 
@@ -188,7 +187,8 @@ PERSONA arr[10];
 ```
 
 #### Listas simplemente enlazadas
-Estructuras dinámicas [[Estructuras de Datos en C.pdf|PDF]]
+
+==Estructuras dinámicas== [[Estructuras de Datos en C.pdf|PDF]]
 La diferencia con la Estructura estática esta dada en que la cantidad de elementos de la colección puede variar durante la ejecución del programa aumentando o disminuyendo y, en consecuencia, utilizando mayor o menor cantidad de memoria.
 Un nodo simplemente es una estructura que define valores más una referencia (puntero de tipo Nodo*) para apuntar al siguiente nodo de la colección.
 
@@ -223,6 +223,7 @@ __Buscar un nodo__
 __Eliminar un nodo__
 
 #### Listas doblemente enlazadas
+
 Una lista doblemente enlazada es una estructura de datos que consiste en un conjunto de nodos enlazados secuencialmente. Cada nodo contiene al menos tres campos, dos para realizar el enlace, que son referencias al nodo siguiente y al anterior en la secuencia de nodos, y otro más para el almacenamiento de la información. 
 Existen dos maneras de marcar el inicio y el final de una lista doblemente enlazada, esto puede ser haciendo que el enlace anterior del nodo inicial y el enlace siguiente del nodo final apunten a `NULL` o bien, se apunten a si mismos.
 
@@ -230,22 +231,23 @@ El doble enlace de los nodos permite recorrer la lista en cualquier dirección. 
 
 #### Listas circulares
 
+
 ### Tablas hash
 
 ## UNIDAD III
-__Estructuras de datos no lineales__
+~~Estructuras de datos no lineales~~
 ____
-
 ### Arboles Binarios
 ### Grafos
 
 ## TAREAS
+
 ____
 ### Tarea 1
-__Tipos de Algoritmos__
+Tipos de Algoritmos
 
 ### Tarea 2
-__Definiciones de 'Algoritmos' y 'Estructuras de datos'__
+Definiciones de 'Algoritmos' y 'Estructuras de datos'
 
 Algoritmos
 Un *algoritmo* es un conjunto de pasos definidos diseñados para cumplir un objetivo específico. Puede tratarse de un proceso simple, como una receta para hornear un pastel, o una serie compleja de operaciones utilizadas en el aprendizaje automático para analizar grandes conjuntos de datos y hacer predicciones. En este contexto, los algoritmos son fundamentales, ya que facilitan el proceso de aprendizaje de las máquinas, ayudándolas a identificar patrones y tomar decisiones basadas en datos.
@@ -274,4 +276,4 @@ Data Camp Team. (2023). **What Is an Algorithm?**. Recuperado 14 febrero 2025 de
 François Aubry. (2024). **Data Structures: A Comprehensive Guide With Python Examples**. Recuperado 14 febrero 2025 de Data Camp, [https://www.datacamp.com/tutorial/data-structures-guide-python](https://www.datacamp.com/tutorial/data-structures-guide-python)
 
 ### Tarea Exposición
-__Representación de grafos en listas y matrices de adyacencia__
+Representación de grafos en listas y matrices de adyacencia

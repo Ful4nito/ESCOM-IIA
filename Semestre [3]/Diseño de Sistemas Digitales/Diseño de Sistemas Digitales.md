@@ -1,26 +1,26 @@
 #Tercero #Tecnologicas 
 [[disenoSistemasDigitales_IIA2020.pdf|Programa Sintético: Diseño de Sistemas Digitales]]
-Profesor: Jonathan Baez
+Profesor: 
 ____
-
+____
 ## UNIDAD I
-__Registros__
+~~Registros~~
 ____
 
 ## UNIDAD II
-__Diseño de sistemas digitales__
+~~Diseño de sistemas digitales~~
 ____
 
 ## UNIDAD III
-__Contadores__
+~~Contadores~~
 ____
 
 ## UNIDAD IV
-__Memorias__
+~~Memorias~~
 ____
 
 ## UNIDAD V
-__Máquina de estado algorítmica__
+~~Máquina de estado algorítmica~~
 _____
 
 

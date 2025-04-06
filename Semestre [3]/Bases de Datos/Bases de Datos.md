@@ -4,23 +4,23 @@ Profesor:
 ____
 
 ## UNIDAD I
-__Sistemas de bases de datos__
+~~Sistemas de bases de datos~~
 ____
 
 ## UNIDAD II
-__Modelado de bases de datos__
+~~Modelado de bases de datos~~
 ____
 
 ## UNIDAD III
-__Modelo relacional__
+~~Modelo relacional~~
 ____
 
 ## UNIDAD IV
-__Diseño de bases de datos relacionales y normalización__
+~~Diseño de bases de datos relacionales y normalización~~
 ____
 
 ## UNIDAD V
-__Lenguaje SQL__
+~~Lenguaje SQL~~
 ____
 
 

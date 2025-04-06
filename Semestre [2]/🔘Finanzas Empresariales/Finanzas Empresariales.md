@@ -4,10 +4,10 @@ Profesor: Serafín Estrada Elizalde
 ____
 
 ## UNIDAD 1
-__La empresa y su contexto__
+~~La empresa y su contexto~~
 ____
 
-### Conceptos de finanzas
+### La empresa y su contexto
 
 _Finanzas_ Son una rama de la economía que se enfoca en la gestión de recursos económicos, incluyendo la obtención, inversión y administración del dinero y el capital, tanto a nivel personal como empresarial.
 
@@ -30,10 +30,10 @@ _Financiamiento_ La captación o concepción de recurso financiero que no es pro
 _Política de Dividendos_ Es la planeación sobre la distribución y pago de las ganancias, así como el capital de reinversión.
 
 
-### Razones para estudiar finanzas
+### Función de las finanzas empresariales
 
 
-Un mapa conceptual sobre las 5 razones para estudiar finanzas, las principales decisiones de los individuos y las empresas. Explicadas brevemente. Si quieres puedes hacer dos organizadores por separado. [[Concepto Finanzas.pdf|Lectura de apoyo]]
+Un mapa conceptual sobre las 5 razones para estudiar finanzas, las principales decisiones de los individuos y las empresas. Explicadas brevemente. Si quieres puedes hacer dos organizadores por separado. [[Concepto Finanzas.pdf|📄]]
 
 __5 Razones para estudiar finanzas__
 1. _Administración de recurso personal_ No depender de un tercero para la toma de decisiones 
@@ -55,7 +55,7 @@ __Decisiones financieras de las empresas__
 4. __
 
 
-### La empresa y su organización
+### Relación con otras disciplinas
 
 Una _empresa_ es una organización jerárquica con distintos fines y proyectos. Su principal función es generar ingresos, inversión, rentabilidad y reconocimiento.
 Con ayuda de colaboradores, financiamiento, infraestructura, bancos e incluso del gobierno.
@@ -73,15 +73,17 @@ __Forma de construcción de las empresas__
 | Sociedades            | Es una organización formada por dos o mas propietarios que se unen para realizar negocios lucrativos                                                                   | + Puede recaudar mas fondos que la propiedad unipersonal<br>+ A mayor cantidad de socios, mayor capacidad de endeudamiento<br>+ Impuesto incluido y gravado en declaración de impuestos personal del socio | - Se disuelve cuando muere un socio<br>- Los socios deben cubrir deudas no propias<br>- Dificultad para transferir la sociedad                                    |
 | Corporaciones         | La Empresa Corporativa es una entidad legal independiente creada para realizar actividades comerciales, industriales o de otro tipo.                                   | + Suelen alcanzar un gran tamaño<br>+ La propiedad es fácilmente transferible mediante acciones<br>+ No se involucra con los bienes personales de los socios                                               | - Sujeta a regulaciones del gobierno<br>- Sus resultados financieros son públicos<br>- Costos de organización altos                                               |
 
-### Entornos de una empresa
+### Factores que impactan a una empresa
 
-__Macroentorno__
+#### Macroentorno
 
-__Microentorno__
+#### Microentorno
 
 ## UNIDAD 2
-__Importancia y utilización de la información financiera__
+~~Importancia y utilización de la información financiera~~
 ____
+
+### La información financiera
 
 El campo de las fianzas se relaciona estrechamente con otras disciplinas muy similares al grado de que pueden llegar a confundirse y pensar que son lo mismo. Sabemos que que las fianzas se desprenden de la ciencia económica y que retoma algunos temas relevantes para realizar su análisis.
 
@@ -91,7 +93,7 @@ La _contabilidad_ es un conjunto de técnicas para el registro ordenado y sistem
 
 No es fácil distinguir entre le trabajo contable y las finanzas administrativas, suele pasar muchas veces que las pequeñas y medianas empresas el contador realiza funciones de finanzas simultáneamente y por ello no se logran alcanzar los objetivos establecidos, o simplemente no se establecen. Siendo mas claras las diferencias básicas entre finanzas y contabilidad, es que la segunda coteja, ordena y registra datos de operaciones, mientras que _las finanzas_ analizan la información y obtiene indicadores o proyecciones que ayudan en la toma de decisiones.
 
-### Activo y pasivo 
+### Normas de Información Financiera 
 
 
 ### Estados financieros principales
@@ -108,18 +110,18 @@ __Partes del balance__
 
 
 ## UNIDAD 3
-__Análisis financiero__
+~~Análisis financiero~~
 ____
 
 ## UNIDAD 4
-__Estados financieros proforma__
+~~Estados financieros proforma~~
 ____
 
 ## UNIDAD 5
-__Métodos de evaluación de proyectos de inversión__
+~~Métodos de evaluación de proyectos de inversión~~
 ____
 
 ## Proyecto Finanzas
-__Análisis financiero de dos empresas__
+~~Análisis financiero de dos empresas~~
 ____
 

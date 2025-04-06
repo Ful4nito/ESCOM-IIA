@@ -4,42 +4,43 @@ Profesora: Sandra Mercedes Pérez Vera
 ____
 ----
 ## UNIDAD I
-__Principios del liderazgo__
-
+~~Principios del liderazgo~~
 ### Principios de liderazgo
 
-#### Tipos de liderazgo [[Tipos de Liderazgo.pdf|📄]]
+#### Tipos de liderazgo  [[Tipos de Liderazgo.pdf|📄]]
 
-Liderazgo autocrático o autoritario
-	El estilo de liderazgo autocrático, también conocido como liderazgo autoritario o coercitivo, se considera a sí mismo en una posición de mando. Son los líderes que toman decisiones por sí mismos o con sus grupos de confianza y no prefieren aceptar las aportaciones de sus equipos. Idealizan el enfoque de “se hace a mi manera o no hay vuelta atrás”.
+__Liderazgo autocrático o autoritario__
+El estilo de liderazgo autocrático, también conocido como liderazgo autoritario o coercitivo, se considera a sí mismo en una posición de mando. Son los líderes que toman decisiones por sí mismos o con sus grupos de confianza y no prefieren aceptar las aportaciones de sus equipos. Idealizan el enfoque de “se hace a mi manera o no hay vuelta atrás”.
 
-Liderazgo democrático o participativo
-	El líder democrático, también conocido como líder participativo o facilitador, no solo ofrece orientación, sino que también escucha y respeta los aportes y comentarios del equipo. De hecho, invita a los miembros del equipo a expresar sus opiniones e ideas y les demuestra confianza y empatía antes de tomar una decisión final. A diferencia del liderazgo autocrático y burocrático, este es el estilo de liderazgo más tolerante.
+__Liderazgo democrático o participativo__
+El líder democrático, también conocido como líder participativo o facilitador, no solo ofrece orientación, sino que también escucha y respeta los aportes y comentarios del equipo. De hecho, invita a los miembros del equipo a expresar sus opiniones e ideas y les demuestra confianza y empatía antes de tomar una decisión final. A diferencia del liderazgo autocrático y burocrático, este es el estilo de liderazgo más tolerante.
 
-Liderazgo liberal o laissez-faire
-	Laissez-Faire es una palabra francesa que significa “déjalos hacer”. Esta forma pasiva de liderazgo, también conocida como liderazgo delegado o de no intervención, implica que los líderes den un paso atrás y permitan que los miembros del equipo tomen decisiones y resuelvan problemas de forma independiente.
+__Liderazgo liberal o laissez-faire__
+Laissez-Faire es una palabra francesa que significa “déjalos hacer”. Esta forma pasiva de liderazgo, también conocida como liderazgo delegado o de no intervención, implica que los líderes den un paso atrás y permitan que los miembros del equipo tomen decisiones y resuelvan problemas de forma independiente.
 
-Liderazgo burocrático
-	Se basa en una jerarquía estricta, roles definidos, reglas claras y procedimientos para realizar tareas o procedimientos específicos. Se espera que todos sigan una cadena de mando clara y que no se les pida que cuestionen la autoridad.
+__Liderazgo burocrático__
+Se basa en una jerarquía estricta, roles definidos, reglas claras y procedimientos para realizar tareas o procedimientos específicos. Se espera que todos sigan una cadena de mando clara y que no se les pida que cuestionen la autoridad.
 
-Liderazgo carismático
-	Los líderes carismáticos son aquellos que predican con el ejemplo. Los líderes de este estilo son maestros de la comunicación y la persuasión con un gran sentido del encanto. Tienen un tipo específico de atractivo y magnetismo que les ayuda a conseguir que la gente siga su ejemplo. Inspiran, entusiasman y despiertan el entusiasmo entre los miembros del equipo.
+__Liderazgo carismático__
+Los líderes carismáticos son aquellos que predican con el ejemplo. Los líderes de este estilo son maestros de la comunicación y la persuasión con un gran sentido del encanto. Tienen un tipo específico de atractivo y magnetismo que les ayuda a conseguir que la gente siga su ejemplo. Inspiran, entusiasman y despiertan el entusiasmo entre los miembros del equipo.
 
-Liderazgo natural
-	El liderazgo natural es un estilo de liderazgo en el que una persona influye en el resto del equipo sin ser reconocida oficialmente como líder. Los líderes naturales se caracterizan por: 
-	Ser elegidos por el grupo, estar atentos a las necesidades del equipo, motivar a los miembros del equipo, ser comunicativos, considerar a cada persona como un individuo con sus propias aspiraciones y fortalezas.
+__Liderazgo natural__
+El liderazgo natural es un estilo de liderazgo en el que una persona influye en el resto del equipo sin ser reconocida oficialmente como líder. Los líderes naturales se caracterizan por: 
+Ser elegidos por el grupo, estar atentos a las necesidades del equipo, motivar a los miembros del equipo, ser comunicativos, considerar a cada persona como un individuo con sus propias aspiraciones y fortalezas.
 
-Liderazgo transaccional
-	El liderazgo transaccional pone énfasis en una estructura rígida o en reglas que, cuando se violan, se castigan o se toman medidas correctivas. Estos líderes utilizan la estructura como motivadores, basándose en el efecto deseado de que el desempeño produzca recompensas, trabajando dentro del marco organizacional y siguiendo el status quo. Tienden a reaccionar a los problemas en lugar de buscar soluciones creativas de manera proactiva, haciendo hincapié en la adhesión a las normas y los procesos establecidos.
+__Liderazgo transaccional__
+El liderazgo transaccional pone énfasis en una estructura rígida o en reglas que, cuando se violan, se castigan o se toman medidas correctivas. Estos líderes utilizan la estructura como motivadores, basándose en el efecto deseado de que el desempeño produzca recompensas, trabajando dentro del marco organizacional y siguiendo el status quo. Tienden a reaccionar a los problemas en lugar de buscar soluciones creativas de manera proactiva, haciendo hincapié en la adhesión a las normas y los procesos establecidos.
 
-Liderazgo transformacional
-	En este estilo de liderazgo, los líderes y los seguidores se ayudan mutuamente para avanzar hacia un nivel más alto de moral y motivación. Los líderes no descartan por completo la estructura jerárquica y los programas de la organización, sino que, de hecho, los fortalecen trabajando dentro de la estructura y las políticas para crear y ampliar nuevas estructuras y derribar las antiguas.
+__Liderazgo transformacional__
+En este estilo de liderazgo, los líderes y los seguidores se ayudan mutuamente para avanzar hacia un nivel más alto de moral y motivación. Los líderes no descartan por completo la estructura jerárquica y los programas de la organización, sino que, de hecho, los fortalecen trabajando dentro de la estructura y las políticas para crear y ampliar nuevas estructuras y derribar las antiguas.
 
-Liderazgo orientado a las personas o las relaciones
-	Este estilo de liderazgo se enfoca en construir relaciones y confianza entre los miembros del equipo. Los líderes relacionales son inclusivos, reconocen los talentos de su equipo y ayudan a que todos trabajen como un grupo cohesionado. Los líderes relacionales fomentan la participación y el aporte de los miembros del equipo.
+__Liderazgo orientado a las personas o las relaciones__
+Este estilo de liderazgo se enfoca en construir relaciones y confianza entre los miembros del equipo. Los líderes relacionales son inclusivos, reconocen los talentos de su equipo y ayudan a que todos trabajen como un grupo cohesionado. Los líderes relacionales fomentan la participación y el aporte de los miembros del equipo.
 
-Liderazgo orientado a la tarea
-	El liderazgo orientado a la tarea es un estilo de gestión que se centra en la planificación, organización y control de las actividades laborales. Este estilo de liderazgo se caracteriza por: Establecer objetivos claros, definir roles y responsabilidades, supervisar el progreso y rendimiento, proporcionar retroalimentación y orientación, valorar la estructura, el orden y la calidad.
+__Liderazgo orientado a la tarea__
+El liderazgo orientado a la tarea es un estilo de gestión que se centra en la planificación, organización y control de las actividades laborales. Este estilo de liderazgo se caracteriza por: Establecer objetivos claros, definir roles y responsabilidades, supervisar el progreso y rendimiento, proporcionar retroalimentación y orientación, valorar la estructura, el orden y la calidad.
+
+#### Coaching
 
 ### Inteligencia emocional
 
@@ -47,18 +48,20 @@ Liderazgo orientado a la tarea
 
 ### Misión y visión de un líder
 
+
 ----
 ## UNIDAD II
-__Interacción e influencia en relaciones colaborativas__
-
+~~Interacción e influencia en relaciones colaborativas~~
 ### Interacción con personas
 
-#### Desarrollo humano 
+#### Desarrollo humano [[Desarrollo Personal.pdf|📄]]
+
 Desarrollo físico. Cambios en el cuerpo y el cerebro (crecimiento, maduración, y envejecimiento).
 Desarrollo cognitivo. Evolución el pensamiento, la memoria, el aprendizaje y la resolución de problemas (por ejemplo, teorías de Piaget sobre como los niños desarrollan el pensamiento lógico).
 Desarrollo emocional y social. Formación de la identidad, manejo de emociones, relaciones con los demás, desarrollo moral (como la teoría del apego o la de Erikson sobre las etapas psicosociales).
 
-__Desarrollo personal__
+==Desarrollo personal==
+
 El desarrollo personal se refiere al proceso mediante el cual una persona trabaja en su crecimiento conscientemente y bienestar para alcanzar su máximo rendimiento.
 Un proceso de superación y crecimiento ayuda a la persona a identificar sus verdaderos intereses y objetivos vitales para adquirir y potenciar los recursos necesarios para alcanzarlos y así dar sentido a su vida.
 
@@ -69,15 +72,15 @@ Solo de esta manera se consigue estar contentos y satisfechos con si mismo. Para
 
 El desarrollo personal no depende de lo que tenemos, sino de lo que somos y lo que queremos llegar a ser, así como, de la manera que tenemos de percibir y entender la vida. Hay personas que tienden a ir siempre más allá, salen de su zona de confort y van ampliando su desarrollo personal en diferentes facetas de su vida. Otras personas se encuentran bien como están y no se plantean la posibilidad de ir un paso adelante.
 
-_Diferencias individuales en la necesidad de desarrollo personal_
-	La personalidad y la actitud
+__Diferencias individuales en la necesidad de desarrollo personal__
+- _La personalidad y la actitud_
 	Una actitud positiva, proactiva, analítica y resolutiva favorece los procesos de desarrollo personal. Esto, unido a una estructura de personalidad estable y fuerte nos aporta valores y objetivos claros, y hace que nos sintamos seguros de nosotros mismos para conseguir lo que nos propongamos.
-	La percepción de la vida
+- _La percepción de la vida_
 	Hay personas que sienten que no tienen control sobre lo que les sucede en la vida, y desde esta percepción es difícil pensar que se pueda hacer algo para cambiar esa situación. Otras piensan que siempre se puede hacer algo, incluso en las circunstancias más difíciles. Esto les hace tener una mayor sensación de control, por lo que siempre se plantearán qué pueden hacer para estar mejor. Tienen más presente su desarrollo personal.
-	El entorno
+- _El entorno_
 	Desde niños, nuestro entorno más cercano ha contribuido a construir nuestra personalidad y nuestra manera de entender el mundo. De adultos recibimos influencia de nuestro entorno social y laboral y, en función de las condiciones o circunstancias, pueden convertirse en una fuente de motivación para nuestro proceso de desarrollo personal.
 
-_Componentes del desarrollo personal_
+__Componentes del desarrollo personal__
 - Afectivo. El trabajo en éste aspecto del desarrollo personal nos ayuda a mejorar los vínculos afectivos y a establecer una base sana de los lazos familiares.
 - Moral. El desarrollo personal a nivel ético o moral nos ayuda a identificar los valores y principios que queremos que rijan nuestra vida para adecuar nuestras acciones a los mismos.
 - Profesional Para la persona que el desarrollo en lo profesional es un aspecto importante en sus vidas, la formación y el aprendizaje de nuevas competencias se convierte en fuente de satisfacción.
@@ -85,7 +88,7 @@ _Componentes del desarrollo personal_
 - Social Muchas personas le dan una gran importancia al contacto con los demás, por lo que cuidan y alimentan sus relaciones sociales, disfrutando del tiempo y las actividades compartidas.
 - Creativo Muchas personas encuentran una importante fuente de satisfacción y crecimiento desarrollando su capacidad creativa.
 
-_Beneficios del desarrollo personal_
+__Beneficios del desarrollo personal__
 - Aumentará tu nivel de autoconsciencia.
 - Sentirás un mayor control sobre tu propia vida.
 - Tendrás una mejor y mayor autoestima.
@@ -97,7 +100,7 @@ _Beneficios del desarrollo personal_
 - Mejorará tu capacidad para gestionar tus emociones.
 - Disfrutarás más de tu vida.
 
-_Elementos clave del desarrollo personal_
+__Elementos clave del desarrollo personal__
 - Autoconocimiento: comprender quién eres, tus fortalezas, debilidades, valores y motivaciones.
 - Gestión emocional: aprender a identificar, entender y regular tus emociones de manera saludable.
 - Habilidades sociales: mejorar la comunicación, la empatía, la resolución de conflictos y las relaciones interpersonales.
@@ -105,7 +108,7 @@ _Elementos clave del desarrollo personal_
 - Manejo del estrés y resiliencia: Fortalecer la capacidad para enfrentar adversidades y adaptarse a los cambios.
 - Motivación y establecimiento de metas: Definir objetivos personales y profesionales y trabajar de manera constante hacia ellos.
 
-_Actividad desarrollo personal_
+__Actividad desarrollo personal__
 - ¿Habías considerado la posibilidad de trabajar en tu desarrollo personal?
 	Si.
 - ¿Qué componente del desarrollo personal quieres comenzar a trabajar?
@@ -117,8 +120,8 @@ _Actividad desarrollo personal_
 - ¿Qué beneficios esperas obtener con tu desarrollo personal?
 	Tener la facilidad para manejar las relaciones de cualquier tipo con las personas.
 
-
 #### Autoconocimiento [[Autoconocimiento.pdf|📄]]
+
 Hablar de conocimiento es un área amplia y muy interesante, sobre todo porque nunca terminamos de cubrir está área en su totalidad. Cada instante puedes abrirte a conocer nuevas cosas que generen nuevas experiencias en tu vida, solo es que tú lo decidas, que sea esa tu voluntad.
 La palabra autoconocimiento se compone del prefijo «auto» que significa «propio» y el sustantivo «conocimiento», que se refiere a la capacidad de comprender mediante la razón.
 
@@ -135,7 +138,7 @@ El autoconocimiento es el proceso de adquirir una comprensión profunda y honest
  - El autoconocimiento es un proceso de introspección y autoobservación que requiere de inteligencia emocional y lleva a la autoaceptación y al crecimiento personal.
  - El camino del autoconocimiento conduce a la construcción de una identidad personal.
 
-_Actividad autoconocimiento_
+__Actividad autoconocimiento__
 - ¿Tú quién eres?
 	Jona
 - ¿Cómo te comportas en tu casa, en la escuela?
@@ -145,12 +148,13 @@ _Actividad autoconocimiento_
 - ¿Qué haces cuando alguna situación te molesta?
 	La evito
 
-__Auto-aceptación__
+==Auto-aceptación==
+
 La aceptación es un ingrediente muy importante cuando hablamos de querer practicar la comprensión hacia nosotros mismos. Si aceptamos que somos humanos y que muchas veces nos equivocamos, estaremos más fácil, en el camino de mejorar o cambiar alguna conducta que no me esté permitiendo tener una vida plena y un estado emocional sano.
 
 ![[Pasted image 20250405045914.png]]
 
-_Actividad autoaceptación_
+__Actividad autoaceptación__
 - ¿Me acepto tal como soy?
 	Me acepto medianamente
 - ¿Qué me gusta de mí?
@@ -160,7 +164,8 @@ _Actividad autoaceptación_
 - ¿Qué cambiaría de mi persona?
 	Cambiaria
 
-__Auto-regulación__ 
+==Auto-regulación==
+
 La autorregulación es la capacidad de controlar y gestionar tus propias emociones, pensamientos y comportamientos, especialmente en situaciones difíciles o desafiantes. 
 Implica no dejarse llevar impulsivamente por emociones como la ira, la ansiedad o la tristeza, sino saber pausar, reflexionar y actuar de manera consciente y equilibrada.
 
@@ -172,18 +177,18 @@ Algunos aspectos clave de la autorregulación son:
 - Practicar la persistencia: mantenerte enfocado en tus objetivos, incluso cuando algo no sale bien. 
 - Aplicar la adaptabilidad: ser flexible ante los cambios o imprevistos.
 
-_El poder de las palabras en la autorregulación_
+__El poder de las palabras en la autorregulación__
 Las palabras son muy poderosas, son decretos que están creando tu realidad, y las palabras provienen de los pensamientos, así que date cuenta de la magia que tienen tus palabras, date cuenta del poder que tienen tus pensamientos. Lo que piensas que eres, en eso te conviertes.
 
-_Pasos para Fortalecer la auto-regulación_
-1. Pausa consciente. Cuando sientas que vas a reaccionar impulsivamente (enojarte, contestar mal, comer por ansiedad, etc.), haz una pausa de 5 segundos antes de actuar. Respira profundo y pregúntate "¿Esto me va a ayudar a largo plazo?" esa breve pausa puede cambiar totalmente tu respuesta.
-2. Respiración Profunda. Haz respiraciones lentas y controladas. inhala por la nariz contando hasta 4. Sostén la respiración contando hasta 4. Exhala por la boca contando hasta 6. Esto calma el sistema nervioso y te devuelve al momento presente.
-3. Etiqueta tus emociones. Cuando algo te altere, ponle nombre a lo que sientes: "estoy sintiendo frustración", "siento ansiedad". Ponerle nombre a la emoción la hace menos intensa y te permite gestionarla.
-4. Dialogo interno positivo. Se consciente de como te hablas. Sustituye frases como: "soy un desastre" por "estoy aprendiendo, no pasa nada". Eso ayuda a no engancharte en emociones negativas.
-5. Planifica tu respuesta. Si ya sabes que ciertas situaciones te sacan de control (por ejemplo, discusiones, trafico, trabajo), piensa con anticipación como quisieras reaccionar la próxima vez, así reduces la reacción automática.
-6. Escribe un diario emocional. Dedica 5-10 minutos al día a escribir cómo te sientes, por qué y como reaccionaste, te ayudará a detectar patrones y ver en que situación te cuesta mas autorregularte. 
+__Pasos para Fortalecer la auto-regulación__
+1. _Pausa consciente._ Cuando sientas que vas a reaccionar impulsivamente (enojarte, contestar mal, comer por ansiedad, etc.), haz una pausa de 5 segundos antes de actuar. Respira profundo y pregúntate "¿Esto me va a ayudar a largo plazo?" esa breve pausa puede cambiar totalmente tu respuesta.
+2. _Respiración Profunda._ Haz respiraciones lentas y controladas. inhala por la nariz contando hasta 4. Sostén la respiración contando hasta 4. Exhala por la boca contando hasta 6. Esto calma el sistema nervioso y te devuelve al momento presente.
+3. _Etiqueta tus emociones._ Cuando algo te altere, ponle nombre a lo que sientes: "estoy sintiendo frustración", "siento ansiedad". Ponerle nombre a la emoción la hace menos intensa y te permite gestionarla.
+4. _Dialogo interno positivo._ Se consciente de como te hablas. Sustituye frases como: "soy un desastre" por "estoy aprendiendo, no pasa nada". Eso ayuda a no engancharte en emociones negativas.
+5. _Planifica tu respuesta._ Si ya sabes que ciertas situaciones te sacan de control (por ejemplo, discusiones, trafico, trabajo), piensa con anticipación como quisieras reaccionar la próxima vez, así reduces la reacción automática.
+6. _Escribe un diario emocional._ Dedica 5-10 minutos al día a escribir cómo te sientes, por qué y como reaccionaste, te ayudará a detectar patrones y ver en que situación te cuesta mas autorregularte. 
 
-_Actividad autoaceptación_
+__Actividad autorregulación__
 - ¿Qué piensas de ti?
 	Me acepto medianamente
 - ¿Realmente te conoces?
@@ -193,15 +198,17 @@ _Actividad autoaceptación_
 - ¿Conoces tus limitaciones?
 	Cambiaria
 
-__Auto-observación__
+
+==Auto-observación==
+
 Observarse es verse a sí mismo en acción, además, es darnos cuenta de lo que pensamos y decimos, incluyendo cómo actuamos, sobre todo con los demás. Si en ese momento me detengo, dejo de hacer lo que estoy haciendo y permanezco en la última posición, empezaré a darme cuenta si estoy sentado de manera recta o encorvada, si mi cuerpo se siente cansado o se siente bien, me daré cuenta de las emociones que experimento en ese momento. 
 
 ![[Pasted image 20250405050019.png]]
 
-_Como lograr la autobservación_
+__Como lograr la autobservación__
 Observando el entorno donde me encuentro ¿de qué color es?, ¿qué olor percibo? Ahora lo llevo a mi ser y empiezo a percibir qué emoción experimento en ese momento, ¿estoy molesto?, ¿hay algo que no me agrada? Lo importante es empezar a darme cuenta de mí, de lo que puedo observar en mí, primeramente, de mi posición corporal, después de lo que escucho, de lo que huelo, de lo que toco, nuestros sentidos son útiles para empezar a percibir, posteriormente empiezo a reconocer qué emociones percibo en ese momento.
 
-_Actividad autobservación_
+__Actividad autobservación__
 - ¿En dónde estás sentado en este momento?
 	En
 - ¿Qué estás pensando?
@@ -211,7 +218,8 @@ _Actividad autobservación_
 - ¿Qué emoción estás sintiendo?
 	Decepcion
 
-__Auto-control__
+==Auto-control==
+
 Con las experiencias vividas he comprendido que, si no te conoces, no puedes auto-controlarte y de hecho jamás llegaremos al total auto- control. Auto-control no significa ser un robot y controlar cada movimiento, cada pensamiento, cada palabra y mucho menos cada emoción.
 
 Para lograr un control primeramente debo empezar por la aceptación, por aceptar nuestra imperfección humana, por aceptar que nadie es perfecto y que vivir en ese plano implica tener experiencias que muchas veces se vuelven un caos y te puedes preguntar: ¿Cómo se puede lograr un control en medio de este caos? 
@@ -220,10 +228,11 @@ Primeramente, empezando a poner un orden, ya que el orden es lo que nos permite 
 
 El autocontrol es la capacidad de regular mis pensamientos, emociones y comportamientos para alcanzar metas a largo plazo. Implica resistir impulsos inmediatos, tomar decisiones racionales y actuar de manera coherente con tus valores y objetivos. Es clave para la disciplina, la productividad y el bienestar, ya que me ayuda a manejar la frustración, evitar distracciones y mantener hábitos saludables.
 
-_Poniendo orden, respirar_
+__Poniendo orden, respirar__
 Cuando tu mente está llena de ideas y pensamientos que no paran, sólo empieza a observarlos, no luches por quitar esos pensamientos, acéptalos, una vez que los aceptas se van a ir, si no es así, entonces enfoca tu atención en tu respiración, la respiración es la energía que nos da vida y nos conecta con el instante presente, el aquí y el ahora. Ahora empieza a observar tu comportamiento, qué asunto te saca de tus casillas, cómo comúnmente se expresa. Ese asunto o esa persona que logra hacer esto en ti, es tu gran maestro, que te muestra la parte que hay que trabajar o resolver.
 
 #### Autoestima [[Autoestima.pdf|📄]]
+
 "No es lo que te sucede, sino como reaccionas a ello lo que importa"
 La manera en que nos vemos y valoramos a nosotros mismos no depende tanto de las circunstancias externas, sino de la actitud y el respeto con los que nos tratamos.
 
@@ -287,22 +296,16 @@ _Es importante la autoestima porque_
 
 ----
 ## UNIDAD III
-__Conocimiento y tecnologías para la toma de decisiones__
-
-
+~~Conocimiento y tecnologías para la toma de decisiones~~
 ### Producción y gestión del conocimiento
 
 ### Experiencia tecnológica para la toma de decisiones
 
 ----
 ## UNIDAD IV
-__Liderazgo adaptativo para el desarrollo de talento__
-
-
+~~Liderazgo adaptativo para el desarrollo de talento~~
 ### Liderazgo adaptativo
 
 ###  Supervisión y desarrollo del talento
-
-----
 
 

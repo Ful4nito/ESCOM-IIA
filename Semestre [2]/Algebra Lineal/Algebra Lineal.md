@@ -4,19 +4,19 @@ Profesor: Jesús Ortuño Araujo
 ____
 
 ## UNIDAD I
-__Sistemas de Ecuaciones Lineales__
+~~Sistemas de Ecuaciones Lineales~~
 ____
 
 ## UNIDAD II
-__Espacios Vectoriales__
+~~Espacios Vectoriales~~
 ____
 
 ## UNIDAD III
-__Transformaciones Lineales__
+~~Transformaciones Lineales~~
 ____
 
 ## UNIDAD IV
-__Valores y Vectores Propios__
+~~Valores y Vectores Propios~~
 ____
 
 

@@ -4,17 +4,17 @@ Profesor:
 ____
 
 ## UNIDAD I
-__Contextualización y notaciones__
+~~Contextualización y notaciones~~
 ____
 
 ## UNIDAD II
-__Estrategias de diseño deterministas__
+~~Estrategias de diseño deterministas~~
 ____
 
 ## UNIDAD III
-__Estrategias de diseño no deterministas__
+~~Estrategias de diseño no deterministas~~
 ____
 
 ## UNIDAD IV
-__Introducción a la teoría de la complejidad__
+~~Introducción a la teoría de la complejidad~~
 ____
