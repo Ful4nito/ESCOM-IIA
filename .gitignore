@@ -58,5 +58,5 @@ dkms.conf
 # PDF con tamaño mayor a 50Mib
 *ignore.pdf
 
-# Archivos y notas 
-*ACTIVIDAD.md
+# Archivos de markdown con ~
+*~.md
