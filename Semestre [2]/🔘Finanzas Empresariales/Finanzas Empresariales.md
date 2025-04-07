@@ -2,7 +2,7 @@
 [[finanzasEmpresariales_IIA2020.pdf|Programa Sintético: Finanzas Empresariales]]
 Profesor: Serafín Estrada Elizalde
 ____
-
+____
 ## UNIDAD 1
 ~~La empresa y su contexto~~
 ____

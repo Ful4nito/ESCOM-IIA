@@ -46,6 +46,21 @@ _10._ $\frac{dy}{dx}=\Bigl(\frac{2y+3}{4x+5}\Bigr)^{2}$
 
 
 #### Factor integrante
+
+==Ejercicios==
+
+_1._$ $
+
+_2._$E$
+_3._$E$
+_4._$E$
+_5._$E$
+_6._$E$
+_7._$E$
+_8._$E$
+_9._$E$
+_10._$E$
+
 #### Ecuaciones exactas
 #### Sustitución
 

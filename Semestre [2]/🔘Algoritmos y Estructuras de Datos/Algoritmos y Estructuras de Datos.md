@@ -2,7 +2,7 @@
 [[algoritmosEstructurasDatos_IIA2020.pdf|Programa Sintético: Algoritmos y Estructuras de Datos]]
 Profesor: Tonahtiu Arturo Ramirez Romero
 ____
-
+____
 ## UNIDAD I
 ~~Algoritmos fundamentales~~
 ____

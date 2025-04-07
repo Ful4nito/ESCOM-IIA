@@ -2,7 +2,7 @@
 [[ingenieriaEticaSociedad_IIA2020.pdf|Programa Sintético: Ingeniería, Ética y Sociedad]]
 Profesor:
 ____
-
+____
 ## UNIDAD I
 ~~Desarrollo histórico del conocimiento científico y tecnológico~~
 ____

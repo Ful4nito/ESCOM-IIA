@@ -2,7 +2,7 @@
 [[basesDatos_IIA2020.pdf|Programa Sintético: Bases de Datos]]
 Profesor: 
 ____
-
+____
 ## UNIDAD I
 ~~Sistemas de bases de datos~~
 ____

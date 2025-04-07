@@ -2,7 +2,7 @@
 [[algebraLineal_IIA2020.pdf|Programa Sintético: Algebra Lineal]]
 Profesor: Jesús Ortuño Araujo
 ____
-
+____
 ## UNIDAD I
 ~~Sistemas de Ecuaciones Lineales~~
 ____
