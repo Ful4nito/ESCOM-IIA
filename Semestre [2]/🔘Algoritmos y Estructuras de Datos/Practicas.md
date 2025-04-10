@@ -144,22 +144,24 @@ int main() {
   aux = NULL;
   actual = NULL;
   
+  printf("\n Lista simplemente ligada");
+  printf("\n |  1 Agregar nodo      |");
+  printf("\n |  2 Mostrar lista     |");
+  printf("\n |  3 Salir             |");
+  printf("\n ========================");
+
   while (menu == 1) {
-    printf("\n Lista simplemente ligada\n");
-    printf("   1 Agregar nodo\n");
-    printf("   2 Mostrar lista\n");
-    printf("   3 Salir\n");
-    printf("   Que opcion queres: ");
+    printf("\n Que opcion quieres >> ");
     scanf("%i", &opcion);
     
     switch (opcion) {
       case 1:
         aux = new nodo;
         if (aux == NULL) {
-          printf("  No hay mas espacio en la memoria.\n");
+          printf("\n No hay mas espacio en la memoria.");
           break;
         }
-        printf("   Inserte valor: ");
+        printf(" Inserte valor: ");
         scanf("%i", &aux->valor);
         aux->sig = NULL; 
 
@@ -175,7 +177,7 @@ int main() {
       case 2:
         aux = inicial;
         if (aux == NULL) {
-          printf("\n La lista esta vacia.\n");
+          printf("\n La lista esta vacia.");
           break;
         }
         
@@ -226,14 +228,16 @@ int main(void) {
   actual = NULL;
   aux = NULL;
 
+  printf("\n Lista de alumnos simplemente ligada");
+  printf("\n |  1 Insertar nodo al inicio      |");
+  printf("\n |  2 Insertar nodo al final       |");
+  printf("\n |  3 Mostrar todos los nodos      |");
+  printf("\n |  4 Buscar valor por boleta      |");
+  printf("\n |  5 Salir                        |");
+  printf("\n ===================================");
+  
   while(menu == 1) {
-    printf("\n Lista de alumnos simplemente ligada\n");
-    printf("    1 Insertar nodo al inicio\n");
-    printf("    2 Insertar nodo al final\n");
-    printf("    3 Mostrar todos los nodos\n");
-    printf("    4 Buscar valor por boleta\n");
-    printf("    5 Salir\n");
-    printf("    Elija una opcion: ");
+    printf("\n Elija una opcion >> ");
     scanf("%i", &opcion);
 
     switch(opcion) {
@@ -241,14 +245,14 @@ int main(void) {
         aux = new ALUMNO;
 
         if (aux == NULL) {
-          printf(" No hay mas espacio en memoria.\n");
+          printf("  No hay mas espacio en memoria.\n");
           break;
         }
-        printf("\n    Inserte boleta del alumno: ");
+        printf("  Inserte boleta del alumno: ");
         scanf("%i", &aux->boleta);
-        printf("    Inserte nombre del alumno: ");
+        printf("  Inserte nombre del alumno: ");
         scanf("%s", aux->nombre);
-        printf("    Inserte promedio del alumno: ");
+        printf("  Inserte promedio del alumno: ");
         scanf("%f", &aux->promedio);
         aux->sig = NULL;
 
@@ -268,11 +272,11 @@ int main(void) {
           printf(" No hay mas espacio en memoria.\n");
           break;
         }
-        printf("\n    Inserte boleta del alumno: ");
+        printf("  Inserte boleta del alumno: ");
         scanf("%i", &aux->boleta);
-        printf("    Inserte nombre del alumno: ");
+        printf("  Inserte nombre del alumno: ");
         scanf("%s", aux->nombre);
-        printf("    Inserte promedio del alumno: ");
+        printf("  Inserte promedio del alumno: ");
         scanf("%f", &aux->promedio);
         aux->sig = NULL;
 
@@ -302,17 +306,17 @@ int main(void) {
       
       case 4:
         if (inicial == NULL) {
-          printf(" La lista esta vacia\n");
+          printf("  La lista esta vacia\n");
           break;
         }
-        printf("\n Boleta que quiere buscar: ");
+        printf("  Boleta que quiere buscar: ");
         scanf("%i", &dato);
         aux = inicial;
         while ((dato != aux->boleta) && (aux->sig != NULL)) {
           aux = aux->sig;
         }
         if (dato != aux->boleta) {
-          printf("\n No se encontro el alumno.\n");
+          printf("\n  No se encontro el alumno.\n");
           break;
         }
         else {
@@ -705,7 +709,7 @@ int main () {
 
   printf("\n  Lista de nodos doblemente enlazada");
   printf("\n  | 1 Agregar nodo al inicio       |");
-  printf("\n  | 2 Mostrar nodo al final        |");
+  printf("\n  | 2 Agregar nodo al final        |");
   printf("\n  | 3 Mostrar nodos                |");
   printf("\n  | 4 SALIR                        |");
   printf("\n  ==================================");
@@ -741,23 +745,25 @@ int main () {
     aux = new(NODO);
     if (aux == NULL) {
       printf("   No hay mas espacio en memoria.\n");
-      break;
-    }
-
-    printf("   Inserte valor: ");
-    scanf("%i", &aux->valor);
-    
-    if (inicial == NULL) {
-      inicial = aux;
-      aux->sig = NULL;
-      aux->ant = NULL;
     }
     else {
-      actual = inicial;
-      while (actual->sig != NULL) {
-        actual = actual->sig;
+      printf("   Inserte valor: ");
+      scanf("%i", &aux->valor);
+      
+      if (inicial == NULL) {
+        inicial = aux;
+        aux->sig = NULL;
+        aux->ant = NULL;
       }
-      actual->sig = aux;
+      else {
+        actual = inicial;
+        while (actual->sig != NULL) {
+          actual = actual->sig;
+        }
+        actual->sig = aux;
+        aux->ant = actual;
+        aux->sig = NULL;
+      }
     }
     break;
 
@@ -767,6 +773,7 @@ int main () {
         break;
       }
 
+      printf("  ");
       actual = inicial;
       while (actual->sig != NULL) {
         printf("%3i  ", actual->valor);
@@ -873,4 +880,16 @@ int main () {
 
 }
 
+```
+
+### Practica 9
+__Practica 9__
+``` cpp
+// Baez Pacheco Jonathan Leon
+```
+
+### Practica 10
+__Practica 10__
+``` cpp
+// Baez Pacheco Jonathan Leon
 ```
