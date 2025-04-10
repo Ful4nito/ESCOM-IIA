@@ -35,7 +35,7 @@ _NOTA_ No hay necesidad de emplear dos constantes cuando se integra una ecuació
 | __6__  | $\frac{dy}{dx}+2xy^{2}=0$                               | $y=\frac{1}{x^{2}+c}$                                               |
 | __7__  | $\frac{dy}{dx}=e^{3x+2y}$                               | $3e^{-2y}=-2e^{3x}+c$                                               |
 | __8__  | $e^{x}y\frac{dy}{dx}=e^{-y}+e^{-2x-y}$                  | $y\,{e}^{y}-{e}^{y}=-\dfrac{1}{{e}^{x}}-\dfrac{1}{3\,{e}^{3\,x}}+c$ |
-| __9__  | $y\ln x\frac{dx}{dy}=\Bigl(\frac{y+1}{x}\Bigr)^{2}$     |                                                                     |
+| __9__  | $y\ln x\frac{dx}{dy}=\Bigl(\frac{y+1}{x}\Bigr)^{2}$     | $\frac{1}{2}y^{2}+2y+\ln y=\frac{1}{3}x^{3}\ln x-\frac{1}{9}^{3}+c$ |
 | __10__ | $\frac{dy}{dx}=\Bigl(\frac{2y+3}{4x+5}\Bigr)^{2}$       |                                                                     |
 | __11__ | $\csc y\space dx+\sec^{2}x\space dy=0$                  |                                                                     |
 | __12__ | $\sin 3x\space dx+2y\cos^{3}3x\space dy=0$              |                                                                     |
