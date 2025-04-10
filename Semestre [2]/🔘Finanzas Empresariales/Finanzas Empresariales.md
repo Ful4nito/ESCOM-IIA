@@ -3,7 +3,7 @@
 Profesor: Serafín Estrada Elizalde
 ____
 ____
-## UNIDAD 1
+## UNIDAD I
 ~~La empresa y su contexto~~
 ____
 
@@ -79,7 +79,7 @@ __Forma de construcción de las empresas__
 
 #### Microentorno
 
-## UNIDAD 2
+## UNIDAD II
 ~~Importancia y utilización de la información financiera~~
 ____
 
@@ -109,15 +109,31 @@ __Partes del balance__
 
 
 
-## UNIDAD 3
+## UNIDAD III
 ~~Análisis financiero~~
 ____
 
-## UNIDAD 4
+## UNIDAD IV
 ~~Estados financieros proforma~~
 ____
 
-## UNIDAD 5
+
+La planificacion financiera es un aspecto importante de las operaciones de la empresa porque proporciona rutas que guían, coordinan y controlan las acciones de la empresa para lograr sus objetivos, los dos aspectos clave de la planificación financiera son:
+
+1. _La planificación de efectivo_ que implica la elaboración de un presupuesto de caja d el la empresa, es decir el uso de efectivo.
+
+2. _Planificación de utilidades_ que implica la elaboración de estados proforma, es decir estados financieros proyectados apartir de las expectativas de ventas que tenga la empresa.
+
+Estos dos aspectos son fundamentales para el futuro de la empresa, y además porque los prestamistas, inversionistas y proveedores, siempre lo solicitan.
+
+Los planes financieros se realizan en función de las necesidades y el plazo para lograrlas; en el largo plazo se hacen los planes estratégicos, es decir los objetivos que buscará la empresa; en el corto plazo se realizan los planes operativos, aquellos que harán posible los objetivos en el largo plazo.
+
+Los planes estratégicos establecen acciones financieras y el impacto anticipado que tendrán en la empresa en un periodo de entre cinco a diez años, y se deben revisar a medida que surja nueva información sobre ellos objetivos.
+
+Los planes operativos abarcan un periodo de entre uno a cinco años e incluyen pronósticos sobre los ingresos, los presupuestos y su asignacion
+
+
+## UNIDAD V
 ~~Métodos de evaluación de proyectos de inversión~~
 ____
 
