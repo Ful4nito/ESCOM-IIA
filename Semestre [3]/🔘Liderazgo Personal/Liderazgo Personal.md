@@ -290,6 +290,8 @@ _Es importante la autoestima porque_
 
 ### Principios y valores
 
+Emociones
+
 ### Relaciones y redes
 
 ### Persuadir en influir

@@ -34,6 +34,10 @@ __Productos triples__
 ## UNIDAD II
 ~~Derivadas Parciales~~
 ____
+Curvas de nivel 
+Imagen 1 y 2 variables
+Mapeos vectoriales
+Transformación de objetos Polito
 
 ## UNIDAD III
 ~~Integrales múltiples~~
