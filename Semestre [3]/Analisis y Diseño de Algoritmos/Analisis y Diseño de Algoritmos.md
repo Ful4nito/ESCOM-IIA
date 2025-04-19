@@ -1,20 +1,21 @@
-#Tercero #Tecnologicas 
-[[analisisDisenoAlgoritmos_IIA2020.pdf|Programa Sintético: Análisis y Diseño de Algoritmos]]
+---
+tags:
+  - Tercero
+  - Tecnologicas
+cssclasses:
+  - TECNOLOGICAS
+---
+[[analisisDisenoAlgoritmos_IIA2020.pdf|Programa Sintético: 📄]]
 Profesor: 
 ____
 ____
-## UNIDAD I
-~~Contextualización y notaciones~~
-____
+## I. CONTEXTUALIZACIÓN Y NOTACIONES
 
-## UNIDAD II
-~~Estrategias de diseño deterministas~~
 ____
+## II.  ESTRATEGIAS DE DISEÑO DETERMINISTAS
 
-## UNIDAD III
-~~Estrategias de diseño no deterministas~~
 ____
+## III.  ESTRATEGIAS DE DISEÑO NO DETERMINISTAS
 
-## UNIDAD IV
-~~Introducción a la teoría de la complejidad~~
 ____
+## IV.  INTRODUCCIÓN A LA TEORÍA DE LA COMPLEJIDAD 

@@ -1,11 +1,18 @@
-#Segundo #Matematicas
-[[calculoMultivariable_IIA2020.pdf|Programa Sintético: Calculo Multivariable]]
+---
+tags:
+  - Segundo
+  - Matematicas
+cssclasses:
+  - MATEMATICAS
+  - CUADRO-CHICO
+---
+[[calculoMultivariable_IIA2020.pdf|Programa Sintético: 📄]]      
 Profesor: Miguel Abel Leon Estrada 'Mandrake'
+Alumno: Jonathan Leon Baez Pacheco - Grupo: 2BV1
 ____
 ____
-## UNIDAD I
-~~Vectores y funciones vectoriales~~
-____
+## I.  VECTORES Y FUNCIONES VECTORIALES
+
 ### Sistemas de coordenadas
 __Campos vectoriales__
 Candidatos a campo vectorial
@@ -31,19 +38,16 @@ __Productos triples__
 ### Curvas en el espacio
 
 
-## UNIDAD II
-~~Derivadas Parciales~~
 ____
+## II.  DERIVADAS PARCIALES
 Curvas de nivel 
 Imagen 1 y 2 variables
 Mapeos vectoriales
 Transformación de objetos Polito
 
-## UNIDAD III
-~~Integrales múltiples~~
 ____
+## III.  INTEGRALES MULTIPLES
 
-## UNIDAD IV
-~~Teoremas de Integración~~
 ____
+## IV.  TEROEMAS DE INTEGRACION
 

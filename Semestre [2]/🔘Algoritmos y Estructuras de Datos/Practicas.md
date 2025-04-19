@@ -1,9 +1,8 @@
 ## UNIDAD I
-~~Algoritmos fundamentales~~
 ____
 ### Práctica 1
-__Ordenamiento Burbuja__  180225
 
+__Ordenamiento Burbuja__  180225
 Un programa que pide al usuario cuantos números aleatorios desea generar, estos estarán en el rango de 0 a 100, posteriormente serán ordenados con el método _burbuja_ aplicando solamente una iteración.
 
 ``` cpp
@@ -46,8 +45,8 @@ int main() {
 ```
 ____
 ### Práctica 2
-__Objeto con datos ingresados por el usuario__  250225
 
+__Objeto con datos ingresados por el usuario__  250225
 Genere un programa que pida al usuario que inserte los datos de un alumno tales como Nombre completo, Boleta y grupo, estos deberán ser almacenados en un objeto, puede ser utilizando _class_ ó _struct_ , después mostrar los datos del alumno en pantalla.
 
 ``` cpp
@@ -78,8 +77,8 @@ int main (void) {
 ```
 ____
 ### Práctica 3
-__Lista simplemente enlazada: agregar y mostrar objeto__
 
+__Lista simplemente enlazada: agregar y mostrar objeto__
 ``` cpp
 // Baez Pacheco Jonathan Leon   
 
@@ -118,8 +117,8 @@ int main(void) {
 ```
 ____
 ### Práctica 4
-__Lista simplemente enlazada: agregar al inicio, al final y mostrar objetos__
 
+__Lista simplemente enlazada: agregar al inicio, al final y mostrar objetos__
 ``` cpp
 // Baez Pacheco Jonathan Leon 
 
@@ -201,8 +200,8 @@ int main() {
 ```
 ____
 ### Práctica 5
-__Lista simplemente enlazada: agregar al inicio, al final, mostrar y eliminar objetos__
 
+__Lista simplemente enlazada: agregar al inicio, al final, mostrar y eliminar objetos__
 ``` cpp
 // Baez Pacheco Jonathan Leon
 
@@ -337,11 +336,10 @@ int main(void) {
 ```
 ____
 ## UNIDAD II
-__Estructuras de datos lineales__
 ____
 ### Práctica 6
-__Lista enlazada__
 
+__Lista enlazada__
 ``` cpp
 // Baez Pacheco Jonathan Leon
 
@@ -373,18 +371,18 @@ int main(void) {
 
   srand(time(NULL));
 
-  printf("\n  Lista de alumnos simplemente ligada\n");
-  printf("  |  1 Agragar nodo al inicio       |\n");
-  printf("  |  2 Agregar nodo al final        |\n");
-  printf("  |  3 Agregar nodo ordenadamente   |\n");
-  printf("  |  4 Generar lista de n nodos     |\n");
-  printf("  |  5 Mostrar todos los nodos      |\n");
-  printf("  |  6 Ordenar por burbuja          |\n");
-  printf("  |  7 Buscar nodo por valor        |\n");
-  printf("  |  8 Eliminar nodo por valor      |\n");
-  printf("  |  9 Elininar lista               |\n");
-  printf("  | 10 SALIR                        |\n");
-  printf("  ===================================\n");
+  printf("\n  Lista de alumnos simplemente ligada");
+  printf("\n  |  1 Agragar nodo al inicio       |");
+  printf("\n  |  2 Agregar nodo al final        |");
+  printf("\n  |  3 Agregar nodo ordenadamente   |");
+  printf("\n  |  4 Generar lista de n nodos     |");
+  printf("\n  |  5 Mostrar todos los nodos      |");
+  printf("\n  |  6 Ordenar por burbuja          |");
+  printf("\n  |  7 Buscar nodo por valor        |");
+  printf("\n  |  8 Eliminar nodo por valor      |");
+  printf("\n  |  9 Elininar lista               |");
+  printf("\n  | 10 SALIR                        |");
+  printf("\n  ===================================\n");
   
   while(menu == 1) {
     printf("\n  Elige una operacion >>> ");
@@ -684,6 +682,7 @@ int main(void) {
 
 ____
 ### Práctica 7
+
 __Quien sabe__
 ``` cpp
 // Jonathan Leon Baez Pacheco 
@@ -795,6 +794,7 @@ int main () {
 ```
 
 ### Práctica 8
+
 __Pila simplemente enlazada__
 ``` cpp
 // Baez Pacheco Jonathan Leon  
@@ -883,7 +883,7 @@ int main () {
 ```
 
 ### Practica 9
-__Practica 9__
+
 ``` cpp
 // Baez Pacheco Jonathan Leon 
 
@@ -976,7 +976,9 @@ int main (void) {
 ```
 
 ### Practica 10
-__Practica 10__
+
+Proximamente practica 10
 ``` cpp
 // Baez Pacheco Jonathan Leon
+
 ```

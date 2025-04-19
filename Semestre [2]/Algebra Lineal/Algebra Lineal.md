@@ -1,23 +1,23 @@
-#Segundo #Matematicas 
-[[algebraLineal_IIA2020.pdf|Programa Sintético: Algebra Lineal]]
+---
+tags:
+  - Segundo
+  - Matematicas
+cssclasses:
+  - MATEMATICAS
+---
+[[algebraLineal_IIA2020.pdf|Programa Sintético: 📄]]
 Profesor: Jesús Ortuño Araujo
 ____
 ____
-## UNIDAD I
-~~Sistemas de Ecuaciones Lineales~~
-____
+## I.  SISTEMAS DE ECUACIONES LINEALES
 
-## UNIDAD II
-~~Espacios Vectoriales~~
 ____
+## II.  ESPACIOS VECTORIALES
 
-## UNIDAD III
-~~Transformaciones Lineales~~
 ____
+## III.  TRANSFORMACIONES LINEALES
 
-## UNIDAD IV
-~~Valores y Vectores Propios~~
 ____
-
+## IV.  VALORES Y VECTORES PROPIOS
 
 

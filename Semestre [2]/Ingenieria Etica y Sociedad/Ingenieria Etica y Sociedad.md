@@ -1,20 +1,22 @@
-#Segundo #Sociales
-[[ingenieriaEticaSociedad_IIA2020.pdf|Programa Sintético: Ingeniería, Ética y Sociedad]]
-Profesor:
+---
+tags:
+  - Segundo
+  - Sociales
+cssclasses:
+  - SOCIALES
+---
+[[ingenieriaEticaSociedad_IIA2020.pdf|Programa Sintético: 📄]]
+Profesor: Gumersindo
 ____
 ____
-## UNIDAD I
-~~Desarrollo histórico del conocimiento científico y tecnológico~~
-____
+## I.  DESARROLLO HISTORICO DEL CONOCIMIENTOCIENTIFICO Y TECNOLOGICO
 
-## UNIDAD II
-~~Revoluciones Industriales; tecnología e impacto~~
 ____
+## II.  REVOLUCIONES INDUSTRIALES; TECNOLOGIA E IMPACTO
 
-## UNIDAD III
-~~Ingeniería y sociedad~~
 ____
+## III.  INGENIERIA Y SOCIEDAD
 
-## UNIDAD IV
-~~Ética e ingeniería en inteligencia artificial~~
 ____
+## IV.  ÉTICA E INGENIERIA EN INTELIGENCIA ARTIFICIAL
+

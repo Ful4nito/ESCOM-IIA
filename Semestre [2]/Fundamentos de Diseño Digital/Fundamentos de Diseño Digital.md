@@ -1,22 +1,23 @@
-#Segundo #Tecnologicas 
-[[fundamentosDisenoDigital_IIA2020.pdf|Programa Sintético: Fundamentos de diseño Digital]]
+---
+tags:
+  - Segundo
+  - Tecnologicas
+cssclasses:
+  - TECNOLOGICAS
+---
+[[fundamentosDisenoDigital_IIA2020.pdf|Programa Sintético: 📄]]
 Profesor: 
 ____
 ____
-## UNIDAD I
-~~Principios de diseño de Sistemas Digitales~~
-____
+## I.  PRINCIPIOS DE DISEÑO DE SISTEMAS DIGITALES
 
-## UNIDAD II
-~~Tecnología y lenguajes de descripción de dispositivos lógicos programables~~
 ____
+## II.  TECNOLOGÍA Y LENGUAJES DE DESCRIPCION DE DISPOSITIVOS LÓGICOS PROGRAMABLES
 
-## UNIDAD III
-~~Lógica Combinacional~~
 ____
+## III.  LÓGICA COMBINACIONAL
 
-## UNIDAD IV
-~~Elementos básicos de Memoria~~
 ____
+## IV.  ELEMENTOS BÁSICOS DE MEMORIA
 
 

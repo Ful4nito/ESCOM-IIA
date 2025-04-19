@@ -1,10 +1,17 @@
-#Tercero #Sociales
-[[liderazgoPersonal_IIA2020.pdf|Programa Sintético: Liderazgo Personal]]
+---
+tags:
+  - Tercero
+  - Sociales
+cssclasses:
+  - SOCIALES
+  - RAYAS
+---
+[[liderazgoPersonal_IIA2020.pdf|Programa Sintético: 📄]]
 Profesora: Sandra Mercedes Pérez Vera
+Alumno: Jonathan Leon Baez Pacheco - Grupo: 3BV1
 ____
 ----
-## UNIDAD I
-~~Principios del liderazgo~~
+## I.  PRINCIPIOS DE LIDERAZGO
 ### Principios de liderazgo
 
 #### Tipos de liderazgo  [[Tipos de Liderazgo.pdf|📄]]
@@ -50,8 +57,7 @@ El liderazgo orientado a la tarea es un estilo de gestión que se centra en la 
 
 
 ----
-## UNIDAD II
-~~Interacción e influencia en relaciones colaborativas~~
+## II.  INTERACCIÓ E INFLUENCIA EN RELACIONES COLABORATIVAS
 ### Interacción con personas
 
 #### Desarrollo humano [[Desarrollo Personal.pdf|📄]]
@@ -297,15 +303,13 @@ Emociones
 ### Persuadir en influir
 
 ----
-## UNIDAD III
-~~Conocimiento y tecnologías para la toma de decisiones~~
+## III.  CONOCIMIENTO Y TECNOLOGÍAS PARA LA TOMA DE DECISIONES
 ### Producción y gestión del conocimiento
 
 ### Experiencia tecnológica para la toma de decisiones
 
 ----
-## UNIDAD IV
-~~Liderazgo adaptativo para el desarrollo de talento~~
+## IV.  LIDERAZGO ADAPTATIVO PARA EL DESARROLLO DE TALENTO
 ### Liderazgo adaptativo
 
 ###  Supervisión y desarrollo del talento

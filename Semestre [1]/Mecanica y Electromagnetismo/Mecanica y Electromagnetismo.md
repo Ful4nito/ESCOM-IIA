@@ -1,4 +1,11 @@
-#Primero #Matematicas 
+---
+tags:
+  - Primero
+  - Matematicas
+cssclasses:
+  - MATEMATICAS
+---
 [[mecanicaElectromagnetismo_IIA2020.pdf|Programa Sintético: ]]
-Profesor: 
+Profesor: Elsa Leticia Arcos Diaz
 ____
+## MECANICA

@@ -1,26 +1,26 @@
-#Tercero #Tecnologicas 
-[[disenoSistemasDigitales_IIA2020.pdf|Programa Sintético: Diseño de Sistemas Digitales]]
+---
+tags:
+  - Tercero
+  - Tecnologicas
+cssclasses:
+  - TECNOLOGICAS
+---
+[[disenoSistemasDigitales_IIA2020.pdf|Programa Sintético: 📄]]
 Profesor: 
 ____
 ____
-## UNIDAD I
-~~Registros~~
-____
+## I.  REGISTROS
 
-## UNIDAD II
-~~Diseño de sistemas digitales~~
 ____
+## II.  DISEÑO DE SISTEMAAS DIGITALES
 
-## UNIDAD III
-~~Contadores~~
 ____
+## III.  CONTADORES
 
-## UNIDAD IV
-~~Memorias~~
 ____
+## IV.  MEMORIAS
 
-## UNIDAD V
-~~Máquina de estado algorítmica~~
-_____
+____
+## V.  MÁQUINA DE ESTADO ALGORÍTMICA
 
 

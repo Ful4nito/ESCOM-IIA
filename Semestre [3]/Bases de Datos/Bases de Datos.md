@@ -1,26 +1,26 @@
-#Tercero #Tecnologicas 
-[[basesDatos_IIA2020.pdf|Programa Sintético: Bases de Datos]]
+---
+tags:
+  - Tercero
+  - Tecnologicas
+cssclasses:
+  - TECNOLOGICAS
+---
+[[basesDatos_IIA2020.pdf|Programa Sintético: 📄]]
 Profesor: 
 ____
 ____
-## UNIDAD I
-~~Sistemas de bases de datos~~
-____
+## I.  SISTEMAS DE BASES DE DATOS
 
-## UNIDAD II
-~~Modelado de bases de datos~~
 ____
+## II.  MODELADO DE BASES DE DATOS
 
-## UNIDAD III
-~~Modelo relacional~~
 ____
+## III.  MODELO RELACIONAL
 
-## UNIDAD IV
-~~Diseño de bases de datos relacionales y normalización~~
 ____
+## IV.  DISEÑO DE BASES DE DATOS RELACIONALES Y NORMALIZACIÓN
 
-## UNIDAD V
-~~Lenguaje SQL~~
 ____
+## V.  LENGUAJE SQL
 
 

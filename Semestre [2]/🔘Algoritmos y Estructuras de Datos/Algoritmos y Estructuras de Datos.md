@@ -1,14 +1,21 @@
-#Segundo #Tecnologicas
-[[algoritmosEstructurasDatos_IIA2020.pdf|Programa Sintético: Algoritmos y Estructuras de Datos]]
+---
+tags:
+  - Segundo
+  - Tecnologicas
+cssclasses:
+  - TECNOLOGICAS
+  - CUADRO-CHICO
+---
+[[algoritmosEstructurasDatos_IIA2020.pdf|Programa Sintético: 📄]]
 Profesor: Tonahtiu Arturo Ramirez Romero
+Alumno: Jonathan Leon Baez Pacheco - Grupo: 2BV1
 ____
 ____
-## UNIDAD I
-~~Algoritmos fundamentales~~
-____
+## I.  ALGORITMOS FUNDAMENTALES 
 [Representación grafica de algoritmos fundamentales](https://visualgo.net/en)
-
 ### Algoritmia
+
+
 ### El problema del ordenamiento
 
 Ordenamiento por el método _Inserción_ [[Ordenamiento Inserción.pdf|PDF]]
@@ -151,9 +158,9 @@ Búsqueda _Exhaustiva_
 
 ### Exploración exhaustiva y vuelta atrás 
 Back-tracking
+
 ____
-## UNIDAD II
-~~Estructuras de datos lineales~~
+## II.  ESTRUCTURAS DE DATOS LINEALES
 
 ### Pila
 ### Cola
@@ -234,15 +241,15 @@ El doble enlace de los nodos permite recorrer la lista en cualquier dirección. 
 
 ### Tablas hash
 
-## UNIDAD III
-~~Estructuras de datos no lineales~~
 ____
+## III.  ESTRUCTURAS DE DATOS NO LINEALES
+
 ### Arboles Binarios
 ### Grafos
 
+____
 ## TAREAS
 
-____
 ### Tarea 1
 Tipos de Algoritmos
 

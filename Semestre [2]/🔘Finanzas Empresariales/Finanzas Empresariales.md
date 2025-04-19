@@ -1,11 +1,17 @@
-#Segundo #Tecnologicas 
-[[finanzasEmpresariales_IIA2020.pdf|Programa Sintético: Finanzas Empresariales]]
+---
+tags:
+  - Segundo
+  - Tecnologicas
+cssclasses:
+  - TECNOLOGICAS
+  - CUADRO-CHICO
+---
+[[finanzasEmpresariales_IIA2020.pdf|Programa Sintético: 📄]]
 Profesor: Serafín Estrada Elizalde
+Alumno: Jonathan Leon Baez Pacheco - Grupo: 2BV1
 ____
 ____
-## UNIDAD I
-~~La empresa y su contexto~~
-____
+## I.  LA EMPRESA Y SU CONTEXTO
 
 ### La empresa y su contexto
 
@@ -29,9 +35,7 @@ _Financiamiento_ La captación o concepción de recurso financiero que no es pro
 
 _Política de Dividendos_ Es la planeación sobre la distribución y pago de las ganancias, así como el capital de reinversión.
 
-
 ### Función de las finanzas empresariales
-
 
 Un mapa conceptual sobre las 5 razones para estudiar finanzas, las principales decisiones de los individuos y las empresas. Explicadas brevemente. Si quieres puedes hacer dos organizadores por separado. [[Concepto Finanzas.pdf|📄]]
 
@@ -79,9 +83,8 @@ __Forma de construcción de las empresas__
 
 #### Microentorno
 
-## UNIDAD II
-~~Importancia y utilización de la información financiera~~
 ____
+## II.  IMPORTANCIA Y UTILIZACIÓN DE LA INFORMACIÓN FINANCIERA
 
 ### La información financiera
 
@@ -108,17 +111,13 @@ La _situación financiera_ de la empresa se advierte por medio de la relación q
 __Partes del balance__
 
 
-
-## UNIDAD III
-~~Análisis financiero~~
 ____
+## III.  ANÁLISIS FINANCIERO
 
-## UNIDAD IV
-~~Estados financieros proforma~~
 ____
+## IV.  ESTADOS FINANCIEROS PROFORMA
 
-
-La planificacion financiera es un aspecto importante de las operaciones de la empresa porque proporciona rutas que guían, coordinan y controlan las acciones de la empresa para lograr sus objetivos, los dos aspectos clave de la planificación financiera son:
+La planificación financiera es un aspecto importante de las operaciones de la empresa porque proporciona rutas que guían, coordinan y controlan las acciones de la empresa para lograr sus objetivos, los dos aspectos clave de la planificación financiera son:
 
 1. _La planificación de efectivo_ que implica la elaboración de un presupuesto de caja d el la empresa, es decir el uso de efectivo.
 
@@ -130,13 +129,12 @@ Los planes financieros se realizan en función de las necesidades y el plazo par
 
 Los planes estratégicos establecen acciones financieras y el impacto anticipado que tendrán en la empresa en un periodo de entre cinco a diez años, y se deben revisar a medida que surja nueva información sobre ellos objetivos.
 
-Los planes operativos abarcan un periodo de entre uno a cinco años e incluyen pronósticos sobre los ingresos, los presupuestos y su asignacion
+Los planes operativos abarcan un periodo de entre uno a cinco años e incluyen pronósticos sobre los ingresos, los presupuestos y su asignación
 
 
-## UNIDAD V
-~~Métodos de evaluación de proyectos de inversión~~
+## V.  MÉTODOS DE EVALUACION DE PROYECTOS DE INVERSIÓN
+
 ____
-
 ## Proyecto Finanzas
 ~~Análisis financiero de dos empresas~~
 ____
