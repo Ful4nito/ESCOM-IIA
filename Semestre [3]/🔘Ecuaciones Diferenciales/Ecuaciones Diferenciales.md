@@ -74,15 +74,15 @@ Se dice que la ecuación lineal es homogénea cuando $g(x)=0$ ; caso contrario e
 | N      | Ejercicio                                     | Respuesta                                            |
 | ------ | --------------------------------------------- | ---------------------------------------------------- |
 | __1__  | $\frac{dy}{dx}=5y$                            | $y=ce^{5x}$                                          |
-| __2__  | $\frac{dy}{dx}+2y=0$                          | $y=\frac{c}{e^{2x}}$                                 |
-| __3__  | $\frac{dy}{dx}+y=e^{3x}$                      | $y=\frac{e^{3x}}{4}+\frac{c}{e^{x}}$                 |
-| __4__  | $3\frac{dy}{dx}+12y=4$                        | $y=\frac{1}{3}+\frac{c}{e^{4x}}$                     |
-| __5__  | $y'+3x^{2}y=x^{2}$                            | $y=\frac{1}{3}+\frac{c}{e^{x^{3}}}$                  |
-| __6__  | $y'+2xy=x^{3}$                                |                                                      |
-| __7__  | $x^{2}y'+xy=1$                                | $y=\frac{\ln \|x\|}{x}+\frac{c}{x}$                  |
+| __2__  | $\frac{dy}{dx}+2y=0$                          | $y=ce^{-2x}$                                         |
+| __3__  | $\frac{dy}{dx}+y=e^{3x}$                      | $y=\frac{1}{4}e^{3x}+ce^{-x}$                        |
+| __4__  | $3\frac{dy}{dx}+12y=4$                        | $y=\frac{1}{3}+ce^{-4x}$                             |
+| __5__  | $y'+3x^{2}y=x^{2}$                            | $y=\frac{1}{3}+ce^{-x^{3}}$                          |
+| __6__  | $y'+2xy=x^{3}$                                | $y=\frac{x^{2}}{2}-\frac{1}{2}+\frac{c}{e^{x^{2}}}$  |
+| __7__  | $x^{2}y'+xy=1$                                | $y=x^{-1}\ln \|x\|+cx^{-1}$                          |
 | __8__  | $y'=2y+x^{2}+5$                               | $y=ce^{2x}-\frac{x^{2}}{2}-\frac{x}{2}-\frac{11}{4}$ |
-| __9__  | $x\frac{dy}{dx}-y=x^{2}\sin x$                |                                                      |
-| __10__ | $x\frac{dy}{dx}+2y=3$                         |                                                      |
+| __9__  | $x\frac{dy}{dx}-y=x^{2}\sin x$                | $y=cx-x\cos x$                                       |
+| __10__ | $x\frac{dy}{dx}+2y=3$                         | $y=cx^{-2}+\frac{3}{2}$                              |
 | __11__ | $x\frac{dy}{dx}+4y=x^{3}-x$                   |                                                      |
 | __12__ | $(1+x)\frac{dy}{dx}-xy=x+x^{2}$               |                                                      |
 | __13__ | $x^{2}y'+x(x+2)y=e^{x}$                       |                                                      |
