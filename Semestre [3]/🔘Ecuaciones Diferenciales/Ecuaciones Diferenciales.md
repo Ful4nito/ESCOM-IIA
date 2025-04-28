@@ -85,14 +85,14 @@ Se dice que la ecuación lineal es homogénea cuando $g(x)=0$ ; caso contrario e
 | __10__ | $x\frac{dy}{dx}+2y=3$                         | $y=cx^{-2}+\frac{3}{2}$                                               |
 | __11__ | $x\frac{dy}{dx}+4y=x^{3}-x$                   | $y=\frac{1}{7}x^{3}+\frac{1}{5}x+cx^{-4}$                             |
 | __12__ | $(1+x)\frac{dy}{dx}-xy=x+x^{2}$               | $y=\frac{ce^{x}}{x+1}-\frac{x^{2}}{x+1}-\frac{3x}{x+1}-\frac{3}{x+1}$ |
-| __13__ | $x^{2}y'+x(x+2)y=e^{x}$                       | $\frac{1}{2}x^{-2}e^{x}+cx^{-2}e^{-x}$                                |
-| __14__ | $xy'+(1+x)y=e^{-x}\sin2x$                     | $cx^{-1}e^{-x}-\frac{1}{2}x^{-1}e^{-x}\cos2x$                         |
-| __15__ | $ydx-4(x+y^{6})dy=0$                          |                                                                       |
-| __16__ | $ydx=(ye^{y}-2x)dy$                           |                                                                       |
-| __17__ | $\cos x\frac{dy}{dx}+(\sin x)y=1$             |                                                                       |
-| __18__ | $\cos^{2}x\sin x\frac{dy}{dx}+(\cos^{3}x)y=1$ |                                                                       |
-| __19__ | $(x+1)\frac{dy}{dx}+(x+2)y=2xe^{-x}$          |                                                                       |
-| __20__ | $(x+2)^{2}\frac{dy}{dx}=5-8y-4xy$             |                                                                       |
+| __13__ | $x^{2}y'+x(x+2)y=e^{x}$                       | $y=\frac{1}{2}x^{-2}e^{x}+cx^{-2}e^{-x}$                              |
+| __14__ | $xy'+(1+x)y=e^{-x}\sin2x$                     | $y=cx^{-1}e^{-x}-\frac{1}{2}x^{-1}e^{-x}\cos2x$                       |
+| __15__ | $ydx-4(x+y^{6})dy=0$                          | $x=2y^{6}+cy^{4}$                                                     |
+| __16__ | $ydx=(ye^{y}-2x)dy$                           | $x=e^{y}-2e^{y}y^{-1}+2e^{y}y^{-2}+cy^{-2}$                           |
+| __17__ | $\cos x\frac{dy}{dx}+(\sin x)y=1$             | $y=\sin x +c\cos x$                                                   |
+| __18__ | $\cos^{2}x\sin x\frac{dy}{dx}+(\cos^{3}x)y=1$ | $y=\sec x +c\csc x$                                                   |
+| __19__ | $(x+1)\frac{dy}{dx}+(x+2)y=2xe^{-x}$          | $y=\frac{x^{2}}{e^{x}(x+1)}+\frac{c}{e^{x}(x+1)}$                     |
+| __20__ | $(x+2)^{2}\frac{dy}{dx}=5-8y-4xy$             | $y=\frac{5}{3(x+2)}+\frac{c}{(x+2)^{4}}$                              |
 
 #### Ecuaciones exactas
 
