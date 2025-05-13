@@ -132,6 +132,27 @@ Los planes estratégicos establecen acciones financieras y el impacto anticipado
 Los planes operativos abarcan un periodo de entre uno a cinco años e incluyen pronósticos sobre los ingresos, los presupuestos y su asignación
 
 
+
+Para pronosticar el estado de resultados, consideramos el método de proyección de ventas, todos los métodos proforma, es decir aquellos aquellos que proyectan los estados financieros se basarán en la creencia de que las relaciones y estructura financiera de la empresa no cambiarán en los siguientes periodos.
+Se necesitan dos entradas para elaborar los estados proforma: 
+1. Los estados financieros del año anterior y el pronóstico de ventas del año siguiente. Además la empresa debe establecer una serie de supuestos que dará por hecho para construir los estados financieros.
+
+Cuando tenemos el incremento que tendrán las ventas podemos calcular el porcentaje de incremento para realizar lo siguiente: 
+1. Aplicamos este mismo incremento. al costo de ventas y a los gastos operativos, multiplicando sus importes por la unidad (100%) más el porcentaje que las ventas aumentarán.
+2. Calculamos las utilidades correspondientes y aplicamos los cambios en las siguientes cuentas según lo indique el plan financiero, es decir aumentamos las cuentas que nos indiquen y el resto permanecerá sin cambios.
+3. Para encontrar el porcentaje de impuestos abra que aplicar la proporción del valor de los impuestos entre el valor de la utilidad antes de impuestos.
+
+
+Veamos el ejemplo de la empresa Vectra Manufacturing tomando como referencia su estado de resultados del año 2006 para proyectar el estado de resultados del año 2007, considerando lo siguiente:
+1. Suponga que el crecimiento de las ventas tendrá un porcentaje del 35%.
+2. El costo de ventas aumentarán en la misma proporción.
+3. Gastos operativos y pago por interés también aumentarán en la misma forma.
+4. Aplique la proporción que corresponda de impuesto del 2006 e igual en el año 2007.
+5. Los dividendos pagados por Acciones no sufren ningún cambio.
+
+
+
+
 ## V.  MÉTODOS DE EVALUACION DE PROYECTOS DE INVERSIÓN
 
 ____
