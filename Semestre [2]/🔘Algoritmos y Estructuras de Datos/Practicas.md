@@ -979,6 +979,117 @@ int main (void) {
 
 Proximamente practica 10
 ``` cpp
-// Baez Pacheco Jonathan Leon
+// Baez Pacheco Jonathan Leon  
 
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
+int arr[100];
+int n = 0;
+int i = 0;
+int j = 0;
+
+int k = 0;
+int cambios = 0;
+
+int minimo = 0;
+int temp = 0;
+
+int main () {
+  srand(time(NULL));
+
+  printf("\n ===== Ordenamiento por Seleccion =====");
+  printf("\n  Cuantos numeros desea generar > ");
+  scanf("%i", &n);
+
+  printf("  ");
+  for (i=0; i<n; i++) {
+    arr[i] = rand() % 101;
+    printf(" %-3i", arr[i]);
+  }
+  printf("\n");
+
+  for (i=0; i<n; i++) {
+    cambios = 0;
+    temp = arr[i];
+    for (j=i+1; j<n; j++) {
+      if (arr[j] < temp) {
+        temp = arr[j];
+        minimo = j;
+        cambios = 1;
+      }
+    }
+
+    arr[minimo] = arr[i];
+    arr[i] = temp;
+    
+    if (cambios == 1) {
+      printf("\n  ");
+      for (k=0; k<n; k++) {
+        printf(" %-3i", arr[k]);
+      }
+    }
+  }
+}
+```
+
+### Practica 11
+
+Recorrido de Arboles Binarios
+``` cpp
+// Baez Pacheco Jonathan Leon 
+
+# include <stdio.h>
+# include <stdlib.h>
+# include <iostream>
+
+struct nodo {
+  int valor;
+  nodo *izq, *der;
+};
+
+typedef nodo *apu_nodo;
+apu_nodo raiz, aux, actual;
+
+int main () {
+  raiz = NULL;
+  aux = NULL;
+  actual = NULL;
+
+  raiz = new nodo;
+  raiz->valor = 21;
+
+  aux = new nodo;
+  aux->valor = 14;
+  aux->izq = NULL;
+  raiz->izq = aux;
+  
+  aux = new nodo;
+  aux->valor = 9;
+  raiz->der = aux;
+  
+  aux = new nodo;
+  aux->valor = 7;
+  aux->der = NULL;
+  raiz->izq->der = aux;
+  
+  aux = new nodo;
+  aux->valor = 3;
+  aux->izq = NULL;
+  aux->der = NULL;
+  raiz->der->izq = aux;
+  
+  aux = new nodo;
+  aux->valor = 6;
+  aux->izq = NULL;
+  aux->der = NULL;
+  raiz->der->der = aux;
+  
+  aux = new nodo;
+  aux->valor = 5;
+  aux->izq = NULL;
+  aux->der = NULL;
+  raiz->izq->der->izq = aux;
+}
 ```
