@@ -40,10 +40,22 @@ __Productos triples__
 
 ____
 ## II.  DERIVADAS PARCIALES
-Curvas de nivel 
-Imagen 1 y 2 variables
-Mapeos vectoriales
-Transformación de objetos Polito
+
+### Funciones Multivariables
+
+> Definition 
+> A function f of two variables is a rule that assigns to each ordered pair of real numbers (x, y) in a set D a unique real number denoted by f(x, y). The set D is the domain of f and its range is the set of values that f takes on, that is, { f (x, y) | (x, y)  D }.
+
+### Limites y Continuidad
+
+### Derivadas Parciales
+
+### Coordenadas Curvilíneas
+
+
+![[Pasted image 20250604145116.png]]
+
+### Multiplicadores de Lagrange
 
 ____
 ## III.  INTEGRALES MULTIPLES

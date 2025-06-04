@@ -298,6 +298,15 @@ _Es importante la autoestima porque_
 
 Emociones
 
+#### Quien Soy ?
+
+- Introducción (saludo y presentación: nombre completo)
+- Desarrollo (su discurso básicamente es sobre la respuesta a la pregunta ¿quién soy?)
+- Se ajusta al tiempo asignado (de 3 a 4 minutos)
+- Cierre (despedida y agradecimiento)
+
+
+
 ### Relaciones y redes
 
 ### Persuadir en influir
