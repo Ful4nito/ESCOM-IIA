@@ -53,7 +53,25 @@ ____
 ### Coordenadas Curvilíneas
 
 
-![[Pasted image 20250604145116.png]]
+![[Semestre [2]/Calculo Multivariable/Imagenes/SistemasCoordenados.png]]
+
+#### CARTESIANAS
+
+
+
+#### CILINDRICAS
+
+![[Semestre [2]/Calculo Multivariable/Imagenes/LineasCoordenadas_Cilindricas.png]]
+
+![[Semestre [2]/Calculo Multivariable/Imagenes/SuperficiesCoordenadas_Cilindricas.png]]
+
+
+#### ESFERICAS
+
+![[Semestre [2]/Calculo Multivariable/Imagenes/LineasCoordenadas_Esfericas.png]]
+
+![[Semestre [2]/Calculo Multivariable/Imagenes/SuperficiesCoordenadas_Esfericas.png]]
+
 
 ### Multiplicadores de Lagrange
 
