@@ -244,8 +244,14 @@ El doble enlace de los nodos permite recorrer la lista en cualquier dirección. 
 ____
 ## III.  ESTRUCTURAS DE DATOS NO LINEALES
 
-### Arboles Binarios
+### Arboles
+
+#### Arboles Binarios
+
+#### Arboles N-Arios
+
 ### Grafos
+
 
 ____
 ## TAREAS
@@ -283,4 +289,5 @@ Data Camp Team. (2023). **What Is an Algorithm?**. Recuperado 14 febrero 2025 de
 François Aubry. (2024). **Data Structures: A Comprehensive Guide With Python Examples**. Recuperado 14 febrero 2025 de Data Camp, [https://www.datacamp.com/tutorial/data-structures-guide-python](https://www.datacamp.com/tutorial/data-structures-guide-python)
 
 ### Tarea Exposición
+
 Representación de grafos en listas y matrices de adyacencia

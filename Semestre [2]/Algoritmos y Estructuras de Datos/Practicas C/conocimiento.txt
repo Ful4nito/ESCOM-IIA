@@ -1,0 +1,4 @@
+0.Raiz.¿Cuantas horas al dia estas fuera de casa?
+1.Menos de 7h.
+1.Entre 7h y 14h.
+1.Mas de 14h.
