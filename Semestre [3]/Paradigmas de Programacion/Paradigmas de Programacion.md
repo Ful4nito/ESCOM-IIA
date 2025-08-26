@@ -7,6 +7,7 @@ cssclasses:
 ---
 [[paradigmasProgramacion_IIA2020.pdf|Programa Sintético: 📄]]
 Profesor: 
+Alumno: Jonathan Leon Baez Pacheco - Grupo: 
 ____
 ----
 ## I. INTRODUCCIÓN A LOS LENGUAJES DE PROGRAMACIÓN Y SUS PARADIGMAS

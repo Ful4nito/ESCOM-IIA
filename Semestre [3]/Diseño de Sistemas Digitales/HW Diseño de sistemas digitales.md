@@ -1,0 +1,4 @@
+---
+cssclasses:
+  - CUADRO-GRANDE
+---
