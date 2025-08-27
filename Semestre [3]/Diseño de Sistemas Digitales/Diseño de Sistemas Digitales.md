@@ -6,15 +6,16 @@ cssclasses:
   - TECNOLOGICAS
 ---
 [[disenoSistemasDigitales_IIA2020.pdf|Programa Sintético: 📄]]
-Profesor: 
+Profesor: Carlos Lerma Magaña
+Alumno: Jonathan Leon Baez Pacheco - Grupo: 3BV1
 ____
 ____
 ## I.  REGISTROS
 
 ____
-## II.  DISEÑO DE SISTEMAAS DIGITALES
+## II.  DISEÑO DE SISTEMAS DIGITALES
 
-____
+---
 ## III.  CONTADORES
 
 ____
