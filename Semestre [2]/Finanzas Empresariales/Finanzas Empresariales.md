@@ -108,7 +108,9 @@ El _estado de situación financiero_ o balance general es un documento que prese
 
 La _situación financiera_ de la empresa se advierte por medio de la relación que hay entre los bienes y derechos que forman su activo con las obligaciones y deudas que forman su pasivo, por ello el de balance, pues hace un comparativo entre estos dos rubros.
 
-__Partes del balance__
+==Principales cuentas del estado de situación financiera== [[cuentas_del_estado_de_situación_financiera.pdf|📄]]
+
+
 
 
 ____
