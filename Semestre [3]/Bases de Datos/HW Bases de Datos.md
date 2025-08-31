@@ -4,7 +4,8 @@ cssclasses:
   - CUADRO-GRANDE
 ---
 ---
-#### Cuestionario 25 08 25
+### Cuestionario 25 08 25
+
 1. ¿Qué es un dato, qué es información y cual es la diferencia entre las dos ?
 	Un dato es hecho o un valor que puede ser de cualquier tipo y que no se relaciona de ninguna manera con otros datos
 	La Información es un conjunto de datos que se pueden interpretar, se relacionan entre si esto les da un significado.

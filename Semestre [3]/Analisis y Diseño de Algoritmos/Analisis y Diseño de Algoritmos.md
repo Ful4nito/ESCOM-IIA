@@ -4,6 +4,7 @@ tags:
   - Tecnologicas
 cssclasses:
   - TECNOLOGICAS
+  - CUADRO-CHICO
 ---
 [[analisisDisenoAlgoritmos_IIA2020.pdf|Programa Sintético: 📄]]
 Profesor: 
@@ -15,10 +16,6 @@ ____
 __Problemas computacionales__ Es lo que nos permite establecer formalmente la relación entre cada instancia del problema y su solución correspondiente.
 
 Decibilidad
-	Problemas decidibles
-		Problemas tratables
-		Problemas no tratables
-	Problemas no decididles
 
 _Problemas decidibles_ Son aquellos que se resuelven por computadora
 	_Tratables_ Una computadora los resuelve en un tiempo no muy alto On^a
