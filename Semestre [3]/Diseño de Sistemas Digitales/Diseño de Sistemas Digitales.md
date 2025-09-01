@@ -12,6 +12,12 @@ ____
 ____
 ## I.  REGISTROS
 
+### Dispositivos Lógicos Programables
+
+Diferencias con software
+Sistema secuencial
+
+
 ____
 ## II.  DISEÑO DE SISTEMAS DIGITALES
 

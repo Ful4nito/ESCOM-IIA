@@ -22,19 +22,35 @@ __25 AGOSTO 25__
 	Accesibilidad 
 	
 4. ¿Cuál es la diferencia entre un sistema de bases de datos y un sistema de gestión de bases de datos?
-
+	La base de datos es una recopilación organizada de datos e información, almacenada de forma electrónica y sistemática en un sistema informático.
+	Los SGBD es el software que administra estas bases de datos, controla el acceso, la seguridad y las consultas.
 
 5. Menciona tres posibles aplicaciones de las bases de datos, indicando como seria su uso.
-Almacenamiento de 
-
+	- __Bancos:__ Manejo de cunetas, transacciones y clientes.
+	- __Hospitales:__ Historial clinico de pacientes, citas, etc.
+	- __Comercios:__ Registro de productos, clientes, pedidos y pagos.
 
 6. Describe las características de un sistema gestor de bases de datos.
+	- Manejo de grandes volúmenes de datos
+	- Soporte para múltiples usuarios a la vez
+	- Respaldo y recuperación de datos
+	- Seguridad y control de accesos
+	- Optimización de consultas
 
-
-7. Explica brevemente los 7 problemas que se podrían presentar si no se utiliza un gestor de bases de datos.
-
+7. Explica brevemente los problemas que se podrían presentar si no se utiliza un gestor de bases de datos.
+	- Redundancia de datos, datos duplicados
+	- Inconsistencia de los datos, Información contradictoria
+	- Dificultad de acceso a los datos, el acceso seria manual
+	- Falta de integridad, datos incompletos o inválidos 
+	- Falta de seguridad, cualquiera podría acceder
+	- Problemas con el acceso concurrente, errores si varios usuarios acceden a los datos al mismo tiempo
 
 8. Describe las funciones de los cuatro grupos de usuarios de las bases de datos.
-
+	- __Usuarios finales:__ Usan la base de datos para consultar o ingresar datos.
+	- __Administradores:__ Encargados de la seguridad, mantenimiento, respaldo y rendimiento.
+	- __Diseñadores de Bases de datos__: Definen la estructura, relaciones y reglas de la base de datos.
+	- __Desarrolladores:__ Desarrollan aplicaciones y programas que hacen uso de la base de datos.
 
 9. Describe el ciclo de vida de un sistema de bases de datos.
+
+### T2
