@@ -4,7 +4,9 @@ cssclasses:
   - CUADRO-GRANDE
 ---
 ---
-### Cuestionario 25 08 25
+## Unidad I
+### Cuestionario Bases de Datos
+__25 AGOSTO 25__
 
 1. ¿Qué es un dato, qué es información y cual es la diferencia entre las dos ?
 	Un dato es hecho o un valor que puede ser de cualquier tipo y que no se relaciona de ninguna manera con otros datos
