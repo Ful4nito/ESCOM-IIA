@@ -17,6 +17,36 @@ ____
 Diferencias con software
 Sistema secuencial
 
+Arreglos de compuertas programables y fijos
+
+PLD
+    SPLD
+    CPLD
+    FPGA
+
+Principales fabricantes
+    Altera
+    Atmel
+    Laticce
+    Xilins > Altera > Vivado
+    Vatis
+    Cypress
+
+
+SPLD Reducida cantidad de macro celdas, cuando se utiliza el flipflop de la macro celda
+
+Los CPLD tienen bloques específicos de compuertas
+
+FPGA Arreglo de compuertas programables por campo, se emplea un codigo en HDL que crean hardware dentro de la FPGA.
+vhsic HDL very high speed integrated circuit
+
+| Placa       | Modelo   | Densidad de compuertas | sofware |
+| ----------- | -------- | ---------------------- | ------- |
+| Spartan II  | XC2515   | 15000                  | Cyclone |
+| Spartan IIE | XC25150E | 150000                 |         |
+| Virtex II   | XC2V8000 | 8000000                |         |
+
+
 
 ____
 ## II.  DISEÑO DE SISTEMAS DIGITALES

@@ -52,5 +52,6 @@ __25 AGOSTO 25__
 	- __Desarrolladores:__ Desarrollan aplicaciones y programas que hacen uso de la base de datos.
 
 9. Describe el ciclo de vida de un sistema de bases de datos.
+    Planificacion: Determinar ideas
 
 ### T2
