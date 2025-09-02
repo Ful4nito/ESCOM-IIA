@@ -37,7 +37,17 @@ Mejor uso de recursos
 
 Eficacia Que cumpla con el objetivo
 
+__La complejidad__ estudia como crece el coste computacional (espacio y tiempo) de resolver un problema en relación a su tamaño (tamaño de la entrada de datos "n"). Es una medición que nos ayuda a describir el comportamiento de un algoritmo en términos de tiempo de ejecución y memoria requerida.
 
+Formas de medir la complejidad
+1.  Contar el número de operaciones básicas que realiza el algoritmo.
+    - Complejidad temporal
+
+
+2. Contar la cantidad de memoria que requiere el algoritmo.
+    - Complejidad espacial
+
+Expresar la complejidad 
 
 ____
 ## II.  ESTRATEGIAS DE DISEÑO DETERMINISTAS
