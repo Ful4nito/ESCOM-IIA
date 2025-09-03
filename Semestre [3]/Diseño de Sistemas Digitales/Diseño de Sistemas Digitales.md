@@ -11,7 +11,8 @@ Alumno: Jonathan Leon Baez Pacheco - Grupo: 3BV1
 ____
 ____
 ## I.  REGISTROS
-
+---
+____
 ### Dispositivos Lógicos Programables
 
 Diferencias con software
@@ -50,13 +51,10 @@ vhsic HDL very high speed integrated circuit
 
 ____
 ## II.  DISEÑO DE SISTEMAS DIGITALES
-
 ---
 ## III.  CONTADORES
-
 ____
 ## IV.  MEMORIAS
-
 ____
 ## V.  MÁQUINA DE ESTADO ALGORÍTMICA
 

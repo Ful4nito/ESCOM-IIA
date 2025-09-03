@@ -1,7 +1,6 @@
 ---
 cssclasses:
-  - TAREAS
-  - CUADRO-GRANDE
+  - HWK
 ---
 ---
 ## Unidad I
@@ -14,20 +13,18 @@ __25 AGOSTO 25__
 	Es el resultado de 
 	 
 2. ¿Qué es una base de datos?
-	Es un conjunto de datos relacionados y almacenados de forma estructurada para que se puedan consultar, modificarse, procesarse, etc.
+	Una base de datos es una recopilación organizada de datos e información, almacenada de forma electrónica y sistemática en un sistema informático, que permite a los usuarios almacenar, gestionar, acceder y recuperar información de manera rápida y segura.
 	
 3. Explica brevemente las propiedades de una base de datos.
-	Durabilidad
-	Se evita la duplicidad de datos
-	Accesibilidad 
-	
+	Propiedades Fundamentales:
+
 4. ¿Cuál es la diferencia entre un sistema de bases de datos y un sistema de gestión de bases de datos?
 	La base de datos es una recopilación organizada de datos e información, almacenada de forma electrónica y sistemática en un sistema informático.
 	Los SGBD es el software que administra estas bases de datos, controla el acceso, la seguridad y las consultas.
 
 5. Menciona tres posibles aplicaciones de las bases de datos, indicando como seria su uso.
 	- __Bancos:__ Manejo de cunetas, transacciones y clientes.
-	- __Hospitales:__ Historial clinico de pacientes, citas, etc.
+	- __Hospitales:__ Historial clínico de pacientes, citas, etc.
 	- __Comercios:__ Registro de productos, clientes, pedidos y pagos.
 
 6. Describe las características de un sistema gestor de bases de datos.
@@ -54,4 +51,3 @@ __25 AGOSTO 25__
 9. Describe el ciclo de vida de un sistema de bases de datos.
     Planificacion: Determinar ideas
 
-### T2

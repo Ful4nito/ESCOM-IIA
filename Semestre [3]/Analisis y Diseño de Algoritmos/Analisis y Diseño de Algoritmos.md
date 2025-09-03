@@ -11,8 +11,8 @@ Profesor:
 ____
 ____
 ## I. CONTEXTUALIZACIÓN Y NOTACIONES
-
-==27 AGOSTO 2025==
+---
+~~27 AGOSTO 2025~~
 __Problemas computacionales__ Es lo que nos permite establecer formalmente la relación entre cada instancia del problema y su solución correspondiente.
 
 Decibilidad
@@ -29,31 +29,48 @@ __Problemas no computables__ No existe un algoritmo que lo resuelva
 Problema de la detención ¿Existe un algoritmo que indique que un programa cualquiera terminara o se ejecutara sin fin?
 no
 
-Multiples algoritmos que pueden resolver un problema
+Múltiples algoritmos que pueden resolver un problema
 ¿Cuál es mejor? (Eficiencia) Relacionado con el uso de recursos
 Mejor uso de recursos
-	Memoria (Espacio) Conteo simbolico en bytes
+	Memoria (Espacio) Conteo simbólico en bytes
 	Procesador (Tiempo) Contar el numero de instrucciones 
 
 Eficacia Que cumpla con el objetivo
 
-__La complejidad__ estudia como crece el coste computacional (espacio y tiempo) de resolver un problema en relación a su tamaño (tamaño de la entrada de datos "n"). Es una medición que nos ayuda a describir el comportamiento de un algoritmo en términos de tiempo de ejecución y memoria requerida.
+---
+### Tipos de complejidad
+
+~~02 SEPTIEMBRE 2025~~
+La __complejidad__ estudia como crece el coste computacional (espacio y tiempo) de resolver un problema en relación a su tamaño (tamaño de la entrada de datos "n"). Es una medición que nos ayuda a describir el comportamiento de un algoritmo en términos de tiempo de ejecución y memoria requerida.
 
 Formas de medir la complejidad
-1.  Contar el número de operaciones básicas que realiza el algoritmo.
-    - Complejidad temporal
+_Complejidad Temporal_ Contar el número de operaciones básicas que realiza el algoritmo.
+_Complejidad Espacial_ Contar la cantidad de memoria que requiere el algoritmo.
+
+__Ejemplo:__ Un algoritmo que imprima del 0 a n de uno en uno
+``` c
+# Imprimir(n)
+1	print = "Conteo"
+2	for i=0 to n
+3		print i	
+```
+
+| Instrucción      | Costo | Tiempo |     | Variable | Costo | Espacio |
+| ---------------- | ----- | ------ | --- | -------- | ----- | ------- |
+| `print="Conteo"` | C1    | 1      |     | `i`      | C1    | 1       |
+| `for i=0 to n-1` | C2    | n+2    |     | `n`      | C2    | 1       |
+| `print i`        | C3    | n+1    |     |          |       |         |
+|                  |       |        |     |          |       |         |
 
 
-2. Contar la cantidad de memoria que requiere el algoritmo.
-    - Complejidad espacial
+### Notación asintótica
 
-Expresar la complejidad 
+
 
 ____
 ## II.  ESTRATEGIAS DE DISEÑO DETERMINISTAS
-
 ____
 ## III.  ESTRATEGIAS DE DISEÑO NO DETERMINISTAS
-
 ____
 ## IV.  INTRODUCCIÓN A LA TEORÍA DE LA COMPLEJIDAD 
+---
