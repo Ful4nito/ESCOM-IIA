@@ -4,8 +4,9 @@ cssclasses:
 ---
 --- 
 ## Complejidad Temporal y Espacial
-
+---
 ~~02 SEPTIEMBRE 2025~~
+
 ``` c
 # Promedio(numeros,n)
 1	suma = 0
@@ -55,27 +56,26 @@ cssclasses:
 | `i+=3`        | C4    | ⌊(n+2)/3⌋ |           |     |          |       |         |
 | `while(i<=n)` | C5    | ⌊(n+2)/3⌋ |           |     |          |       |         |
 
-
+---
 ~~04 SEPTIEMBRE 2025~~
+
 ``` C
-# Funcion(n)
+# Funcion1(n)
 1 for i=1 to n
 2   for j=0 to n
 3   k = i+j
 4   print i,"+",j,"=",k
 ```
 
-
-| Instrucción | Costo | Tiempo | Corregido |     | Variable | Costo | Espacio |
-| ----------- | ----- | ------ | --------- | --- | -------- | ----- | ------- |
-|             |       |        |           |     |          |       |         |
-|             |       |        |           |     |          |       |         |
-|             |       |        |           |     |          |       |         |
-|             |       |        |           |     |          |       |         |
-
+| Instrucción            | Costo | Tiempo | Corregido |     | Variable | Costo | Espacio |
+| ---------------------- | ----- | ------ | --------- | --- | -------- | ----- | ------- |
+| `for i=1 to n`         |       |        |           |     | `i`      |       |         |
+| `for j=0 to n`         |       |        |           |     | `j`      |       |         |
+| `k = i+j`              |       |        |           |     | `k`      |       |         |
+| `print(i,"+",j,"=",k)` |       |        |           |     | `n`      |       |         |
 
 ``` C
-# Función(n)
+# Función2(n)
 1 i = 1
 2 do
 3   for j=1 to n
@@ -84,14 +84,14 @@ cssclasses:
 6 while(i<=10)
 ```
 
-
-| Instrucción | Costo | Tiempo | Corregido |     | Variable | Costo | Espacio |
-| ----------- | ----- | ------ | --------- | --- | -------- | ----- | ------- |
-|             |       |        |           |     |          |       |         |
-|             |       |        |           |     |          |       |         |
-|             |       |        |           |     |          |       |         |
-|             |       |        |           |     |          |       |         |
-
+| Instrucción              | Costo | Tiempo | Corregido |     | Variable | Costo | Espacio |
+| ------------------------ | ----- | ------ | --------- | --- | -------- | ----- | ------- |
+| `i = 1`                  |       |        |           |     | `i`      |       |         |
+| `do`                     |       |        |           |     | `j`      |       |         |
+| `for j=1 to n`           |       |        |           |     | `n`      |       |         |
+| `print(i,"x",j,"=",i*j)` |       |        |           |     |          |       |         |
+| `i++`                    |       |        |           |     |          |       |         |
+| `while(i<=10)`           |       |        |           |     |          |       |         |
 
 ``` C
 # Función3(arreglo_a,arreglo_b,n)
@@ -103,5 +103,15 @@ cssclasses:
 6       break
 7     j--
 8   i++
-
 ```
+
+| Instrucción   | Costo | Tiempo | Corregido |     | Variable | Costo | Espacio |
+| ------------- | ----- | ------ | --------- | --- | -------- | ----- | ------- |
+| `i = 0`       |       |        |           |     | `i`      |       |         |
+| `while(i<n)`  |       |        |           |     | `j`      |       |         |
+| `j = n-1`     |       |        |           |     | `n`      |       |         |
+| `while(j>=0)` |       |        |           |     |          |       |         |
+| `if(j<=n/2)`  |       |        |           |     |          |       |         |
+| `break`       |       |        |           |     |          |       |         |
+| `j--`         |       |        |           |     |          |       |         |
+| `i++`         |       |        |           |     |          |       |         |
