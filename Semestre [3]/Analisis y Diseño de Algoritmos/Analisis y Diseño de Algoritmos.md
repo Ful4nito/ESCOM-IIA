@@ -60,7 +60,6 @@ __Ejemplo:__ Un algoritmo que imprima del 0 a n de uno en uno
 | `print="Conteo"` | C1    | 1      |     | `i`      | C1    | 1       |
 | `for i=0 to n-1` | C2    | n+2    |     | `n`      | C2    | 1       |
 | `print i`        | C3    | n+1    |     |          |       |         |
-|                  |       |        |     |          |       |         |
 
 
 ### Notación asintótica
