@@ -43,8 +43,9 @@ __25 AGOSTO 25__
 	- Problemas con el acceso concurrente, errores si varios usuarios acceden a los datos al mismo tiempo
 
 8. Describe las funciones de los cuatro grupos de usuarios de las bases de datos.
+	1 __Administradores:__ Encargados de la seguridad, mantenimiento, respaldo y rendimiento.
 	- __Usuarios finales:__ Usan la base de datos para consultar o ingresar datos.
-	- __Administradores:__ Encargados de la seguridad, mantenimiento, respaldo y rendimiento.
+	
 	- __Diseñadores de Bases de datos__: Definen la estructura, relaciones y reglas de la base de datos.
 	- __Desarrolladores:__ Desarrollan aplicaciones y programas que hacen uso de la base de datos.
 

@@ -26,7 +26,32 @@ SBD Es una serie de registros para maneajr grandes volumenes de informacion, sin
 | 1 caracter delimitador ,        |                                |
 |                                 |                                |
 
+#### Grupos de Usuarios BD
 
+__ADMIN__
+1. Coordinar y vigilar el acceso a la base de datos
+2. La seguridad y situaciones relacionadas
+3. Adquirir recursos necesarios de Hardware y software
+4. Diseño físico de la base de datos y su implementación
+5. Implementar mecanismos de concurrencia
+6. Respaldo y recuperación de la BD
+7. Del desempeño del sistema
+
+__DISEÑADORES__
+1. Realizar el diseño de la base de datos
+2. Deben tener un profundo conocimiento de los datos de la empresa y son reglas de negocio. Las cuales describen las características principales de los datos de la forma en que la requiere el cliente
+
+__DEVS__
+Ingenieros programadores de aplicaciones que sirven a los usuarios finales. los cuales a su vez son los que permiten consultar datos, insertarlos, actualizarlos y eliminarlos.
+
+__USUARIOS FINALES__
+Son los que requieren acceso a la base de para realizar consultas, actualizaciones e informes, a su vez se dividen en otras categorías
+1. Usuarios comunes Acceden ocacionalmente a la BD 
+2. Principiantes o paramétricos, 
+3. Sofisticados Inges, cientificos, analistas
+4. Independientes Mantienen BD personales utilizando programas que proporcionan interfaces
+
+#### Ciclo de vida de sistemas
 
 ____
 ## II.  MODELADO DE BASES DE DATOS
