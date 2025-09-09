@@ -131,14 +131,16 @@ Algoritmo1(s[n],s2[n],n)
 6     s[k]=s2[k]
 ```
 
-| Instrucción      | Costo | Tiempo |     | Variable | Costo | Espacio |
-| ---------------- | :---: | :----: | :-: | :------: | :---: | :-----: |
-| `i=n-1`          |  C1   |        |     |   `i`    |  C1   |    1    |
-| `for j=0 to n-1` |  C2   |        |     |   `j`    |  C2   |    1    |
-| `s2[j]=s[i]`     |  C3   |        |     |   `k`    |  C3   |    1    |
-| `i--`            |  C4   |        |     |   `s2`   |  C4   |    n    |
-| `for k=0 to n-1` |  C5   |        |     |   `s`    |  C5   |    n    |
-| `s[k]=s2[k]`     |  C6   |        |     |   `n`    |  C6   |    1    |
+| Instrucción      | Costo |  Tiempo  |     | Variable | Costo | Espacio |
+| ---------------- | :---: | :------: | :-: | :------: | :---: | :-----: |
+| `i=n-1`          |  C1   |   $1$    |     |   `i`    |  C1   |   $1$   |
+| `for j=0 to n-1` |  C2   |  $n-1$   |     |   `j`    |  C2   |   $1$   |
+| `s2[j]=s[i]`     |  C3   |   $n$    |     |   `k`    |  C3   |   $1$   |
+| `i--`            |  C4   |   $n$    |     |   `s2`   |  C4   |   $1$   |
+| `for k=0 to n-1` |  C5   | $n(n-1)$ |     |   `s`    |  C5   |   $1$   |
+| `s[k]=s2[k]`     |  C6   |  $n^2$   |     |   `n`    |  C6   |   $1$   |
+$Algoritmo1 = 1+(n-1)+n+n+n(n-1)+n^2$
+
 
 ``` C
 # Algoritmo2(A[n][n],n) 
@@ -150,14 +152,14 @@ Algoritmo1(s[n],s2[n],n)
 6 while(j<n)
 ```
 
-| Instrucción   | Costo | Tiempo |     | Variable | Costo | Espacio |
-| ------------- | :---: | :----: | :-: | :------: | :---: | :-----: |
-| `m=1`         |  C1   |        |     |   `m`    |  C1   |    1    |
-| `j=1`         |  C2   |        |     |   `j`    |  C2   |    1    |
-| `do`          |  C3   |        |     |   `n`    |  C3   |    1    |
-| `m=m*A[j][j]` |  C4   |        |     |   `A`    |  C4   |  $n^2$  |
-| `j++`         |  C5   |        |     |          |       |         |
-| `while(j<n)`  |  C6   |        |     |          |       |         |
+| Instrucción   | Costo | Tiempo |     | Variable  | Costo | Espacio |
+| ------------- | :---: | :----: | :-: | :-------: | :---: | :-----: |
+| `m=1`         |  C1   |  $1$   |     |    `m`    |  C1   |   $1$   |
+| `j=1`         |  C2   |  $1$   |     |    `j`    |  C2   |   $1$   |
+| `do`          |  C3   | $n-1$  |     |    `n`    |  C3   |   $1$   |
+| `m=m*A[j][j]` |  C4   |  $n$   |     | `A[n][n]` |  C4   |  $n^2$  |
+| `j++`         |  C5   |  $n$   |     |           |       |         |
+| `while(j<n)`  |  C6   |  $n$   |     |           |       |         |
 
 ``` C
 # Algoritmo3(n) 
@@ -245,5 +247,5 @@ Algoritmo1(s[n],s2[n],n)
 | `C[i][j] = 0`                         |  C3   |        |     |   `k`    |  C3   |    1    |
 | `for k = 0 to n-1`                    |  C4   |        |     |   `n`    |  C4   |    1    |
 | `C[i][j] = C[i][j] + A[i][k]*B[k][j]` |  C5   |        |     |   `C`    |  C5   |  $n^2$  |
-|                                       |       |        |     |   `A`    |       |  $n^2$  |
-|                                       |       |        |     |   `B`    |       |  $n^2$  |
+|                                       |       |        |     |   `A`    |  C6   |  $n^2$  |
+|                                       |       |        |     |   `B`    |  C7   |  $n^2$  |

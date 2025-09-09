@@ -41,7 +41,7 @@ Materiales:
 - [x] 1 Regulador LM317
 - [x] 1 Regulador 7805
 - [x] 1 Placa Fenólica 150 x 75 mm
-- [ ] 2 Disipadores para TO-220 1/2
+- [x] 2 Disipadores para TO-220 1/2
 - [x] 2 Bloque terminal de 2 polos
 - [ ] Caja para encapsular la fuente
 
