@@ -7,7 +7,7 @@ cssclasses:
   - CUADRO-CHICO
 ---
 [[analisisDisenoAlgoritmos_IIA2020.pdf|Programa Sintético: 📄]]
-Profesor: 
+Profesor: Ana Belem 
 ____
 ____
 ## I. CONTEXTUALIZACIÓN Y NOTACIONES
@@ -61,7 +61,7 @@ __Ejemplo:__ Un algoritmo que imprima del 0 a n de uno en uno
 | `for i=0 to n-1` | C2    | n+2    |     | `n`      | C2    | 1       |
 | `print i`        | C3    | n+1    |     |          |       |         |
 
-
+#### Mejor e
 ### Notación asintótica
 
 
