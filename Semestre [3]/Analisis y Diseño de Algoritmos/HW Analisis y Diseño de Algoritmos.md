@@ -124,8 +124,6 @@ cssclasses:
 
 #### Algoritmo 1
 
-$Algoritmo1 = 1+(n-1)+n+n+n(n-1)+n^2$
-
 ``` C
 Algoritmo1(S[n],S2[n],n) 
 1 i=n-1 
@@ -225,7 +223,7 @@ Algoritmo1(S[n],S2[n],n)
 ``` C
 # Algoritmo6(n) 
 1 v=1 
-2 while(n>3) 
+2 while(n>3)
 3   v=v*n 
 4   n--
 ```

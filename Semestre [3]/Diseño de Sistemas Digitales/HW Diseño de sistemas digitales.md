@@ -7,16 +7,16 @@ cssclasses:
 __ENTREGA: 30 AGOSTO 25__
 
 Realizar una breve investigación acerca de las tarjetas Raspberry.  
-Características:  
-- Individual 
-- 2 a 4 cuartillas  
-- Colocar imágenes relacionadas con el escrito.  
-- Arial 12 puntos, justificado.  
-- Referencias en formato IEEE.  
+Características:
+- Individual
+- 2 a 4 cuartillas
+- Colocar imágenes relacionadas con el escrito.
+- Arial 12 puntos, justificado.
+- Referencias en formato IEEE.
 - Carátula con todos sus datos.
 
 [[Investigacion Raspberry.pdf|Investigación RaspBerry 📄]]
-## Practica: Fuente de poder
+## Practica Fuente de poder
 __ENTREGA: 20 SEPTIEMBRE 2025__
 
 Armar una fuente de Alimentación fija de 5V y variable de 1.25V  a 12V CD
@@ -25,8 +25,8 @@ Materiales:
 - [ ] 1 Clavija de corriente
 - [ ] 2 Metros de cable doble polo 14AWG
 - [x] 1 Interruptor
-- [ ] 2 Porta fusible 1/2
-- [ ] 1 Fusible 1A
+- [x] 2 Porta fusible
+- [x] 1 Fusible 1A
 - [x] 1 Fusible 3A
 - [x] 1 Transformador 12V 3A
 - [ ] 4 Diodos rectificadores 1N5404 ó 1 Puente de diodos 6A
@@ -41,7 +41,7 @@ Materiales:
 - [x] 1 Regulador LM317
 - [x] 1 Regulador 7805
 - [x] 1 Placa Fenólica 150 x 75 mm
-- [x] 2 Disipadores para TO-220 1/2
+- [x] 2 Disipadores para TO-220
 - [x] 2 Bloque terminal de 2 polos
 - [ ] Caja para encapsular la fuente
 
