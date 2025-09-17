@@ -110,3 +110,52 @@ __09 SEPTIEMBRE 25__
 | Calculo de totales de ventas                                         |      Servidor      |
 | Obtención de información acerca del total de clientes por delegación |      Servidor      |
 | Llenado de la forma de alta de un cliente                            |      Cliente       |
+
+### PL1 Scripts BD
+
+#### Ejercicio_1 Escuela
+``` sql
+-- Baez Pacheco Jonathan Leon
+-- EJERCICIO 1 : Escuela
+
+create table profesor (
+	nombre varchar(50),
+	fecha_nacimiento date,
+	fecha_ingreso date,
+	salario float
+);
+
+create table salones (
+	codigo int,
+	descripcion varchar(200)
+);
+
+create table alumnos (
+	nombre varchar(50),
+	fecha_nacimiento date,
+	promedio float
+);
+```
+
+#### Ejercicio_2 Taller Mecanico
+``` SQL
+-- Baez Pacheco Jonathan Leon
+-- EJERCICIO 2 : Taller Mecanico
+
+create table colaborador (
+	nombre varchar(50),
+	fecha_ingreso date,
+);
+
+create table refaccion (
+	nombre varchar(50),
+	fecha_llegada date,
+	fin_garantia date
+);
+
+create table auto (
+	marca varchar(30),
+	modelo varchar(20),
+	fallas varchar(250),
+);
+```

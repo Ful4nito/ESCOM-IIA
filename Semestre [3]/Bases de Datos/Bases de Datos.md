@@ -53,6 +53,35 @@ Son los que requieren acceso a la base de para realizar consultas, actualizacion
 
 #### Ciclo de vida de sistemas
 
+__Tablas__
+Tablas necesarias para BD Tienda de electronicos
+
+| Producto      | Ventas      | Cliente            |
+| ------------- | ----------- | ------------------ |
+| ID producto   | ID venta    | ID cliente         |
+| Nombre        | ID producto | Nombre             |
+| Precio compra | Medio pago  |                    |
+| Precio venta  | Fecha       |                    |
+| Distribuidor  | ID cliente  | Fecha registro     |
+| Marca         | Cantidad    | Fecha nacimiento   |
+| Descripcion   |             | Telefono           |
+| N serie       |             | RFC                |
+| Codigo barras |             | Correo electronico |
+| Existencia    |             | Pais               |
+| Descuento     |             | Estado             |
+| Tipo Producto |             | Municipio          |
+|               |             | Colonia            |
+|               |             | N interior         |
+|               |             | N exterior         |
+|               |             | Codigo postal      |
+|               |             | Credito            |
+|               |             | Deuda              |
+
+
+
+
+
+
 ____
 ## II.  MODELADO DE BASES DE DATOS
 ____

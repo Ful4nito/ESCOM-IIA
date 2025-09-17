@@ -1,0 +1,20 @@
+-- Baez Pacheco Jonathan Leon
+-- EJERCICIO 1 : Escuela
+
+create table profesor (
+	nombre varchar(50),
+	fecha_nacimiento date,
+	fecha_ingreso date,
+	salario float
+);
+
+create table salones (
+	codigo int,
+	descripcion varchar(200)
+);
+
+create table alumnos (
+	nombre varchar(50),
+	fecha_nacimiento date,
+	promedio float
+);

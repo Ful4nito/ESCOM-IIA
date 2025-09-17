@@ -1,0 +1,19 @@
+-- Baez Pacheco Jonathan Leon
+-- EJERCICIO 2 : Taller Mecanico
+
+create table colaborador (
+	nombre varchar(50),
+	fecha_ingreso date,
+);
+
+create table refaccion (
+	nombre varchar(50),
+	fecha_llegada date,
+	fin_garantia date
+);
+
+create table auto (
+	marca varchar(30),
+	modelo varchar(20),
+	fallas varchar(250),
+);
