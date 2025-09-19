@@ -159,3 +159,57 @@ create table auto (
 	fallas varchar(250),
 );
 ```
+
+### Tienda Electronicos
+``` sql
+CREATE TABLE PRODUCTO(
+	IdProducto INT,
+	Nombre VARCHAR(50),
+	PrecioCompra NUMERIC(10,2),
+	PrecioSugerido NUMERIC(10,2),
+	IdProveedor INT,
+	Descripcion VARCHAR(250),
+	CodigoBarras INT,
+	Existencia INT
+);
+
+CREATE TABLE PROVEEDOR(
+	IdProveedor INT,
+	Nombre VARCHAR(50)
+);
+
+CREATE TABLE VENTA(
+	IdVenta INT,
+	Fecha TIMESTAMP
+);
+
+CREATE TABLE PRODUCTOVENDIDO(
+	IdProductovendido INT,
+	IdProducto INT,
+	Cantidad INT,
+	IdVenta INT,
+	PrecioVenta NUMERIC(10,2)
+);
+
+CREATE TABLE CLIENTE(
+	IdCliente INT,
+	Nombre VARCHAR(40),
+	ApellidoP VARCHAR(20),
+	ApellidoM VARCHAR(20),
+	FechaRegistro DATE,
+	FechaNacimiento DATE,
+	Telefono INT,
+	RFC VARCHAR(13),
+	CorreoElectronico VARCHAR(50),
+	Pais VARCHAR(25),
+	Estado VARCHAR(25),
+	Municipio VARCHAR(25),
+	Colonia VARCHAR(25),
+	Calle VARCHAR(25),
+	NumeroI INT,
+	NumeroE INT,
+	CodigoPostal INT,
+	Credito NUMERIC(10,2),
+	Deuda NUMERIC(10,2)
+);
+```
