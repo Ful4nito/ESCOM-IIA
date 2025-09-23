@@ -49,6 +49,13 @@ vhsic HDL very high speed integrated circuit
 
 ### Tema2
 
+
+Funcional. if else
+
+Flujo de datos. when else
+
+Estructural. circuitos
+
 ____
 ## II.  DISEÑO DE SISTEMAS DIGITALES
 ---
