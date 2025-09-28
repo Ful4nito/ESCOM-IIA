@@ -22,14 +22,14 @@ __ENTREGA: 20 SEPTIEMBRE 2025__
 Armar una fuente de Alimentación fija de 5V y variable de 1.25V  a 12V CD
 
 Materiales:
-- [ ] 1 Clavija de corriente
-- [ ] 2 Metros de cable doble polo 14AWG
+- [x] 1 Clavija de corriente
+- [x] 2 Metros de cable doble polo 14AWG
 - [x] 1 Interruptor
 - [x] 2 Porta fusible
 - [x] 1 Fusible 1A
 - [x] 1 Fusible 3A
 - [x] 1 Transformador 12V 3A
-- [ ] 4 Diodos rectificadores 1N5404 ó 1 Puente de diodos 6A
+- [x] 4 Diodos rectificadores 1N5404 ó 1 Puente de diodos 6A
 - [x] 2 Diodos rectificadores 1N4007
 - [x] 1 Capacitor Electrolítico 2200uF 25V
 - [x] 1 Capacitor Electrolítico 10uF 50V

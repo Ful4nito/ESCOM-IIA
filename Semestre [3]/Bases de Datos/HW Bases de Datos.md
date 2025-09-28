@@ -65,6 +65,7 @@ __07 SEPTIEMBRE 25__
     - __Evolución__
     - __Retiro__
 
+
 ### Cuestionario Modelo de Datos
 __09 SEPTIEMBRE 25__
 
@@ -111,80 +112,180 @@ __09 SEPTIEMBRE 25__
 | Obtención de información acerca del total de clientes por delegación |      Servidor      |
 | Llenado de la forma de alta de un cliente                            |      Cliente       |
 
-### PL1 Scripts BD
 
-#### Ejercicio_1 Escuela
+
+### Practica Laboratorio 1
+
+[[01E Creacion, modificacion y borrado de tablas|EXPLICACION]]
+[[01T Ejercicios Creacion, modificacion y borrado de tablas|INSTRUCCIONES]]
+
+___Ejercicio 1_ BD ESCUELA__
 ``` sql
--- Baez Pacheco Jonathan Leon
--- EJERCICIO 1 : Escuela
-
-create table profesor (
-	nombre varchar(50),
-	fecha_nacimiento date,
-	fecha_ingreso date,
-	salario float
+CREATE TABLE profesores (
+	Nombre VARCHAR(50),
+	FechaNacimiento DATE,
+	FechaIngreso DATE,
+	Salario NUMERIC(10,2)
 );
 
-create table salones (
-	codigo int,
-	descripcion varchar(200)
+CREATE TABLE salon (
+	Codigo INT,
+	Descripcion VARCHAR(200)
 );
 
-create table alumnos (
-	nombre varchar(50),
-	fecha_nacimiento date,
-	promedio float
+CREATE TABLE alumno (
+	Nombre VARCHAR(50),
+	FechaNacimiento DATE,
+	Promedio NUMERIC(4,2)
 );
 ```
 
-#### Ejercicio_2 Taller Mecanico
+___Ejercicio 2_ BD TALLER MECANICO__
 ``` SQL
--- Baez Pacheco Jonathan Leon
--- EJERCICIO 2 : Taller Mecanico
-
-create table colaborador (
-	nombre varchar(50),
-	fecha_ingreso date,
+CREATE TABLE colaboradores (
+	Nombre VARCHAR(50),
+	FechaIngreso DATE
 );
 
-create table refaccion (
-	nombre varchar(50),
-	fecha_llegada date,
-	fin_garantia date
+CREATE TABLE refaccion (
+	Nombre VARCHAR(50),
+	FechaLlegada DATE,
+	FinGarantia DATE
 );
 
-create table auto (
-	marca varchar(30),
-	modelo varchar(20),
-	fallas varchar(250),
+CREATE TABLE auto (
+	Marca VARCHAR(30),
+	Modelo VARCHAR(20),
+	Fallas VARCHAR(250)
 );
 ```
 
-### Tienda Electronicos
+### Practica Laboratorio 2
+
+[[02T Insercion, modificacion y eliminacion de datos|EXPLICACION]]
+[[02E Ejercicios Insercion, modificacion y eliminacion de datos|INSTRUCCIONES]]
+
+___Ejercicio 1_ TABLA ALUMNOS__
+```sql
+-- [A] DAR DE ALTA 3 ALUMNOS
+INSERT INTO Alumnos (IdAlumno, Nombre, ApPaterno, ApMaterno, Promedio, FechaIngreso)
+	VALUES  (2010300294, 'Jenipher', 'Garcia', 'Montez', 10, '2010 02 02'),
+			(2012309276, 'Brandon', 'Garcia', 'Ruiz', 9, '2011 08 05'),
+			(2025301892, 'Brenda', 'Alcantara', 'Lopez', 8.2, '2025 01 05');
+	
+-- [B] MODIFICA LA CALIFICACION DE 2 ALUMNOS
+UPDATE Alumnos
+	SET Promedio = 9.1
+	WHERE IdAlumno = 2010850294; -- Jenipher
+
+UPDATE Alumnos
+	SET Promedio = 7.3
+	WHERE IdAlumno = 2012301892; -- Brenda
+
+-- [C] MODIFICA LA FECHA DE INGRESO DE 2 ALUMNOS
+UPDATE Alumnos
+	SET FechaIngreso =  '2026 08 17'
+	WHERE IdAlumno = 2012309276; -- Brandon
+	
+UPDATE Alumnos
+	SET FechaIngreso = '2007 08 14'
+	WHERE IdAlumno = 2010300294; -- Jenifer
+
+-- [D] ELIMINA A UNO DE LOS ALUMNOS
+DELETE FROM Alumnos
+	WHERE IdAlumno = 2025301892; -- Brenda
+```
+
+___Ejercicio 2_ TABLA AUTO__
+modelo, marca, color y placas. 
+```sql
+-- [A] DA DE ALTA 4 AUTOS DIFERENTES
+INSERT INTO Auto (Modelo, Marca, Color, Placa)
+	VALUES  ('Camry', 'Toyota', 'Gris', 'MKR-048-A'),
+			('93', 'Saab', 'Gris', 'IDL-953-F'),
+			('M4', 'BMW', 'Azul', 'MLS-191-C'),
+			('Tiguan', 'VolksWagen', 'Blanco', 'XPV-381-B');
+	
+-- [B] MODIFICA EL COLOR DE UNO DE LOS CARROS REGISTRADOS
+UPDATE Auto
+	SET Color = 'Negro'
+	WHERE Modelo = '93';
+
+-- [C] ELIMINAR 2 CARROS
+DELETE FROM Auto
+	WHERE Placa = 'MKR-048-A';
+	
+DELETE FROM Auto
+	WHERE Placa = 'IDL-953-F';
+
+```
+
+___Ejercicio 3_ TABLA MATERIA__
+3. Suponga una tabla llamada Materia, con los datos de IdMateria, Nombre, Nivel y Cr�ditos
+
+  A. Registra a las materias de: matem�ticas, f�sica y qu�mica, las primeras dos del primer nivel con 8 cr�ditos cada una y la ultima del segundo nivel con 10 cr�ditos  da de alta 3 materias diferentes y elimina 2 materias.
+  B. A las materias de primer nivel actualiza el numero de cr�ditos a 8.5
+  C. Elimina las materias del primer nivel.
+  D. Agrega la materia de Calculo del tercer nivel con 10 cr�ditos
+```sql
+-- [A] REGISTRAR MATERIAS Y ELIMINAR
+INSERT INTO Materia (IdMateria, Nombre, Nivel, Creditos)
+	VALUES  ('B101', 'Matematicas', '1', 8),
+			('B102', 'Fisica', '1', 8),
+			('B103', 'Español', '1', 8),
+			('B201', 'Quimica', '2', 10),
+			('B202', 'Ingles', '2', 10),
+			('B203', 'Programacion', '2', 10);
+
+
+DELETE FROM Materia
+	WHERE Materia = 'Ingles';
+	
+DELETE FROM Materia
+	WHERE Materia = 'Quimica';
+
+-- [B] ACTUALIZAR CREDITOS DE MATERIAS DE PRIMER NIVEL
+UPDATE Materia
+	SET Creditos = 8.5
+	WHERE Nivel = '1';
+	
+-- [C] ELIMINAR MATERIAS DE PRIMER NIVEL
+DELETE FROM Materia
+	WHERE Nivel = '1';
+
+-- [D] AGREGAR MATERIA DE TERCER NIVEL
+INSERT INTO Materia (IdMateria, Nombre, Nivel, Creditos)
+	VALUES ('B301', 'Calculo', '3', 10);
+```
+
+___Ejercicio 4_ TIENDA__
 ``` sql
+-- BASE DE DATOS TIENDA
 CREATE TABLE PRODUCTO(
-	IdProducto INT,
+	IdProducto SERIAL PRIMARY KEY,
+	IdProveedor INT,
 	Nombre VARCHAR(50),
 	PrecioCompra NUMERIC(10,2),
 	PrecioSugerido NUMERIC(10,2),
-	IdProveedor INT,
-	Descripcion VARCHAR(250),
-	CodigoBarras INT,
+	PrecioMinimo NUMERIC(10,2),
+	Descripcion VARCHAR(400),
+	CodigoBarras VARCHAR(20),
 	Existencia INT
 );
 
 CREATE TABLE PROVEEDOR(
-	IdProveedor INT,
+	IdProveedor SERIAL PRIMARY KEY,
 	Nombre VARCHAR(50)
 );
 
 CREATE TABLE VENTA(
-	IdVenta INT,
-	Fecha TIMESTAMP
+	IdVenta SERIAL PRIMARY KEY,
+	IdCliente INT,
+	Fecha TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
 CREATE TABLE PRODUCTOVENDIDO(
-	IdProductovendido INT,
+	IdProductoVendido SERIAL PRIMARY KEY,
 	IdProducto INT,
 	Cantidad INT,
 	IdVenta INT,
@@ -192,24 +293,202 @@ CREATE TABLE PRODUCTOVENDIDO(
 );
 
 CREATE TABLE CLIENTE(
-	IdCliente INT,
+	IdCliente SERIAL PRIMARY KEY,
 	Nombre VARCHAR(40),
-	ApellidoP VARCHAR(20),
-	ApellidoM VARCHAR(20),
-	FechaRegistro DATE,
+	ApellidoP VARCHAR(30),
+	ApellidoM VARCHAR(30),
+	FechaRegistro TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
 	FechaNacimiento DATE,
-	Telefono INT,
-	RFC VARCHAR(13),
-	CorreoElectronico VARCHAR(50),
-	Pais VARCHAR(25),
-	Estado VARCHAR(25),
-	Municipio VARCHAR(25),
-	Colonia VARCHAR(25),
-	Calle VARCHAR(25),
-	NumeroI INT,
-	NumeroE INT,
-	CodigoPostal INT,
+	Telefono VARCHAR(15),
+	RFC CHAR(13),
+	CorreoElectronico VARCHAR(100),
+	Pais VARCHAR(50),
+	Estado VARCHAR(50),
+	Alcaldia VARCHAR(50),
+	Colonia VARCHAR(50),
+	Calle VARCHAR(50),
+	NumeroI VARCHAR(10),
+	NumeroE VARCHAR(10),
+	CodigoPostal CHAR(5),
 	Credito NUMERIC(10,2),
 	Deuda NUMERIC(10,2)
 );
+
+-- [A] REGISTRAR A 10 CLIENTES
+INSERT INTO CLIENTE (IdCliente, Nombre, ApellidoM, ApellidoP, FechaRegistro, FechaNacimiento, Telefono, RFC, CorreoElectronico, Pais, Estado, Alcaldia)
+	VALUES 
+(1, 'Jose', 'Alvarado', 'Gonzales', CURRENT_TIMESTAMP, '1992-04-23', '5532782945', 'ALGJ920423CJ6', 'jose8374@gmail.com', 'Mexico', 'CDMX', 'Gustavo A. Madero'),
+(2, 'Carlos', 'López', 'Ramírez', CURRENT_TIMESTAMP, '1990-05-14', '5512345678', 'LORC900514HDF', 'carlos.lopez@gmail.com', 'México', 'CDMX', 'Iztapalapa'),
+(3, 'Ana', 'Martínez', 'Hernández',	CURRENT_TIMESTAMP, '1987-08-22', '5523456789', 'MAHA87082298B', 'ana.martinez@outlook.com', 'México', 'CDMX', 'Benito Juárez'),
+(4, 'Alfonso', 'Sánchez', 'Gómez', CURRENT_TIMESTAMP, '1995-11-02', '5534567890', 'SAGB951102356', 'brandon.sanchez@outlook.com', 'México', 'Edomex', 'Naucalpan'),
+(5, 'Jenifer', 'García', 'Torres', CURRENT_TIMESTAMP, '1992-01-19', '5545678901', 'GATJ920119C04', 'jenifer.garcia@outlook.com', 'México', 'CDMX', 'Coyoacán'),
+(6, 'Luis', 'Pérez', 'Domínguez', CURRENT_TIMESTAMP, '1985-07-30', '5556789012', 'PEDL850730N8W', 'luis.perez@gmail.com', 'México', 'Puebla', 'Puebla Centro'),
+(7, 'Martha', 'Flores', 'Vega', CURRENT_TIMESTAMP, '1998-03-25', '5567890123', 'FOVM980325BUN', 'martha.flores@outlook.com', 'México', 'CDMX', 'Álvaro Obregón'),
+(8, 'Jorge', 'Ruiz', 'Castillo', CURRENT_TIMESTAMP, '1993-09-10', '5578901234', 'RUJC93091035N', 'jorge.ruiz@gmail.com', 'México', 'Jalisco', 'Guadalajara'),
+(9, 'Sofía', 'Ramírez', 'Morales', CURRENT_TIMESTAMP, '2000-12-05', '5589012345', 'RASM001205MDF', 'sofia.ramirez@gmail.com', 'México', 'Nuevo León', 'Monterrey'),
+(10, 'Melanie', 'Bautista', 'Alcantara', CURRENT_TIMESTAMP, '1984-12-06', '5523983940', 'BAAM841206I64', 'melanie25.d@outlook.com', 'Mexico', 'Hidalgo', 'Pachuca de Soto');
+	
+-- [B] REGISTRAR PROVEEDORES
+INSERT INTO PROVEEDOR (IdProveedor, Nombre)
+	VALUES  (1, 'LG'),
+			(2, 'Yamaha'),
+			(3, 'Samsung'),
+			(4, 'Sony'),
+			(5, 'Dell'),
+			(6, 'HP');
+			
+-- [C] REGISTRAR PRODUCTOS
+INSERT INTO PRODUCTO (Idproducto, IdProveedor, Nombre, Existencia, PrecioSugerido, PrecioMinimo, PrecioCompra)
+	VALUES  (1, 1, 'Tele', 30, 5000,4000, 3000),
+			(2, 1, 'DVD', 20, 1500, 1000, 900),
+			(3, 1, 'Celular', 3, 2000,2000, 1200),
+			(4, 2, 'Pantalla', 5, 15000,14000, 10000),
+			(5, 2, 'BlueRay', 10, 5500,5300, 5000),
+			(6, 3, 'Mp3 Player', 13, 900, 900, 500),
+			(7, NULL, 'Compu', 15, 19000, 17000, 115000);
+			
+-- [D] REGISTRAR LAS VENTAS
+-- VENTA 1
+INSERT INTO VENTA (IdVenta, IdCliente, Fecha)
+	VALUES (1, 2, '2020/09/15 14:37:26');
+
+INSERT INTO PRODUCTOVENDIDO (IdProductoVendido, IdProducto, Cantidad, IdVenta, PrecioVenta)
+	VALUES  (1, 3, 2, 1, 2000),
+			(2, 6, 1, 1, 900),
+			(3, 5, 3, 1, 5500);
+
+-- VENTA 2  
+INSERT INTO VENTA (IdVenta, IdCliente, Fecha)
+	VALUES (2, 5, '2020/09/17 09:18:53');
+	
+INSERT INTO PRODUCTOVENDIDO (IdProductoVendido, IdProducto, Cantidad, IdVenta, PrecioVenta)
+	VALUES  (4, 5, 2, 2, 5500),
+			(5, 1, 1, 2, 5000);
+
+-- VENTA 3
+INSERT INTO VENTA (IdVenta, IdCliente, Fecha)
+	VALUES  (3, 2, '2020/09/17 13:15:07');
+	
+INSERT INTO PRODUCTOVENDIDO (IdProductoVendido, IdProducto, Cantidad, IdVenta, PrecioVenta)
+	VALUES (6, 4, 2, 3, 15000);
+```
+
+### Practica Laboratorio 3
+
+[[03T Sintaxis proyeccion|EXPLICACION]]
+[[03E Ejercicios proyeccion|INSTRUCCIONES]]
+
+```sql
+Alumno:JONATHAN LEON BAEZ PACHECO
+Grupo:3BV2
+Profesor: EDGAR A. CATALAN SALGADO
+--------------------------------------------------------------------------               
+-- 1. Muestra el texto fijo Hola humano y el numero 5000
+	
+-- 2. Muestra el nombre de los clientes
+
+-- 3. Muestra el texto fijo Hola y el nombre de los clientes
+
+-- 4. Muestra el nombre de los clientes y el numero 300 
+
+-- 5. Muestra el texto hola, el nombre del cliente y el numero 0
+
+-- 6. Muestra apellido paterno, materno y nombre de los clientes
+
+-- 7. Muestra nombre, apellido paterno y materno de los clientes
+
+-- 8. Muestra Id, nombre, apellido paterno y rfc de los clientes
+
+-- 9. Muestra apellido paterno y los datos de direcci�n de los clientes
+
+-- 10. Muestra apellido paterno, materno, nombre, su cr�dito y deuda de los clientes
+
+-- 11. Muestra el nombre de los proveedores
+
+-- 12. Muestra todos los datos de los clientes
+
+-- 13. Muestra el nombre los productos
+
+-- 14. Muestra el nombre y precio sugerido de venta de los productos
+
+-- 15. Muestra el nombre, precio de compra y precio sugerido de venta de los productos
+
+
+
+
+USO DE ALIAS PARA PONER TITULOS EN LAS COLUMNAS
+
+
+-- 1. Cambia el titulo de la columna codpost a CODIGO POSTAL de los clientes
+
+-- 2. Muestra el RFC como REGISTRO FEDERAL DE CONTRIBUYENTES en la tabla de clientes
+
+-- 3. Muestra  apellido paterno como A.paterno, el apellido materno como A. Materno y el nombre de los clientes
+
+-- 4. muestra pa�s como pais de origen, nombre y el rfc como registro de contribuyentes de los clientes
+
+-- 5. Muestra el nombre, la deuda y el numero 1000 con el titulo pago a deuda
+
+-- 6. Muestra el nombre, el precio sugerido de venta como P. VENTA y la existencia de los productos
+
+-- 7. Muestra el nombre, el precio sugerido de venta con el titulo P. Venta y el numero 30 con el titulo DESCUENTO
+
+-- 8. Muestra el nombre del producto 
+
+-- 9. Muestra el Nombre con el titulo producto, la existencia, el numero 10 con el titulo cantidad solicitada y el precio sugerido de venta con el titulo P.Sugerido de los productos.
+
+-- 10. Muestra el nombre con el titulo PROVEEDOR de los proveedores
+
+
+--COLUMNAS GENERADAS
+
+Nota. Lo que esta entre corchetes son datos obtenidos de la BD u operaciones con estos y debe generarse la frase en cuesti�n para todos los registros de la tabla correspondiente
+
+
+-- 1. Muestra el nombre completo de los clientes
+
+-- 2. Muestra el nombre con el apellido paterno
+
+-- 3. Muestra el nombre completo empezando por el apellido paterno
+
+-- 4. Muestra "El cliente [Edgar] se apellida [Catalan].
+
+-- 5. Muestra "[Edgar] vive en [Iztacalco]".
+
+-- 6. Muestra el resultado de credito-deuda como "Credito disponible".
+
+-- 7. Cuanto seria el 15% de la deuda de cada cliente.
+
+-- 8. Muestra al cliente, su deuda, el 10% de su deuda y su deuda con ese incremento.
+
+-- 9. �Cuanto tendr�a que el cliente mensualmente si se le ofrece pagar su deuda a 6 meses?
+
+-- 10. Cuanto tendria que pagar el cliente por mes a 6,12 y 24 meses para cubrir su deuda.
+
+-- 11.Muestra el nombre completo del cliente, su deuda y las mensualidades a 6 meses con un cargo del 10%
+
+-- 12. Si se le aplica un descuento del 30% �Cuanto tendria que pagar el cliente?
+
+-- 13. De cuanto serian las mensualidades de la deuda restante a 6,12 y 24 meses, si primero se da un anticipo del 30%
+
+-- 14. Muestra "El credito de [Edgar] es [5000]"
+
+-- 15. Muestra "[Edgar] tiene un credito de[5000] y debe[3000], por tanto puede pedir otro credito de hasta[credito-deuda]
+
+-- 16. Muestra "[Edgar] en un credito a 6 meses tiene que pagar un total de [12000]por tanto pagara mensulamente[2000]"
+
+-- 17. Muestra "Estimado cliente [Edgar Catalan], le recordamos que tiene una deuda de [10000] pesos, le ofrecemos la posibilidad de pagar el 40% ([4000] pesos) y el resto a 6 meses con el 10% de interes, quedando en [1100] pesos mensuales  "
+
+-- 18. Muestra: "El producto [Tele] se vende en [15000]" 
+
+-- 19. Muestra: "El producto [Tele] nos cuesta [5000] y se vende en [15000], por lo que su ganancia es de [PrecioVenta-PrecioCompra] "
+
+-- 20. Si resurtimos 10 [Televisiones] con el ultimo precio de compra: [5000] nos costar�a  :[50000]
+
+```
+
+### Practica Laboratorio 4
+
+```sql
+
 ```

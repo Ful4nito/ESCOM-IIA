@@ -14,7 +14,7 @@ Donde
 Para actualizar datos la instruccion es:
 
    update NombreTabla
-       Set campo=valor[,campo2=valor2]
+       Set campo=valor, campo2=valor2
       [where condicion];
 
 
@@ -25,7 +25,7 @@ Para eliminar datos de una tabla la instruccion es:
 
 En la sintaxis lo encerrado entre corchetes es opcional, en este caso si se omite la condicion TODOS los registros se elimiaran o actualizaran segun sea el caso, por lo que hay que ser cuidadosos.
 
-Una condicion b‡sica se compone de la siguiente forma:
+Una condicion bï¿½sica se compone de la siguiente forma:
 		Dato1 OperadorComparacion Dato2
 
  Dato puede ser un campo, valor o cualquier expresion que nos de un valor valido (funciones, expresiones aritmeticas, consulta, etc) 	

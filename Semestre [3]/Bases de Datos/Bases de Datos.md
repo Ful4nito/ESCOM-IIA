@@ -79,8 +79,11 @@ Tablas necesarias para BD Tienda de electronicos
 
 
 
+==ELIMINAR COLUMNA==
+``` sql 
 
 
+```
 
 ____
 ## II.  MODELADO DE BASES DE DATOS

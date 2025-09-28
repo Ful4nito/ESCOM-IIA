@@ -3,7 +3,7 @@ CREACION, MODIFICACION Y ELIMINACION DE TABLAS
 
 Para crear una tabla se usa la siguiente sintaxis:
 
-create table NombreTabla
+`CREATE TABLE` NombreTabla
   (
    Campo1 TipoDato1,
    Campo2 TipoDato2,
@@ -20,7 +20,7 @@ Los tipos de datos mas comunes son:
    varchar(longitud).- Texto de longitud variable.
      
 
-Para modificar la definición de una tabla la instrucción es alter table, las modificaciones mas comunes son agregar o quitar columnas.
+Para modificar la definición de una tabla la instrucción es `ALTER TABLE`, las modificaciones mas comunes son agregar o quitar columnas.
 
   Para borrar una columna:
      alter table NombreTabla

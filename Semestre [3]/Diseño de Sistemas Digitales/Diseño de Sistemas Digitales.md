@@ -49,7 +49,7 @@ vhsic HDL very high speed integrated circuit
 
 ### Tema2
 
-
+Estilos de programacion en HDL
 Funcional. if else
 
 Flujo de datos. when else

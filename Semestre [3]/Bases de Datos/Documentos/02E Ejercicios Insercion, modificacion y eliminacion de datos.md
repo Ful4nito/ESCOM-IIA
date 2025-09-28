@@ -5,9 +5,9 @@ Ejercicios:
    A). Da de alta los siguientes alumnos:
        La alumna Blanca Jenipher Garcia Montez ingreso a la escuela el 2 de febrero del 2010 y tiene un promedio de 10.
        El alumno Garcia Ruiz Brandon tiene un promedio de 9 e ingreso el 5 de agosto del 2011.
-       La alumna Brenda Alcantara ingreso el 5 de enero de este a–o.
+       La alumna Brenda Alcantara ingreso el 5 de enero de este aï¿½o.
        
-   B). Modifica la calificaci—n de 2 alumnos, 
+   B). Modifica la calificaciï¿½n de 2 alumnos, 
    C). Modifica la fecha de ingreso de 2 alumnos
    D). Elimina a uno de los alumnos.
 
@@ -16,12 +16,12 @@ Ejercicios:
   B. Modifica el color de uno de los carros registrados
   C. Elimina a 2 carros.
 
-3. Suponga una tabla llamada Materia, con los datos de IdMateria, Nombre, Nivel y CrŽditos
+3. Suponga una tabla llamada Materia, con los datos de IdMateria, Nombre, Nivel y Crï¿½ditos
 
-  A. Registra a las materias de: matem‡ticas, f’sica y qu’mica, las primeras dos del primer nivel con 8 crŽditos cada una y la ultima del segundo nivel con 10 crŽditos  da de alta 3 materias diferentes y elimina 2 materias.
-  B. A las materias de primer nivel actualiza el numero de crŽditos a 8.5
+  A. Registra a las materias de: matemï¿½ticas, fï¿½sica y quï¿½mica, las primeras dos del primer nivel con 8 crï¿½ditos cada una y la ultima del segundo nivel con 10 crï¿½ditos  da de alta 3 materias diferentes y elimina 2 materias.
+  B. A las materias de primer nivel actualiza el numero de crï¿½ditos a 8.5
   C. Elimina las materias del primer nivel.
-  D. Agrega la materia de Calculo del tercer nivel con 10 crŽditos
+  D. Agrega la materia de Calculo del tercer nivel con 10 crï¿½ditos
 
 4. Para una base de datos de una tienda, se solicita lo siguiente:
   A. Registrar a 10 Clientes
@@ -44,16 +44,16 @@ Idproducto, idProveedor, nombre, existencia, PrecioSugerido, PrecioMinimo, Preci
 
   D. Registrar las siguientes ventas:
  
-  Venta 1, realizada al cliente con el id  2 con la fecha 2020/09/15, en la que se vendi—:
+  Venta 1, realizada al cliente con el id  2 con la fecha 2020/09/15, en la que se vendiï¿½:
      2 celulares a 2000 pesos cada uno
      1 Mp3 player a 900 pesos cada uno
      3 blue ray  a 5500 cada uno 
 
-   Venta 2, realizada al cliente con el id 5, en la fecha 2020/09/17, en la que se vendi—
+   Venta 2, realizada al cliente con el id 5, en la fecha 2020/09/17, en la que se vendiï¿½
      2 blue ray en 5500 cada uno
      1 Tele en 5000 
 
-   Venta 3, realizada al cliente con el id 2 en la fecha 2020/09/17, en la que se vendi—:
+   Venta 3, realizada al cliente con el id 2 en la fecha 2020/09/17, en la que se vendiï¿½:
      2 pantallas  en 15000 cada una
 
   
