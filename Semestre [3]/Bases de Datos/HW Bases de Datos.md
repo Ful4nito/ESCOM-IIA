@@ -221,12 +221,6 @@ DELETE FROM Auto
 ```
 
 ___Ejercicio 3_ TABLA MATERIA__
-3. Suponga una tabla llamada Materia, con los datos de IdMateria, Nombre, Nivel y Cr�ditos
-
-  A. Registra a las materias de: matem�ticas, f�sica y qu�mica, las primeras dos del primer nivel con 8 cr�ditos cada una y la ultima del segundo nivel con 10 cr�ditos  da de alta 3 materias diferentes y elimina 2 materias.
-  B. A las materias de primer nivel actualiza el numero de cr�ditos a 8.5
-  C. Elimina las materias del primer nivel.
-  D. Agrega la materia de Calculo del tercer nivel con 10 cr�ditos
 ```sql
 -- [A] REGISTRAR MATERIAS Y ELIMINAR
 INSERT INTO Materia (IdMateria, Nombre, Nivel, Creditos)
@@ -258,7 +252,7 @@ INSERT INTO Materia (IdMateria, Nombre, Nivel, Creditos)
 	VALUES ('B301', 'Calculo', '3', 10);
 ```
 
-___Ejercicio 4_ TIENDA__
+___Ejercicio 4_ INSERTAR REGISTROS EN BD TIENDA__
 ``` sql
 -- BASE DE DATOS TIENDA
 CREATE TABLE PRODUCTO(
