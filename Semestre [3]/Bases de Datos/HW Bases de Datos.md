@@ -539,15 +539,19 @@ Nota. Lo que esta entre corchetes son datos obtenidos de la BD u operaciones con
 	SELECT nombre || ' ' || apellidop || ' ' ||  apellidom as "Nombre", '$ ' || deuda, '$ ' || (deuda*1.10)/6 as "6 Mensualidades", deuda*1.1 as "Total a Pagar"
 	FROM Cliente;
 
--- 12. Si se le aplica un descuento del 30% �Cuanto tendria que pagar el cliente?
+-- 12. Si se le aplica un descuento del 30% ¿Cuanto tendria que pagar el cliente?
+	
 
 -- 13. De cuanto serian las mensualidades de la deuda restante a 6,12 y 24 meses, si primero se da un anticipo del 30%
+	
 
 -- 14. Muestra "El credito de [Edgar] es [5000]"
 	SELECT 'El crédito de ' || Nombre || ' es ' || credito
 	FROM Cliente;
 
 -- 15. Muestra "[Edgar] tiene un credito de[5000] y debe[3000], por tanto puede pedir otro credito de hasta[credito-deuda]
+	SELECT nombre || 'tiene un credito de $ ' || credito || ' y debe $ ' || deuda || ' por tanto puede pedir otro credito de hasta $ ' || credito-deuda
+	FROM Cliente;
 
 -- 16. Muestra "[Edgar] en un credito a 6 meses tiene que pagar un total de [12000]por tanto pagara mensulamente[2000]"
 
