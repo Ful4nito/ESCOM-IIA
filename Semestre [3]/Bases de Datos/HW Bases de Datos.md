@@ -315,21 +315,18 @@ CREATE TABLE CLIENTE(
 );
 
 -- [A] REGISTRAR A 10 CLIENTES
-INSERT INTO CLIENTE (IdCliente, Nombre, ApellidoM, ApellidoP, FechaRegistro, FechaNacimiento, Telefono, RFC, CorreoElectronico, Pais, Estado, Alcaldia)
-	VALUES 
-(1, 'Jose', 'Alvarado', 'Gonzales', CURRENT_TIMESTAMP, '1992-04-23', '5532782945', 'ALGJ920423CJ6', 'jose8374@gmail.com', 'Mexico', 'CDMX', 'Gustavo A. Madero'),
-(2, 'Carlos', 'López', 'Ramírez', CURRENT_TIMESTAMP, '1990-05-14', '5512345678', 'LORC900514HDF', 'carlos.lopez@gmail.com', 'México', 'CDMX', 'Iztapalapa'),
-(3, 'Ana', 'Martínez', 'Hernández',	CURRENT_TIMESTAMP, '1987-08-22', '5523456789', 'MAHA87082298B', 'ana.martinez@outlook.com', 'México', 'CDMX', 'Benito Juárez'),
-(4, 'Alfonso', 'Sánchez', 'Gómez', CURRENT_TIMESTAMP, '1995-11-02', '5534567890', 'SAGB951102356', 'brandon.sanchez@outlook.com', 'México', 'Edomex', 'Naucalpan'),
-(5, 'Jenifer', 'García', 'Torres', CURRENT_TIMESTAMP, '1992-01-19', '5545678901', 'GATJ920119C04', 'jenifer.garcia@outlook.com', 'México', 'CDMX', 'Coyoacán'),
-(6, 'Luis', 'Pérez', 'Domínguez', CURRENT_TIMESTAMP, '1985-07-30', '5556789012', 'PEDL850730N8W', 'luis.perez@gmail.com', 'México', 'Puebla', 'Puebla Centro'),
-(7, 'Martha', 'Flores', 'Vega', CURRENT_TIMESTAMP, '1998-03-25', '5567890123', 'FOVM980325BUN', 'martha.flores@outlook.com', 'México', 'CDMX', 'Álvaro Obregón'),
-(8, 'Jorge', 'Ruiz', 'Castillo', CURRENT_TIMESTAMP, '1993-09-10', '5578901234', 'RUJC93091035N', 'jorge.ruiz@gmail.com', 'México', 'Jalisco', 'Guadalajara'),
-(9, 'Sofía', 'Ramírez', 'Morales', CURRENT_TIMESTAMP, '2000-12-05', '5589012345', 'RASM001205MDF', 'sofia.ramirez@gmail.com', 'México', 'Nuevo León', 'Monterrey'),
-(10, 'Melanie', 'Bautista', 'Alcantara', CURRENT_TIMESTAMP, '1984-12-06', '5523983940', 'BAAM841206I64', 'melanie25.d@outlook.com', 'Mexico', 'Hidalgo', 'Pachuca de Soto');
-
-INSERT INTO CLIENTE (Colonia, calle, numeroi, numeroe, codigopostal, credito, deuda)
-VALUES ()
+INSERT INTO CLIENTE (IdCliente, Nombre, ApellidoM, ApellidoP, FechaRegistro, FechaNacimiento, Telefono, RFC, CorreoElectronico, Pais, Estado, Alcaldia, Colonia, Calle, NumeroI, NumeroE, CodigoPostal, credito, deuda)
+VALUES 
+(1, 'Jose', 'Alvarado', 'Gonzales', CURRENT_TIMESTAMP, '1992-04-23', '5532782945', 'ALGJ920423CJ6', 'jose8374@gmail.com', 'Mexico', 'CDMX', 'Gustavo A. Madero', 'Zacatenco', 'La Rioja', 'S/N', '17', '07384', 45000, 6700),
+(2, 'Carlos', 'López', 'Ramírez', CURRENT_TIMESTAMP, '1990-05-14', '5512345678', 'LORC900514HDF', 'carlos.lopez@gmail.com', 'México', 'CDMX', 'Iztapalapa', 'Iztapalapa', 'Ermita', NULL, 74, 09800, 3000.00, 0.00),
+(3, 'Ana', 'Martínez', 'Hernández',	CURRENT_TIMESTAMP, '1987-08-22', '5623456789', 'MAHA87082298B', 'ana.martinez@outlook.com', 'México', 'CDMX', 'Benito Juárez', 'Centro', 'Hidalgo', '2B', 145, 06000, 5000.00, 1200.00),
+(4, 'Alfonso', 'Sánchez', 'Gómez', CURRENT_TIMESTAMP, '1995-11-02', '5534567890', 'SAGB951102356', 'brandon.sanchez@outlook.com', 'México', 'Edomex', 'Naucalpan', 'Roma Norte', 'Durango', NULL, 32, 06700, 7500.00, 0.00),
+(5, 'Jenifer', 'García', 'Torres', CURRENT_TIMESTAMP, '1992-01-19', '5645678901', 'GATJ920119C04', 'jenifer.garcia@outlook.com', 'México', 'CDMX', 'Coyoacán', 'Del Valle', 'Insurgentes Sur', '5A', 10, 03100, 10000.00, 3500.00),
+(6, 'Luis', 'Pérez', 'Domínguez', CURRENT_TIMESTAMP, '1985-07-30', '2226789012', 'PEDL850730N8W', 'luis.perez@gmail.com', 'México', 'Puebla', 'Puebla Centro', 'Narvarte', 'Xola', NULL, 45, 03020, 6000.00, 6000.00),
+(7, 'Martha', 'Flores', 'Vega', CURRENT_TIMESTAMP, '1998-03-25', '5667890123', 'FOVM980325BUN', 'martha.flores@outlook.com', 'México', 'CDMX', 'Álvaro Obregón', 'Polanco', 'Masaryk', '1', 78, 11560, 15000.00, 2000.00),
+(8, 'Jorge', 'Ruiz', 'Castillo', CURRENT_TIMESTAMP, '1993-09-10', '3378901234', 'RUJC93091035N', 'jorge.ruiz@gmail.com', 'México', 'Jalisco', 'Guadalajara', 'Santa María la Ribera', 'Cedro', NULL, 12, 06400, 4000.00, 500.00),
+(9, 'Sofía', 'Ramírez', 'Morales', CURRENT_TIMESTAMP, '2000-12-05', '8189012345', 'RASM001205MDF', 'sofia.ramirez@gmail.com', 'México', 'Nuevo León', 'Monterrey', 'Coyoacán', 'Miguel Ángel de Quevedo', '3C', 91, 04000, 8000.00, 1000.00),
+(10, 'Melanie', 'Bautista', 'Alcantara', CURRENT_TIMESTAMP, '1984-12-06', '7723983940', 'BAAM841206I64', 'melanie25.d@outlook.com', 'Mexico', 'Hidalgo', 'Pachuca de Soto', 'San Ángel', 'Revolución', '4', 13, 01000, 9000.00, 4500.00);
 	
 -- [B] REGISTRAR PROVEEDORES
 INSERT INTO PROVEEDOR (IdProveedor, Nombre)
@@ -387,7 +384,7 @@ Grupo:3BV2
 Profesor: EDGAR A. CATALAN SALGADO
 --------------------------------------------------------------------------               
 -- 1. Muestra el texto fijo Hola humano y el numero 5000
-	SELECT 'Hola Humano', '5000'
+	SELECT 'Hola Humano', '5000';
 	
 -- 2. Muestra el nombre de los clientes
 	SELECT Nombre 
@@ -427,21 +424,21 @@ Profesor: EDGAR A. CATALAN SALGADO
 
 -- 11. Muestra el nombre de los proveedores
 	SELECT Nombre
-	FROM Proveedores;
+	FROM Proveedore;
 
 -- 12. Muestra todos los datos de los clientes
-	SELECT * FROM Clientes;
+	SELECT * FROM Cliente;
 
 -- 13. Muestra el nombre los productos
 	SELECT Nombre FROM Producto;
 
 -- 14. Muestra el nombre y precio sugerido de venta de los productos
 	SELECT Nombre, PrecioSugerido
-	FROM Producto
+	FROM Producto;
 
 -- 15. Muestra el nombre, precio de compra y precio sugerido de venta de los productos
 	SELECT Nombre, PrecioCompra, PrecioSugerido
-	FROM Producto
+	FROM Producto;
 
 
 
@@ -508,61 +505,72 @@ Nota. Lo que esta entre corchetes son datos obtenidos de la BD u operaciones con
 	FROM Cliente;
 
 -- 4. Muestra "El cliente [Edgar] se apellida [Catalan].
-	SELECT 'El cliente ' || nombre || ' se apellida ' || ApellidoP
-	FROM cliente;
+	SELECT 'El cliente ' || nombre || ' se apellida ' || ApellidoP as "Apellido de Clientes"
+	FROM Cliente;
 
 -- 5. Muestra "[Edgar] vive en [Iztacalco]".
-	SELECT nombre || ' vive en ' || Colonia
+	SELECT nombre || ' vive en ' || Colonia as "Colonia donde vive"
 	FROM Cliente;
 
 -- 6. Muestra el resultado de credito-deuda como "Credito disponible".
-	SELECT credito-deuda as "Credito Disponible"
+	SELECT '$ ' || credito-deuda as "Credito Disponible"
 	FROM Cliente;
 
 -- 7. Cuanto seria el 15% de la deuda de cada cliente.
-	SELECT '$ ' || deuda, '$ ' || deuda*.15 as "15%"
+	SELECT '$ ' || deuda as "Deuda", '$ ' || TRUNC(deuda*.15,2) as "15%"
 	FROM Cliente;
 
 -- 8. Muestra al cliente, su deuda, el 10% de su deuda y su deuda con ese incremento.
-	SELECT nombre, '$ ' || deuda, '$ ' || deuda*.10 as "10%", '$ ' || deuda*1.10 as "Total"
+	SELECT nombre, '$ ' || deuda as "Deuda", '$ ' || TRUNC(deuda*.10,2) as "10%", '$ ' || TRUNC(deuda*1.10,2) as "Total"
 	FROM Cliente;
 
 -- 9. �Cuanto tendr�a que el cliente mensualmente si se le ofrece pagar su deuda a 6 meses?
-	SELECT nombre, '$ ' || deuda, '$ ' || deuda/6 as "6 Mensualidades"
+	SELECT nombre, '$ ' || deuda as "Deuda", '$ ' || TRUNC(deuda/6,2) as "6 Mensualidades"
 	FROM Cliente;
 
 -- 10. Cuanto tendria que pagar el cliente por mes a 6,12 y 24 meses para cubrir su deuda.
-	SELECT nombre, '$ ' || deuda, '$ ' || deuda/6 as "6 Meses", '$ ' || deuda/12 as "12 Meses", '$ ' || deuda/24 as "24 Meses"
+	SELECT nombre, '$ ' || deuda as "Deuda", '$ ' || TRUNC(deuda/6,2) as "6 Mensualidades", '$ ' || TRUNC(deuda/12,2) as "12 Mensualidades", '$ ' || TRUNC(deuda/24,2) as "24 Mensualidades"
 	FROM Cliente;
 
 -- 11.Muestra el nombre completo del cliente, su deuda y las mensualidades a 6 meses con un cargo del 10%
-	SELECT nombre || ' ' || apellidop || ' ' ||  apellidom as "Nombre", '$ ' || deuda, '$ ' || (deuda*1.10)/6 as "6 Mensualidades", deuda*1.1 as "Total a Pagar"
+	SELECT nombre || ' ' || apellidop || ' ' ||  apellidom as "Nombre", '$ ' || deuda as "Deuda", '$ ' || TRUNC((deuda*1.10)/6,2) as "6 Mensualidades", '$ ' || TRUNC(deuda*1.1,2) as "Total a Pagar"
 	FROM Cliente;
 
 -- 12. Si se le aplica un descuento del 30% ¿Cuanto tendria que pagar el cliente?
-	
+	SELECT Nombre, '$ ' || deuda as "Deuda", '$ ' || TRUNC(deuda*.7,2) as "Deuda con 30% de descuento"
+	FROM Cliente;
 
 -- 13. De cuanto serian las mensualidades de la deuda restante a 6,12 y 24 meses, si primero se da un anticipo del 30%
-	
+	SELECT Nombre, '$ ' || deuda as "Deuda", '$ ' || TRUNC(deuda*.3,2) as "Anticipo de 30%", '$ ' || TRUNC((deuda*.7)/6,2) as "6 Mensualidades", '$ ' || TRUNC((deuda*.7)/12,2) as "12 Mensualidades", '$ ' || TRUNC((deuda*.7)/24,2) as "24 Mensualidades"
+	FROM Cliente;
 
 -- 14. Muestra "El credito de [Edgar] es [5000]"
-	SELECT 'El crédito de ' || Nombre || ' es ' || credito
+	SELECT 'El crédito de ' || Nombre || ' es $ ' || credito as "Informacion Credito"
 	FROM Cliente;
 
 -- 15. Muestra "[Edgar] tiene un credito de[5000] y debe[3000], por tanto puede pedir otro credito de hasta[credito-deuda]
-	SELECT nombre || 'tiene un credito de $ ' || credito || ' y debe $ ' || deuda || ' por tanto puede pedir otro credito de hasta $ ' || credito-deuda
+	SELECT nombre || ' tiene un credito de $ ' || credito || ' y debe $ ' || deuda || ' por tanto puede pedir otro credito de hasta $ ' || credito-deuda as "Informacion uso de credito"
 	FROM Cliente;
 
 -- 16. Muestra "[Edgar] en un credito a 6 meses tiene que pagar un total de [12000]por tanto pagara mensulamente[2000]"
+	SELECT Nombre || ' en un credito a 6 meses tiene que pagar un total de $' || credito-deuda || ' por tanto pagara 6 mesualidades de $ ' || TRUNC((credito-deuda)/6,2) as "Proyeccion Pago en Mensualidades"
+	FROM Cliente;
 
 -- 17. Muestra "Estimado cliente [Edgar Catalan], le recordamos que tiene una deuda de [10000] pesos, le ofrecemos la posibilidad de pagar el 40% ([4000] pesos) y el resto a 6 meses con el 10% de interes, quedando en [1100] pesos mensuales  "
+	SELECT 'Estimado cliente ' || nombre || ' le recordamos que tiene una deuda de $ ' || deuda || ' pesos, le ofrecemos la posibilidad de pagar el 40% ($' || deuda*.4 || ' pesos) y el resto a 6 meses con el 10% de interes, quedando en $ ' || TRUNC(((deuda*.6)*1.1)/6, 2) || ' pesos mensuales' as "Oportunidad de Liquidacion"
+	FROM Cliente;
 
 -- 18. Muestra: "El producto [Tele] se vende en [15000]" 
+	SELECT 'El producto ' || nombre || ' se vende en $ ' || preciosugerido as "Precios"
+	FROM Producto;
 
 -- 19. Muestra: "El producto [Tele] nos cuesta [5000] y se vende en [15000], por lo que su ganancia es de [PrecioVenta-PrecioCompra] "
+	SELECT 'El producto ' || nombre || ' nos cuesta $ ' || preciocompra || ' y se vende en $ ' || preciosugerido || ', por lo que su ganancia es de $ ' || preciosugerido-preciocompra as "Margen de ganancia"
+	FROM Producto;
 
 -- 20. Si resurtimos 10 [Televisiones] con el ultimo precio de compra: [5000] nos costar�a  :[50000]
-
+	SELECT 'Si resurtimos 10 ' || nombre || ' con el precio de compra por unidad: $ ' || preciocompra || ', nos costara: $ ' || preciocompra*10 as "Costo de Reabastecimiento"
+	FROM Producto;
 ```
 
 ### Practica Laboratorio 4
