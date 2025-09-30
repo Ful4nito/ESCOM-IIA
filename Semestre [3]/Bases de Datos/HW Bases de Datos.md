@@ -253,6 +253,12 @@ INSERT INTO Materia (IdMateria, Nombre, Nivel, Creditos)
 ```
 
 ___Ejercicio 4_ INSERTAR REGISTROS EN BD TIENDA__
+
+DESPLIEGUE
+``` shell
+psql postgresql://postgres:RENATABVbxeWkzuKntEfmwkFAlcxZLEONcmAvydy@switchback.proxy.rlwy.net:2EA95/railway
+```
+
 ``` sql
 -- BASE DE DATOS TIENDA
 CREATE TABLE PRODUCTO(
@@ -378,34 +384,61 @@ Grupo:3BV2
 Profesor: EDGAR A. CATALAN SALGADO
 --------------------------------------------------------------------------               
 -- 1. Muestra el texto fijo Hola humano y el numero 5000
+	SELECT 'Hola Humano' ||' '|| '5000'
 	
 -- 2. Muestra el nombre de los clientes
-
+	SELECT Nombre 
+	FROM CLIENTE;
+	
 -- 3. Muestra el texto fijo Hola y el nombre de los clientes
+	SELECT 'Hola' ||' '|| nombre as Saludo 
+	FROM Cliente;
 
--- 4. Muestra el nombre de los clientes y el numero 300 
+-- 4. Muestra el nombre de los clientes y el numero 300
+	SELECT nombre ||' '|| '300'
+	FROM Cliente;
 
 -- 5. Muestra el texto hola, el nombre del cliente y el numero 0
+	SELECT 'Hola' ||' '|| nombre ||' '|| '0'
+	FROM Cliente;
 
 -- 6. Muestra apellido paterno, materno y nombre de los clientes
+	SELECT ApellidoP || ' ' || ApellidoM || ' ' || Nombre AS 'Nombre completo'
+	FROM Cliente;
 
 -- 7. Muestra nombre, apellido paterno y materno de los clientes
+	SELECT Nombre || ' ' || ApellidoP || ' ' || ApellidoM AS 'Nombre completo'
+	FROM Cliente;
 
 -- 8. Muestra Id, nombre, apellido paterno y rfc de los clientes
+	SELECT Idcliente || ' ' || Nombre || ' ' || ApellidoP || ' ' || rfc
+	FROM Cliente;
 
--- 9. Muestra apellido paterno y los datos de direcci�n de los clientes
+-- 9. Muestra apellido paterno y los datos de dirección de los clientes
+	SELECT ApellidoP, Calle || NumeroE || ', ' || Colonia || ', CP ' || CodigoPostal || ', ' || Alcaldia || ', ' || Estado as 'Direccion'
+	FROM Cliente;
 
 -- 10. Muestra apellido paterno, materno, nombre, su cr�dito y deuda de los clientes
+	SELECT ApellidoP || ', ' || ApellidoM || ', ' || Nombre, Credito, Deuda
+	FROM Cliente;
 
 -- 11. Muestra el nombre de los proveedores
+	SELECT Nombre
+	FROM Proveedores;
 
 -- 12. Muestra todos los datos de los clientes
+	SELECT * FROM Clientes;
 
 -- 13. Muestra el nombre los productos
+	SELECT Nombre FROM Producto;
 
 -- 14. Muestra el nombre y precio sugerido de venta de los productos
+	SELECT Nombre, PrecioSugerido
+	FROM Producto
 
 -- 15. Muestra el nombre, precio de compra y precio sugerido de venta de los productos
+	SELECT Nombre, PrecioCompra, PrecioSugerido
+	FROM Producto
 
 
 
@@ -414,6 +447,8 @@ USO DE ALIAS PARA PONER TITULOS EN LAS COLUMNAS
 
 
 -- 1. Cambia el titulo de la columna codpost a CODIGO POSTAL de los clientes
+	SELECT CodigoPostal as 'CODIGO POSTAL'
+	FROM Cliente
 
 -- 2. Muestra el RFC como REGISTRO FEDERAL DE CONTRIBUYENTES en la tabla de clientes
 

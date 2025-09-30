@@ -3,10 +3,11 @@ cssclasses:
   - HWK
 ---
 
-## Investigación RaspBerry
-__ENTREGA: 30 AGOSTO 25__
+## INVESTIGACIONES
+### RaspBerry 
+~~ENTREGA: 30 AGOSTO 25~~
 
-Realizar una breve investigación acerca de las tarjetas Raspberry.  
+Realizar una breve investigación acerca de las tarjetas Raspberry.  [[Investigacion Raspberry.pdf|PDF 📄]]
 Características:
 - Individual
 - 2 a 4 cuartillas
@@ -15,7 +16,12 @@ Características:
 - Referencias en formato IEEE.
 - Carátula con todos sus datos.
 
-[[Investigacion Raspberry.pdf|Investigación RaspBerry 📄]]
+
+
+### Nexys IV
+~~ENTREGA VENCIDA~~
+
+
 ## Practica Fuente de poder
 __ENTREGA: 20 SEPTIEMBRE 2025__
 
@@ -43,10 +49,9 @@ Materiales:
 - [x] 1 Placa Fenólica 150 x 75 mm
 - [x] 2 Disipadores para TO-220
 - [x] 2 Bloque terminal de 2 polos
-- [ ] Caja para encapsular la fuente
+- [x] Caja para encapsular la fuente
 
 Diagrama Eléctrico
-
 ## Exposición IV. Memorias
 ~~EXPO: 18 SEPTIEMBRE 2025~~
 
@@ -58,7 +63,19 @@ Diagrama Eléctrico
 4.6 Manejo de arreglos y diseño de memorias RAM, ROM y FIFO con lenguaje de descripción de hardware
 
 ## Proyecto Final
-__ENTREGA EN NOVIEMBRE__
+~~ENTREGA EN NOVIEMBRE~~
 
 __CONTROL DE ACCESO POR RECONOCIMIENTO FACIAL__
+
+
+__CODIGO ARDUINO__
+``` c
+include <servo.h>
+```
+
+## PRACTICAS
+
+### Practica 1
+
+~~SUMADOR Y RESTADOR~~
 
