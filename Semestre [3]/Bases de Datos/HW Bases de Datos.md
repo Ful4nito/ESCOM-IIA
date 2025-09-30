@@ -327,6 +327,9 @@ INSERT INTO CLIENTE (IdCliente, Nombre, ApellidoM, ApellidoP, FechaRegistro, Fec
 (8, 'Jorge', 'Ruiz', 'Castillo', CURRENT_TIMESTAMP, '1993-09-10', '5578901234', 'RUJC93091035N', 'jorge.ruiz@gmail.com', 'México', 'Jalisco', 'Guadalajara'),
 (9, 'Sofía', 'Ramírez', 'Morales', CURRENT_TIMESTAMP, '2000-12-05', '5589012345', 'RASM001205MDF', 'sofia.ramirez@gmail.com', 'México', 'Nuevo León', 'Monterrey'),
 (10, 'Melanie', 'Bautista', 'Alcantara', CURRENT_TIMESTAMP, '1984-12-06', '5523983940', 'BAAM841206I64', 'melanie25.d@outlook.com', 'Mexico', 'Hidalgo', 'Pachuca de Soto');
+
+INSERT INTO CLIENTE (Colonia, calle, numeroi, numeroe, codigopostal, credito, deuda)
+VALUES ()
 	
 -- [B] REGISTRAR PROVEEDORES
 INSERT INTO PROVEEDOR (IdProveedor, Nombre)
@@ -384,42 +387,42 @@ Grupo:3BV2
 Profesor: EDGAR A. CATALAN SALGADO
 --------------------------------------------------------------------------               
 -- 1. Muestra el texto fijo Hola humano y el numero 5000
-	SELECT 'Hola Humano' ||' '|| '5000'
+	SELECT 'Hola Humano', '5000'
 	
 -- 2. Muestra el nombre de los clientes
 	SELECT Nombre 
-	FROM CLIENTE;
+	FROM Cliente;
 	
 -- 3. Muestra el texto fijo Hola y el nombre de los clientes
-	SELECT 'Hola' ||' '|| nombre as Saludo 
+	SELECT 'Hola' ||' '|| nombre as "Saludo"
 	FROM Cliente;
 
 -- 4. Muestra el nombre de los clientes y el numero 300
-	SELECT nombre ||' '|| '300'
+	SELECT nombre, '300'
 	FROM Cliente;
 
 -- 5. Muestra el texto hola, el nombre del cliente y el numero 0
-	SELECT 'Hola' ||' '|| nombre ||' '|| '0'
+	SELECT 'Hola', nombre, '0'
 	FROM Cliente;
 
 -- 6. Muestra apellido paterno, materno y nombre de los clientes
-	SELECT ApellidoP || ' ' || ApellidoM || ' ' || Nombre AS 'Nombre completo'
+	SELECT ApellidoP, ApellidoM, Nombre
 	FROM Cliente;
 
 -- 7. Muestra nombre, apellido paterno y materno de los clientes
-	SELECT Nombre || ' ' || ApellidoP || ' ' || ApellidoM AS 'Nombre completo'
+	SELECT Nombre, ApellidoP, ApellidoM
 	FROM Cliente;
 
 -- 8. Muestra Id, nombre, apellido paterno y rfc de los clientes
-	SELECT Idcliente || ' ' || Nombre || ' ' || ApellidoP || ' ' || rfc
+	SELECT Idcliente, Nombre, ApellidoP, rfc
 	FROM Cliente;
 
 -- 9. Muestra apellido paterno y los datos de dirección de los clientes
-	SELECT ApellidoP, Calle || NumeroE || ', ' || Colonia || ', CP ' || CodigoPostal || ', ' || Alcaldia || ', ' || Estado as 'Direccion'
+	SELECT ApellidoP, Calle, NumeroE, Colonia, CodigoPostal, Alcaldia, Estado
 	FROM Cliente;
 
 -- 10. Muestra apellido paterno, materno, nombre, su cr�dito y deuda de los clientes
-	SELECT ApellidoP || ', ' || ApellidoM || ', ' || Nombre, Credito, Deuda
+	SELECT ApellidoP, ApellidoM, Nombre, Credito, Deuda
 	FROM Cliente;
 
 -- 11. Muestra el nombre de los proveedores
@@ -447,26 +450,44 @@ USO DE ALIAS PARA PONER TITULOS EN LAS COLUMNAS
 
 
 -- 1. Cambia el titulo de la columna codpost a CODIGO POSTAL de los clientes
-	SELECT CodigoPostal as 'CODIGO POSTAL'
-	FROM Cliente
+	SELECT CodigoPostal as "CODIGO POSTAL"
+	FROM Cliente;
 
 -- 2. Muestra el RFC como REGISTRO FEDERAL DE CONTRIBUYENTES en la tabla de clientes
+	SELECT rfc as "Registro Federal del Contribuyente"
+	FROM Cliente;
 
 -- 3. Muestra  apellido paterno como A.paterno, el apellido materno como A. Materno y el nombre de los clientes
+	SELECT ApellidoP as "A.Paterno", ApellidoM as "A.Materno", Nombre
+	FROM Cliente;
 
--- 4. muestra pa�s como pais de origen, nombre y el rfc como registro de contribuyentes de los clientes
+-- 4. muestra país como pais de origen, nombre y el rfc como registro de contribuyentes de los clientes
+	SELECT pais as "País de origen", nombre, rfc as "Registro Federal del Contribuyente"
+	FROM Cliente;
 
 -- 5. Muestra el nombre, la deuda y el numero 1000 con el titulo pago a deuda
+	SELECT Nombre, Deuda, 1000 as "Abono a deuda"
+	FROM Cliente;
 
 -- 6. Muestra el nombre, el precio sugerido de venta como P. VENTA y la existencia de los productos
+	SELECT nombre, preciosugerido as "P. VENTA", existencia
+	FROM Producto;
 
 -- 7. Muestra el nombre, el precio sugerido de venta con el titulo P. Venta y el numero 30 con el titulo DESCUENTO
+	SELECT nombre, '$' || ' ' || preciosugerido as "P. Venta", 30 as "DESCUENTO"
+	FROM Producto;
 
 -- 8. Muestra el nombre del producto 
+	SELECT nombre
+	FROM Producto;
 
 -- 9. Muestra el Nombre con el titulo producto, la existencia, el numero 10 con el titulo cantidad solicitada y el precio sugerido de venta con el titulo P.Sugerido de los productos.
+	SELECT nombre as "Producto", existencia, '10' as "Cantidad Solicitada", preciosugerido as "P.Sugerido"
+	FROM Producto;
 
 -- 10. Muestra el nombre con el titulo PROVEEDOR de los proveedores
+	SELECT nombre as "PROVEEDOR"
+	FROM Proveedor;
 
 
 --COLUMNAS GENERADAS
@@ -475,32 +496,56 @@ Nota. Lo que esta entre corchetes son datos obtenidos de la BD u operaciones con
 
 
 -- 1. Muestra el nombre completo de los clientes
+	SELECT Nombre || ' ' || ApellidoP || ' ' || ApellidoM AS "Nombre completo"
+	FROM Cliente;
 
 -- 2. Muestra el nombre con el apellido paterno
+	SELECT Nombre || ' ' || ApellidoP AS "Nombre con apellido"
+	FROM Cliente;
 
 -- 3. Muestra el nombre completo empezando por el apellido paterno
+	SELECT ApellidoP || ' ' || ApellidoM || ' ' || Nombre AS "Nombre completo"
+	FROM Cliente;
 
 -- 4. Muestra "El cliente [Edgar] se apellida [Catalan].
+	SELECT 'El cliente ' || nombre || ' se apellida ' || ApellidoP
+	FROM cliente;
 
 -- 5. Muestra "[Edgar] vive en [Iztacalco]".
+	SELECT nombre || ' vive en ' || Colonia
+	FROM Cliente;
 
 -- 6. Muestra el resultado de credito-deuda como "Credito disponible".
+	SELECT credito-deuda as "Credito Disponible"
+	FROM Cliente;
 
 -- 7. Cuanto seria el 15% de la deuda de cada cliente.
+	SELECT '$ ' || deuda, '$ ' || deuda*.15 as "15%"
+	FROM Cliente;
 
 -- 8. Muestra al cliente, su deuda, el 10% de su deuda y su deuda con ese incremento.
+	SELECT nombre, '$ ' || deuda, '$ ' || deuda*.10 as "10%", '$ ' || deuda*1.10 as "Total"
+	FROM Cliente;
 
 -- 9. �Cuanto tendr�a que el cliente mensualmente si se le ofrece pagar su deuda a 6 meses?
+	SELECT nombre, '$ ' || deuda, '$ ' || deuda/6 as "6 Mensualidades"
+	FROM Cliente;
 
 -- 10. Cuanto tendria que pagar el cliente por mes a 6,12 y 24 meses para cubrir su deuda.
+	SELECT nombre, '$ ' || deuda, '$ ' || deuda/6 as "6 Meses", '$ ' || deuda/12 as "12 Meses", '$ ' || deuda/24 as "24 Meses"
+	FROM Cliente;
 
 -- 11.Muestra el nombre completo del cliente, su deuda y las mensualidades a 6 meses con un cargo del 10%
+	SELECT nombre || ' ' || apellidop || ' ' ||  apellidom as "Nombre", '$ ' || deuda, '$ ' || (deuda*1.10)/6 as "6 Mensualidades", deuda*1.1 as "Total a Pagar"
+	FROM Cliente;
 
 -- 12. Si se le aplica un descuento del 30% �Cuanto tendria que pagar el cliente?
 
 -- 13. De cuanto serian las mensualidades de la deuda restante a 6,12 y 24 meses, si primero se da un anticipo del 30%
 
 -- 14. Muestra "El credito de [Edgar] es [5000]"
+	SELECT 'El crédito de ' || Nombre || ' es ' || credito
+	FROM Cliente;
 
 -- 15. Muestra "[Edgar] tiene un credito de[5000] y debe[3000], por tanto puede pedir otro credito de hasta[credito-deuda]
 
