@@ -116,8 +116,8 @@ __09 SEPTIEMBRE 25__
 
 ### Practica Laboratorio 1
 
-[[01E Creacion, modificacion y borrado de tablas|EXPLICACION]]
-[[01T Ejercicios Creacion, modificacion y borrado de tablas|INSTRUCCIONES]]
+[[01T Creacion, modificacion y borrado de tablas|EXPLICACION]]
+[[01E Creacion, modificacion y borrado de tablas|INSTRUCCIONES]]
 
 ___Ejercicio 1_ BD ESCUELA__
 ``` sql
@@ -163,7 +163,7 @@ CREATE TABLE auto (
 ### Practica Laboratorio 2
 
 [[02T Insercion, modificacion y eliminacion de datos|EXPLICACION]]
-[[02E Ejercicios Insercion, modificacion y eliminacion de datos|INSTRUCCIONES]]
+[[02E Insercion, modificacion y eliminacion de datos|INSTRUCCIONES]]
 
 ___Ejercicio 1_ TABLA ALUMNOS__
 ```sql
