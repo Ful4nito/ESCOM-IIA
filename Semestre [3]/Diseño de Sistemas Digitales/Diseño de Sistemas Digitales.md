@@ -56,6 +56,36 @@ Flujo de datos. when else
 
 Estructural. circuitos
 
+__Restador de 4 Bits__
+``` vhdl
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.STD_LOGIC_UNSIGNED.ALL;
+
+entity Restador4Bits is
+    Port (
+        A    : in  STD_LOGIC_VECTOR (3 downto 0);
+        B    : in  STD_LOGIC_VECTOR (3 downto 0);
+        R    : out STD_LOGIC_VECTOR (3 downto 0);
+        BorrowOut : out STD_LOGIC
+    );
+end Restador4Bits;
+
+architecture Behavioral of Restador4Bits is
+    signal B_complement : STD_LOGIC_VECTOR (3 downto 0);
+    signal temp_result  : STD_LOGIC_VECTOR (4 downto 0);
+begin
+    process(A, B)
+    begin
+        -- Resta A - B = A + (complemento a 2 de B)
+        B_complement <= not B + 1;
+        temp_result <= ('0' & A) + ('0' & B_complement);  -- 5 bits para incluir borrow
+        R <= temp_result(3 downto 0);
+        BorrowOut <= not temp_result(4); -- Si el bit más significativo es 0, hubo "préstamo"
+    end process;
+end Behavioral;
+```
+
 ____
 ## II.  DISEÑO DE SISTEMAS DIGITALES
 ---
