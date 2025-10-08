@@ -1,6 +1,7 @@
 ---
 cssclasses:
   - HWK
+  - CUADRO-CHICO
 ---
 --- 
 ## Complejidad Temporal y Espacial
