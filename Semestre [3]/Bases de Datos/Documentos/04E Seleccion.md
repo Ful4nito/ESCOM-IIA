@@ -1,6 +1,6 @@
 Nombre:_____________________________
 Grupo:______________________________
-Profesor: Edgar A. Catalán Salgado
+Profesor: Edgar A. Catalï¿½n Salgado
 
 
 
@@ -23,9 +23,9 @@ SELECCION DE REGISTROS
 
 --8. Los clientes cuyo pago mensual a 6 meses sea mayor a 1000
 
---9. Los clientes cuyo crŽdito disponible (CrŽdito- Deuda), sea menor o igual a 3000
+--9. Los clientes cuyo crï¿½dito disponible (Crï¿½dito- Deuda), sea menor o igual a 3000
 
---10. Los clientes a los que su deuda incremŽntada en 20% sea mayor a 20000
+--10. Los clientes a los que su deuda incremï¿½ntada en 20% sea mayor a 20000
 
 --11. Los clientes que si dan un anticipo del 20%, su deuda es menor de 10000
  
@@ -47,11 +47,11 @@ EJERCICIOS
 
 --4. Muestra solo a los clientes que si tienen asignado un RFC
 
---5. Muestra solo a los clientes que si tienen correo electr—nico registrado
+--5. Muestra solo a los clientes que si tienen correo electrï¿½nico registrado
 
 --6. Muestra solo a los productos que si tienen precio sugerido de venta
 
---7. Muestra a los clientes que no tienen delegaci—n especificada  
+--7. Muestra a los clientes que no tienen delegaciï¿½n especificada  
 
 
 SELECCION CON OPERADORES LOGICOS 
@@ -75,43 +75,43 @@ SELECCION CON OPERADORES LOGICOS
 
 --9. Los que se llaman Blanca o su apellido paterno es Catalan
 
---10. Los que cualquiera de sus apellidos es catal‡n
+--10. Los que cualquiera de sus apellidos es catalï¿½n
 
---11. Los que ninguno de sus apellidos es catal‡n
+--11. Los que ninguno de sus apellidos es catalï¿½n
 
 --12. Los que su apellido paterno es Catalan o Perez
 
---13. Los que su apellido paterno es catal‡n, Perez o Garcia
+--13. Los que su apellido paterno es catalï¿½n, Perez o Garcia
 
 --14. Los que cualquiera de sus apellidos es Catalan o Perez
 
---15. Los que se llaman Edgar y su apellido paterno es Catal‡n o Perez
+--15. Los que se llaman Edgar y su apellido paterno es Catalï¿½n o Perez
 
---16. Los que se llaman Edgar y su apellido paterno NO sea Catal‡n o Perez
+--16. Los que se llaman Edgar y su apellido paterno NO sea Catalï¿½n o Perez
 
---17. Los de la delegaci—n Iztacalco, GAM y bendito Juarez
+--17. Los de la delegaciï¿½n Iztacalco, GAM y bendito Juarez
 
---18. Los de Iztacalco y GAM que su apellido paterno sea catal‡n
+--18. Los de Iztacalco y GAM que su apellido paterno sea catalï¿½n
 
 --19. Los que viven en Iztacalco y su credito esta en 5000 y 10000
 
 --20. Los que viven en Iztacalco o Coyoacan y su deuda esta en 10000 y 20000
 
---21. Los de Iztacalco y GAM que cualquiera de sus apellidos sea catal‡n 
+--21. Los de Iztacalco y GAM que cualquiera de sus apellidos sea catalï¿½n 
 
---22. Los que se llaman Edgar y cualquiera de sus apellidos sea catal‡n o Perez
+--22. Los que se llaman Edgar y cualquiera de sus apellidos sea catalï¿½n o Perez
 
---23. Los que se llaman Edgar y ninguno de sus apellidos sea catal‡n o Perez
+--23. Los que se llaman Edgar y ninguno de sus apellidos sea catalï¿½n o Perez
 
---24. Los de la delegaci—n Iztacalco que su pago mensual a 6 meses sea mayor o igual a 1000
+--24. Los de la delegaciï¿½n Iztacalco que su pago mensual a 6 meses sea mayor o igual a 1000
 
---25. Los de la delegaci—n Iztacalco que no tengan crŽdito asignado
+--25. Los de la delegaciï¿½n Iztacalco que no tengan crï¿½dito asignado
 
---26. Los de la delegaci—n Iztacalco con un crŽdito disponible( CrŽdito-Deuda) mayor a 10000
+--26. Los de la delegaciï¿½n Iztacalco con un crï¿½dito disponible( Crï¿½dito-Deuda) mayor a 10000
 
---27. Los de la delegaci—n Iztacalco que no tengan apellido materno o crŽdito asignado
+--27. Los de la delegaciï¿½n Iztacalco que no tengan apellido materno o crï¿½dito asignado
 
---28. Los de la delegaciones GAM e Iztacalco que no tengan apellido materno o crŽdito asignado
+--28. Los de la delegaciones GAM e Iztacalco que no tengan apellido materno o crï¿½dito asignado
 
 
 
