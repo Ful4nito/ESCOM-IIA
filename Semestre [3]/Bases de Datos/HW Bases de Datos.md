@@ -112,7 +112,63 @@ __09 SEPTIEMBRE 25__
 | Obtención de información acerca del total de clientes por delegación |      Servidor      |
 | Llenado de la forma de alta de un cliente                            |      Cliente       |
 
+### Cres Base de Datos Tienda
 
+``` sql
+-- BASE DE DATOS TIENDA
+CREATE TABLE PRODUCTO(
+	IdProducto SERIAL PRIMARY KEY,
+	IdProveedor INT,
+	Nombre VARCHAR(50),
+	PrecioCompra NUMERIC(10,2),
+	PrecioSugerido NUMERIC(10,2),
+	PrecioMinimo NUMERIC(10,2),
+	Descripcion VARCHAR(400),
+	CodigoBarras VARCHAR(20),
+	Existencia INT
+);
+
+CREATE TABLE PROVEEDOR(
+	IdProveedor SERIAL PRIMARY KEY,
+	Nombre VARCHAR(50)
+);
+
+CREATE TABLE VENTA(
+	IdVenta SERIAL PRIMARY KEY,
+	IdCliente INT,
+	Fecha TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE TABLE PRODUCTOVENDIDO(
+	IdProductoVendido SERIAL PRIMARY KEY,
+	IdProducto INT,
+	Cantidad INT,
+	IdVenta INT,
+	PrecioVenta NUMERIC(10,2)
+);
+
+CREATE TABLE CLIENTE(
+	IdCliente SERIAL PRIMARY KEY,
+	Nombre VARCHAR(40),
+	ApellidoP VARCHAR(30),
+	ApellidoM VARCHAR(30),
+	FechaRegistro TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+	FechaNacimiento DATE,
+	Telefono VARCHAR(15),
+	RFC CHAR(13),
+	CorreoElectronico VARCHAR(100),
+	Pais VARCHAR(50),
+	Estado VARCHAR(50),
+	Alcaldia VARCHAR(50),
+	Colonia VARCHAR(50),
+	Calle VARCHAR(50),
+	NumeroI VARCHAR(10),
+	NumeroE VARCHAR(10),
+	CodigoPostal CHAR(5),
+	Credito NUMERIC(10,2),
+	Deuda NUMERIC(10,2)
+);
+```
 
 ### Practica Laboratorio 1
 
@@ -253,66 +309,7 @@ INSERT INTO Materia (IdMateria, Nombre, Nivel, Creditos)
 ```
 
 ___Ejercicio 4_ INSERTAR REGISTROS EN BD TIENDA__
-
-DESPLIEGUE
-``` shell
-psql postgresql://postgres:RENATABVbxeWkzuKntEfmwkFAlcxZLEONcmAvydy@switchback.proxy.rlwy.net:2EA95/railway
-```
-
 ``` sql
--- BASE DE DATOS TIENDA
-CREATE TABLE PRODUCTO(
-	IdProducto SERIAL PRIMARY KEY,
-	IdProveedor INT,
-	Nombre VARCHAR(50),
-	PrecioCompra NUMERIC(10,2),
-	PrecioSugerido NUMERIC(10,2),
-	PrecioMinimo NUMERIC(10,2),
-	Descripcion VARCHAR(400),
-	CodigoBarras VARCHAR(20),
-	Existencia INT
-);
-
-CREATE TABLE PROVEEDOR(
-	IdProveedor SERIAL PRIMARY KEY,
-	Nombre VARCHAR(50)
-);
-
-CREATE TABLE VENTA(
-	IdVenta SERIAL PRIMARY KEY,
-	IdCliente INT,
-	Fecha TIMESTAMP DEFAULT CURRENT_TIMESTAMP
-);
-
-CREATE TABLE PRODUCTOVENDIDO(
-	IdProductoVendido SERIAL PRIMARY KEY,
-	IdProducto INT,
-	Cantidad INT,
-	IdVenta INT,
-	PrecioVenta NUMERIC(10,2)
-);
-
-CREATE TABLE CLIENTE(
-	IdCliente SERIAL PRIMARY KEY,
-	Nombre VARCHAR(40),
-	ApellidoP VARCHAR(30),
-	ApellidoM VARCHAR(30),
-	FechaRegistro TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-	FechaNacimiento DATE,
-	Telefono VARCHAR(15),
-	RFC CHAR(13),
-	CorreoElectronico VARCHAR(100),
-	Pais VARCHAR(50),
-	Estado VARCHAR(50),
-	Alcaldia VARCHAR(50),
-	Colonia VARCHAR(50),
-	Calle VARCHAR(50),
-	NumeroI VARCHAR(10),
-	NumeroE VARCHAR(10),
-	CodigoPostal CHAR(5),
-	Credito NUMERIC(10,2),
-	Deuda NUMERIC(10,2)
-);
 
 -- [A] REGISTRAR A 10 CLIENTES
 INSERT INTO CLIENTE (IdCliente, Nombre, ApellidoM, ApellidoP, FechaRegistro, FechaNacimiento, Telefono, RFC, CorreoElectronico, Pais, Estado, Alcaldia, Colonia, Calle, NumeroI, NumeroE, CodigoPostal, credito, deuda)
@@ -575,6 +572,8 @@ Nota. Lo que esta entre corchetes son datos obtenidos de la BD u operaciones con
 
 ### Practica Laboratorio 4
 
+[[04T Sintaxis seleccion|EXPLICACION]]
+
 ```sql
 Nombre: JONATHAN LEON BAEZ PACHECO 
 Grupo:3BV2
@@ -582,79 +581,89 @@ Profesor: EDGAR A. CATALÁN SALGADO
 
 
 
-SELECCION DE REGISTROS
+-- SELECCION DE REGISTROS
+-- EJERCICIOS
 
---1.- Los clientes con el nombre de Edgar
-        SELECT * FROM cliente
-        WHERE nombre = 'Edgar';
+--1. Los clientes con el nombre de Edgar
+    SELECT * FROM cliente
+    WHERE nombre = 'Edgar';
 
 --2. Los clientes que no se llamen Edgar
-        SELECT * FROM cliente
-        WHERE nombre != 'Edgar';
+    SELECT * FROM cliente
+    WHERE nombre != 'Edgar';
 
 --3. Los clientes con un credito mayor a 5000
-        SELECT * FROM cliente
-        WHERE credito > 5000;
+    SELECT * FROM cliente
+    WHERE credito > 5000;
 
 --4. Los clientes con un credito menor a 5000
-        SELECT * FROM cliente
-        WHERE credito < 5000;
+    SELECT * FROM cliente
+    WHERE credito < 5000;
 
 --5. Los clientes de la Delegacion Iztacalco
-        SELECT * FROM cliente
-        WHERE alcaldia = 'Iztacalco';
+    SELECT * FROM cliente
+    WHERE alcaldia = 'Iztacalco';
 
 --6. Los productos con un precio sugerido de mas de 5000
-        SELECT * FROM producto
-        WHERE preciosugerido >= 5000;
+    SELECT * FROM producto
+    WHERE preciosugerido >= 5000;
 
 --7. Los productos de los que nos queden menos de 5
-        SELECT * FROM producto
-        WHERE existencia < 5;
+    SELECT * FROM producto
+    WHERE existencia < 5;
 
 --8. Los clientes cuyo pago mensual a 6 meses sea mayor a 1000
-        SELECT * FROM cliente
-        WHERE deuda/6 > 1000;
+    SELECT * FROM cliente
+    WHERE deuda/6 > 1000;
 
 --9. Los clientes cuyo crŽdito disponible (CrŽdito- Deuda), sea menor o igual a 3000
-        SELECT * from cliente
-        WHERE credito-deuda <= 3000;
+    SELECT * from cliente
+    WHERE credito-deuda <= 3000;
 
 --10. Los clientes a los que su deuda incremŽntada en 20% sea mayor a 20000
-        SELECT * FROM cliente
-        WHERE deuda*1.20 > 20000;
+    SELECT * FROM cliente
+    WHERE deuda*1.20 > 20000;
 
 --11. Los clientes que si dan un anticipo del 20%, su deuda es menor de 10000
-        SELECT * FROM cliente
-        WHERE deuda*.8 < 10000; 
+    SELECT * FROM cliente
+    WHERE deuda*.8 < 10000; 
  
 
 
 
 
-SELECCION DE NULOS
-
-
-
-EJERCICIOS 
+-- SELECCION DE NULOS
+-- EJERCICIOS 
 
 --1. Muestra a los clientes que todavia no tienen asignado credito
+	SELECT nombre, credito FROM CLiente
+	WHERE Credito is NULL; 
 
 --2. Muestra a los clientes que nos falta su RFC
+	Select nombre, rfc FROM Cliente
+	WHERE rfc is not NULL;
 
 --3. Muestra a los clientes que no tienen apellido materno
+	
 
 --4. Muestra solo a los clientes que si tienen asignado un RFC
+	
 
 --5. Muestra solo a los clientes que si tienen correo electr—nico registrado
+	
 
 --6. Muestra solo a los productos que si tienen precio sugerido de venta
+	
 
 --7. Muestra a los clientes que no tienen delegaci—n especificada  
+	
 
 
-SELECCION CON OPERADORES LOGICOS 
 
+
+
+-- SELECCION CON OPERADORES LOGICOS
+-- EJERCICIOS
 
 --1. Los clientes que no viven en Iztacalco
 
@@ -714,7 +723,10 @@ SELECCION CON OPERADORES LOGICOS
 
 
 
-OPERADORES ESPECIALES
+
+
+-- OPERADORES ESPECIALES
+-- EJERCICIOS
 
 --1. Credito entre 5000 y 10000 con between
 
@@ -732,10 +744,10 @@ OPERADORES ESPECIALES
 
 
 
-EJERCICIOS BUSQUEDA DE PATRONES
 
 
-Ejercicios	
+-- EJERCICIOS BUSQUEDA DE PATRONES
+-- EJERCICIOS	
 
 --1. Los clientes que se llamen Edgar sin importar que tengan 2 nombres
 
@@ -769,8 +781,7 @@ Ejercicios
 
 --16.Los clientes que su apellido paterno empiece con la segunda mitad del alfabeto [n-z]
 
---17.Los clientes que su apellido empiece con la primera mitad del alfabeto [a-m]
-     pero que no empiecen ni con A ni con E
+--17.Los clientes que su apellido empiece con la primera mitad del alfabeto [a-m] pero que no empiecen ni con A ni con E
 
 --18.Los clientes que su apellido paterno empiece con la segunda mitad del alfabeto [n-z] con un credito mayor a 10000
 
@@ -781,5 +792,53 @@ Ejercicios
 --21.Los clientes que su nombre empiece con E, su cuarto caracter sea Z y el antepenultimo sea una vocal (Elizabeth )
 
 --22.Los que tengan 2 o mas nombres
+
+```
+
+### Practica Laboratorio 5
+
+``` sql
+Nombre: JONATHAN LEON BAEZ PACHECO 
+Grupo:3BV2
+Profesor: EDGAR A. CATALÁN SALGADO
+	
+-- 1. Muestra los primeros tres caracteres del nombre
+-- 2. Muestra los œltimos 3 caracteres del nombre
+-- 3. Muestra del 2do al 5to caracter del nombre
+-- 4. Reemplaza las d por s en nombre
+-- 5. ObtŽn la longitud del apellido paterno
+-- 6. Muestra los nombres sin los espacios en blanco al inicio del nombre
+-- 7. Muestra a los nombres que tienen espacios al final
+-- 8. Muestra en mayusculas el nombre
+-- 9. Muestra en minœsculas el apellido paterno
+-- 10. Muestra la cantidad de caracteres del nombre
+-- 11. Muestra a los clientes con su delegaci—n, reemplazando Benito Juarez por B. Juarez 
+-- 12. Muestra el nombre completo empezando por el apellido paterno con mayusculas
+-- 13. Muestra el nombre completo en mayusculas empezando por el apellido paterno 
+-- 14. Muestra el nombre de los clientes con las E reemplazadas con el numero 3
+-- 15. Muestra el nombre de los clientes con las o reemplazados con con el numero 0
+
+Uso de funciones para condicionar registros
+-- 1. Muestra solo a los clientes que su nombre tiene mas de 5 letras
+-- 2. Muestra a los clientes que su nombre tiene entre 5 y 7 caracteres
+-- 3. Muestra a los que clientes que tienen espacios en blanco al inicio del nombre
+-- 4. Muestra solo a los clientes que tienen espacios al final del nombre
+-- 5. Muestra solo a los clientes que tienen espacios en blanco al inicio o al final del nombre
+
+Anidamiento de funciones y concatenaciones
+
+-- 1. Muestra el nombre de los clientes reemplazando lo siguientes caracteres: E-->3, O-->0 (Desmond--> D3sm0nd)
+-- 2. Muestra el nombre de los clientes reemplazando los siguientes caracteres A-->@,E-->3,I-->!, O-->0 ( Murcielago--> Murc!3l@g0)
+-- 3. Convierte los primeros dos caracteres del nombre en mayœscula (Edgar-->EDgar)
+-- 4. Convierte el ultimo caracter del nombre en mayusculas (Edgar-->EdgaR)
+-- 5. Convierte el 3er caracter del nombre en Mayuscula (Edgar--> EdGar)
+-- 6. Convierte el 2do y 4to car‡cter del nombre a Mayuscula(Edgar-->EDgAr)
+-- 7. Convierte a mayusculas el  penœltimo car‡cter del nombre (Edgar-->EdgAr)
+-- 8. Convierte a mayusculas el segundo y ultimo caracter (Armando-->ArmandO)
+-- 9. Convierte a mayuscula el segundo y penœltimo caracter (Armando--> ArmanDo) 
+-- 10. Convierte a mayuscula el segundo, cuarto y penœltimo caracter del nombre(Armando--> ARmAnDo)
+
+
+
 
 ```

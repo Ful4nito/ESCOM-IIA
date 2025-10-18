@@ -38,17 +38,17 @@ SELECCION CON OPERADORES LOGICOS
 		not (C1 OpLogicoBin C2)
 
 -- Los clientes que no viven en Iztacalco
-Select nombre, delegaci—n
+Select nombre, delegaciï¿½n
 From cliente
 Where not delegacion='iztacalco'
 
 -- Los que se llaman Edgar o Juan
-Select nombre, delegaci—n
+Select nombre, delegaciï¿½n
 From cliente
 Where nombre='Edgar' or nombre='Juan'
 
 -- Los que tienen un credito entre 5000 y 10000
-Select nombre, crdit
+Select nombre, crï¿½dit
 From cliente
 Where credito>5000 and credito<10000
 
@@ -60,12 +60,12 @@ OPERADORES ESPECIALES
 	Campo in (Dato1, Dato2, etc)	La condicion se cumple cuando el valor en campo es cualquiera de los datos especificados
 
 -- Credito entre 5000 y 10000 con between
-Select nombre, crdit
+Select nombre, crï¿½dit
 from clientes
 where credito between 5000 and 10000
 
 -- Los de la delegacion Iztacalco, Coyoacan o Benito Juarez, con el op in
-Select nombre, delegaci—n
+Select nombre, delegaciï¿½n
 from clientes
 where delegation in ('Iztacalco', 'Coyoacan', 'Benito Juarez')
 
@@ -88,7 +88,7 @@ Operador Similar to
 	From	Tabla
 	where nombre similar to 'texto'
 
-Adicionalmente similar to tambin permite los siguientes caracteres de las expresiones regulares POSIX:
+Adicionalmente similar to tambiï¿½n permite los siguientes caracteres de las expresiones regulares POSIX:****
 
 	En el texto puede ir cualquiera de los siguientes comodines
 
@@ -103,10 +103,10 @@ veces.
       Las llaves permiten especificar el numero de veces lo que le precede:
 	"{N,M}", el cual indica el numero minimo (N) y maximo (M) de veces debe aparecer lo que le precede. si se especifica solo un numero {N} es equivalente a {N,}, que lo podriamos interpretar como minimo N, maximo lo que sea.
 
-     Podemos especificar cadenas opcionales con el s’mbolo "|":
+     Podemos especificar cadenas opcionales con el sï¿½mbolo "|":
 	"Cadena1|Cadena1" indica que pude aparecer la cadena 1 o la 2
     
-    Finalmente podemos agrupar elementos para tratarlos como uno solo utilizando parntesis. 
+    Finalmente podemos agrupar elementos para tratarlos como uno solo utilizando parï¿½ntesis. 
 
 
 Expresiones regulares POSIX (OPERADOR ~)
