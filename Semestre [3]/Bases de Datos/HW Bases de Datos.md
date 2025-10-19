@@ -672,28 +672,35 @@ Profesor: EDGAR A. CATALÁN SALGADO
 
 --1. Los clientes que no viven en Iztacalco
 	SELECT nombre, alcaldia FROM Cliente
-	WHERE alcaldia != 'Iztacalco';
+	WHERE not alcaldia = 'Iztacalco';
 
 --2. Los clientes que no se llaman Edgar
-	
+	SELECT nombre FROM Cliente
+	WHERE not nombre = 'Edgar';
 
 --3. Los que se llaman Edgar o Juan
-	
+	SELECT nombre FROM Cliente
+	WHERE nombre = 'Edgar' or nombre = 'Juan';
 
 --4. Los que NO se llaman Edgar o Juan
-	
+	SELECT nombre FROM Cliente
+	WHERE not (nombre = 'Edgar' or nombre = 'Juan');
 
 --5. Los que tienen un credito entre 5000 y 10000
-	
+	SELECT nombre FROM Cliente
+	WHERE credito > 5000 and credito < 1000;
 
 --6. Los que NO tienen un credito entre 5000 y 10000
-	
+	SELECT credito FROM Cliente
+	WHERE not (credito > 5000 and credito < 1000);
 
 --7 Los que se llamen Edgar y su apellido paterno es  Catalan
-	
+	SELECT nombre FROM Cliente
+	WHERE not (nombre = 'Edgar' and apellidop = 'Catalan');
 
 --8. Los que su apellido paterno es Catalan y NO se llaman Edgar
-	
+	SELECT nombre FROM Cliente
+	WHERE apellidop = 'Catalan' and (not nombre = 'Edgar');
 
 --9. Los que se llaman Blanca o su apellido paterno es Catalan
 	
