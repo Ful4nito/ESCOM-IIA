@@ -703,40 +703,52 @@ Profesor: EDGAR A. CATALÁN SALGADO
 	WHERE apellidop = 'Catalan' and (not nombre = 'Edgar');
 
 --9. Los que se llaman Blanca o su apellido paterno es Catalan
-	
+	SELECT nombre, apellido FROM Cliente
+	WHERE nombre = 'Blanca' or apellidop = 'Catalan';
 
 --10. Los que cualquiera de sus apellidos es catal‡n
-	
+	SELECT nombre, apellidop, apellidop FROM Cliente
+	WHERE apellidop = 'Catalan' or apellidom = 'Catalan';
 
 --11. Los que ninguno de sus apellidos es catal‡n
-	
+	SELECT nombre, apellidop, apellidom FROM Cliente
+	WHERE not (apellidop = 'Catalan' or apellidom = 'Catalan');
 
 --12. Los que su apellido paterno es Catalan o Perez
-	
+	SELECT nombre, apellidop FROM Cliente
+	WHERE apellidop = 'Catalan' or apellidop = 'Perez';
 
 --13. Los que su apellido paterno es catal‡n, Perez o Garcia
-	
+	SELECT nombre, apellidop FROM Cliente
+	WHERE apellidop = 'Catalan' or apellidop = 'Perez' or apellidop = 'Garcia';
 
 --14. Los que cualquiera de sus apellidos es Catalan o Perez
-	
+	SELECT nombre, apellidop, apellidom FROM Cliente
+	WHERE apellidop = 'Catalan' or apellidop = 'Perez' or apellidom = 'Catalan' or apellidom = 'Perez';
 
 --15. Los que se llaman Edgar y su apellido paterno es Catal‡n o Perez
-	
+	SELECT nombre, apellidop FROM Cliente
+	WHERE nombre = 'Edgar' and (apellidop = 'Catalan' or apellidop = 'Perez');
 
 --16. Los que se llaman Edgar y su apellido paterno NO sea Catal‡n o Perez
-	
+	SELECT nombre, apellidop FROM Cliente
+	WHERE nombre = 'Edgar' and not(apellidop = 'Catalan' or apellidop = 'Perez');
 
---17. Los de la delegaci—n Iztacalco, GAM y bendito Juarez
-	
+--17. Los de la Alcaldia Iztacalco, GAM y bendito Juarez
+	SELECT nombre, alcaldia FROM Cliente
+	WHERE alcaldia = 'Iztacalco' or alcaldia = 'Gustavo A. Madero' or alcaldia = 'Benito Juarez';
 
 --18. Los de Iztacalco y GAM que su apellido paterno sea catal‡n
-	
+	SELECT nombre, apellidop, alcaldia FROM Cliente
+	WHERE apellidop = 'Catalan' and (alcaldia = 'Iztacalco' or alcaldia = 'Gustavo A. Madero');
 
 --19. Los que viven en Iztacalco y su credito esta en 5000 y 10000
-	
+	SELECT nombre, alcaldia, credito FROM Cliente
+	WHERE credito between 5000 and 10000;
 
 --20. Los que viven en Iztacalco o Coyoacan y su deuda esta en 10000 y 20000
-	
+	SELECT nombre, alcaldia, deuda FROM Cliente
+	WHERE (alcaldia = 'Iztacalco' or alcaldia = 'Coyoacan') and (deuda between 10000 and 20000);
 
 --21. Los de Iztacalco y GAM que cualquiera de sus apellidos sea catal‡n 
 	
@@ -747,16 +759,16 @@ Profesor: EDGAR A. CATALÁN SALGADO
 --23. Los que se llaman Edgar y ninguno de sus apellidos sea catal‡n o Perez
 	
 
---24. Los de la delegaci—n Iztacalco que su pago mensual a 6 meses sea mayor o igual a 1000
+--24. Los de la Alcaldia Iztacalco que su pago mensual a 6 meses sea mayor o igual a 1000
 	
 
---25. Los de la delegaci—n Iztacalco que no tengan crŽdito asignado
+--25. Los de la Alcaldia Iztacalco que no tengan crŽdito asignado
 	
 
---26. Los de la delegaci—n Iztacalco con un crŽdito disponible( CrŽdito-Deuda) mayor a 10000
+--26. Los de la Alcaldia Iztacalco con un crŽdito disponible( CrŽdito-Deuda) mayor a 10000
 	
 
---27. Los de la delegaci—n Iztacalco que no tengan apellido materno o crŽdito asignado
+--27. Los de la Alcaldia Iztacalco que no tengan apellido materno o crŽdito asignado
 	
 
 --28. Los de la delegaciones GAM e Iztacalco que no tengan apellido materno o crŽdito asignado
