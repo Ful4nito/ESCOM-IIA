@@ -795,19 +795,24 @@ Profesor: EDGAR A. CATALÁN SALGADO
 	WHERE alcaldia in ('Iztacalco', 'Coyoacan', 'Benito Juarez');
 
 --3. Los que su deuda este entre 10000 y 15000 y su pago mensual a 12 meses este entre 500 y 1000
-	
+	SELECT nombre, deuda, deuda/12 as "Pago Mensual [12meses]" FROM Cliente
+	WHERE (deuda between 10000 and 15000) and (deuda/12 between 500 and 1000);
 
 --4. Los de la delegacion Iztacalco, Coyoacan o Benito Juarez y que su deuda este entre 10000 y 15000
-	
+	SELECT nombre, alcaldia, deuda FROM Cliente
+	WHERE alcaldia in ('Iztcalco', 'Coyoacan', 'Benito Juarez') and deuda between 10000 and 15000;
 
 --5. Los de la delegacion Iztacalco, Coyoacan o Benito Juarez y su apellido paterno sea Catalan
-	
+	SELECT nombre, alcaldia, deuda FROM Cliente
+	WHERE alcaldia in ('Iztcalco', 'Coyoacan', 'Benito Juarez') and apellidop = 'Catalan';
 
 --6. Los de la delegacion Iztacalco, Coyoacan o Benito Juarez y cualquiera de sus apellidos sea Catalan
-	
+	SELECT nombre, alcaldia, deuda FROM Cliente
+	WHERE alcaldia in ('Iztcalco', 'Coyoacan', 'Benito Juarez') and (apellidop = 'Catalan' or apellidom = 'Catalan');
 
---7. --6. Los de la delegacion Iztacalco, Coyoacan o Benito Juarez y cualquiera de sus apellidos sea Catalan, Perez o Garcia
-	
+--7. Los de la delegacion Iztacalco, Coyoacan o Benito Juarez y cualquiera de sus apellidos sea Catalan, Perez o Garcia
+	SELECT nombre, alcaldia, deuda FROM Cliente
+	WHERE alcaldia in ('Iztcalco', 'Coyoacan', 'Benito Juarez') and (apellidop in ('Catalan', 'Perez', 'Garcia') or apellidom in ('Catalan', 'Perez', 'Garcia'));
 
 
 
