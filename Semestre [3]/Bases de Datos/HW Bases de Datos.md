@@ -626,8 +626,7 @@ Profesor: EDGAR A. CATALÁN SALGADO
 
 --11. Los clientes que si dan un anticipo del 20%, su deuda es menor de 10000
     SELECT * FROM cliente
-    WHERE deuda*.8 < 10000; 
- 
+    WHERE deuda*.8 < 10000;  
 
 
 
@@ -662,7 +661,6 @@ Profesor: EDGAR A. CATALÁN SALGADO
 --7. Muestra a los clientes que no tienen delegaci—n especificada  
 	SELECT nombre, alcaldia FROM Cliente
 	WHERE alcaldia is NULL;
-
 
 
 
@@ -751,28 +749,36 @@ Profesor: EDGAR A. CATALÁN SALGADO
 	WHERE (alcaldia = 'Iztacalco' or alcaldia = 'Coyoacan') and (deuda between 10000 and 20000);
 
 --21. Los de Iztacalco y GAM que cualquiera de sus apellidos sea catal‡n 
-	
+	SELECT nombre, apellidop, apellidop, alcaldia FROM Cliente
+	WHERE (alcaldia = 'Iztacalco' or alcaldia = 'Gustavo A. Madero') and (apellidop = 'Catalan' or apellidom = 'Catalan');
 
 --22. Los que se llaman Edgar y cualquiera de sus apellidos sea catal‡n o Perez
-	
+	SELECT nombre, apellidop, apellidom FROM Cliente
+	WHERE nombre = 'Edgar' and (apellidop = 'Catalan' or apellidop = 'Perez' or apellidom = 'Catalan' or apellidom = 'Perez');
 
 --23. Los que se llaman Edgar y ninguno de sus apellidos sea catal‡n o Perez
-	
+	SELECT nombre, apellidop, apellidom FROM Cliente
+	WHERE nombre = 'Edgar' and not(apellidop = 'Catalan' or apellidop = 'Perez' or apellidom = 'Catalan' or apellidom = 'Perez');
 
 --24. Los de la Alcaldia Iztacalco que su pago mensual a 6 meses sea mayor o igual a 1000
-	
+	SELECT nombre, alcaldia, deuda/6 as "Pago Mensual [6meses]" FROM Cliente
+	WHERE alcaldia = 'Iztacalco' and deuda/6 >= 1000;
 
 --25. Los de la Alcaldia Iztacalco que no tengan crŽdito asignado
-	
+	SELECT nombre, alcaldia FROM Cliente
+	WHERE alcaldia = 'Iztacalco' and credito is NULL;
 
 --26. Los de la Alcaldia Iztacalco con un crŽdito disponible( CrŽdito-Deuda) mayor a 10000
-	
+	SELECT nombre, alcaldia, credito-deuda as "Credito disponible" FROM Cliente
+	WHERE alcaldia = 'Iztacalco' and credito-deuda >= 10000;
 
 --27. Los de la Alcaldia Iztacalco que no tengan apellido materno o crŽdito asignado
-	
+	SELECT nombre, alcaldia, apellidom, credito FROM Cliente
+	WHERE alcaldia = 'Iztacalco' and (apellidom is NULL or credito is NULL); 
 
 --28. Los de la delegaciones GAM e Iztacalco que no tengan apellido materno o crŽdito asignado
-
+	SELECT nombre, apellidom, alcaldia, credito FROM Cliente
+	WHERE (alcaldia = 'Iztacalco' or alcaldia = 'Gustavo A. Madero') and (apellidom is NULL or credito is NULL); 
 
 
 
@@ -781,10 +787,12 @@ Profesor: EDGAR A. CATALÁN SALGADO
 -- EJERCICIOS
 
 --1. Credito entre 5000 y 10000 con between
-	
+	SELECT nombre, credito FROM Cliente
+	WHERE credito between 5000 and 10000;
 
 --2. Los de la delegacion Iztacalco, Coyoacan o Benito Juarez
-	
+	SELECT nombre, delegacion FROM Cliente
+	WHERE alcaldia in ('Iztacalco', 'Coyoacan', 'Benito Juarez');
 
 --3. Los que su deuda este entre 10000 y 15000 y su pago mensual a 12 meses este entre 500 y 1000
 	
