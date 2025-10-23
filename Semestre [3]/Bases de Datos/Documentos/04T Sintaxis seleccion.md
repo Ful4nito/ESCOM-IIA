@@ -180,6 +180,7 @@ Les pongo los siguientes ejemplos:
 Suponga los nombre Ana, Pedro, Edgar, Yalsiria y Blanca
 
 Muestra a los que tienen por lo menos una A (sin importar si es mayusculas o minusculas)
+
 	Select Nombre
 	from Clientes
 	where nombre like'%A%' or nombre like '%a%';
