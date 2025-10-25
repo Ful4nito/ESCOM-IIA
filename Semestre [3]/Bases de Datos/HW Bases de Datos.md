@@ -890,6 +890,8 @@ Profesor: EDGAR A. CATALÁN SALGADO
 
 ### Practica Laboratorio 5
 
+[[05T Sintaxis funciones texto| Explicación]]
+
 ``` sql
 Nombre: JONATHAN LEON BAEZ PACHECO 
 Grupo:3BV2
@@ -917,19 +919,19 @@ Profesor: EDGAR A. CATALÁN SALGADO
 	SELECT RTRIM(nombre) FROM Cliente;
 
 -- 8. Muestra en mayusculas el nombre
-	SELECT UPPER
+	SELECT UPPER(nombre) FROM Cliente;
 
 -- 9. Muestra en minœsculas el apellido paterno
-	
+	SELECT LOWER(apellidop) FROM Cliente;
 
 -- 10. Muestra la cantidad de caracteres del nombre
-	
+	SELECT CHAR_LENGTH(nombre) FROM Cliente;
 
 -- 11. Muestra a los clientes con su delegaci—n, reemplazando Benito Juarez por B. Juarez
-	
+	SELECT REPLACE(alcaldia, 'Benito Juarez', 'B. Jusrez') FROM Cliente;
 
 -- 12. Muestra el nombre completo empezando por el apellido paterno con mayusculas
-	
+	SELECT UPPER(apellidop), UPPER(apellidom), UPPER(nombre) FROM Cliente;
 
 -- 13. Muestra el nombre completo en mayusculas empezando por el apellido paterno
 	
