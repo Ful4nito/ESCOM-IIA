@@ -5,6 +5,7 @@ cssclasses:
 
 ## INVESTIGACIONES
 ### RaspBerry 
+
 ~~ENTREGA: 30 AGOSTO 25~~
 
 Realizar una breve investigación acerca de las tarjetas Raspberry.  [[Investigacion Raspberry.pdf|PDF 📄]]
@@ -19,6 +20,7 @@ Características:
 
 
 ### Nexys IV
+
 ~~ENTREGA VENCIDA~~
 
 
@@ -79,3 +81,111 @@ include <servo.h>
 
 ~~SUMADOR Y RESTADOR~~
 
+### Practica 2
+
+
+### Practica 3
+
+~~ALU 4 BITS~~
+
+``` vhdl
+----------------------------------------------------------------------------------
+-- Company: ESCOM 
+-- Engineer: EQUIPO 4 
+-- 
+-- Create Date: 26.10.2025 20:52:04
+-- Design Name: PRACTICA #3
+-- Module Name: ALU_4BITS - Behavioral
+-- Target Devices: NEXYS4 ARTIX-7
+-- Description: Unidad Aritmetica Logica de 4 Bits
+--  Aritmetica: Suma Resta
+--  Logica:     AND OR XOR NOT-A NOT-B
+----------------------------------------------------------------------------------
+
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.STD_LOGIC_UNSIGNED.ALL;
+
+entity ALU_4_BITS is
+    Port (
+        A   : in  STD_LOGIC_VECTOR(3 downto 0);
+        B   : in  STD_LOGIC_VECTOR(3 downto 0);
+        sel : in  STD_LOGIC_VECTOR(2 downto 0);
+        R   : out STD_LOGIC_VECTOR(3 downto 0);
+        Cout: out STD_LOGIC
+    );
+end ALU_4_BITS;
+
+architecture Behavioral of ALU_4_BITS is
+    signal tmp : STD_LOGIC_VECTOR(4 downto 0);
+begin
+    process (A, B, sel)
+    begin
+        case sel is
+            when "000" =>  -- Suma
+                tmp <= ('0' & A) + ('0' & B);
+                R <= tmp(3 downto 0);
+                Cout <= tmp(4);
+
+            when "001" =>  -- Resta
+                tmp <= ('0' & A) - ('0' & B);
+                R <= tmp(3 downto 0);
+                Cout <= tmp(4);
+
+            when "010" =>  -- AND
+                R <= A and B;
+                Cout <= '0';
+
+            when "011" =>  -- OR
+                R <= A or B;
+                Cout <= '0';
+
+            when "100" =>  -- NOT (solo A)
+                R <= not A;
+                Cout <= '0';
+
+            when "101" =>  -- XOR
+                R <= A xor B;
+                Cout <= '0';
+
+            when others =>
+                R <= (others => '0');
+                Cout <= '0';
+        end case;
+    end process;
+end Behavioral;
+
+```
+
+``` vhdl
+## Switches A[3:0]
+set_property PACKAGE_PIN W17 [get_ports {A[0]}]
+set_property PACKAGE_PIN W16 [get_ports {A[1]}]
+set_property PACKAGE_PIN V16 [get_ports {A[2]}]
+set_property PACKAGE_PIN V17 [get_ports {A[3]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {A[*]}]
+
+## Switches B[3:0]
+set_property PACKAGE_PIN V13 [get_ports {B[0]}]
+set_property PACKAGE_PIN V14 [get_ports {B[1]}]
+set_property PACKAGE_PIN W14 [get_ports {B[2]}]
+set_property PACKAGE_PIN W15 [get_ports {B[3]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {B[*]}]
+
+## Selección sel[2:0]
+set_property PACKAGE_PIN V12 [get_ports {sel[0]}]
+set_property PACKAGE_PIN W12 [get_ports {sel[1]}]
+set_property PACKAGE_PIN W13 [get_ports {sel[2]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {sel[*]}]
+
+## LEDs R[3:0]
+set_property PACKAGE_PIN V19 [get_ports {R[0]}]
+set_property PACKAGE_PIN U19 [get_ports {R[1]}]
+set_property PACKAGE_PIN E19 [get_ports {R[2]}]
+set_property PACKAGE_PIN U16 [get_ports {R[3]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {R[*]}]
+
+## LED de Carry
+set_property PACKAGE_PIN W18 [get_ports {Cout}]
+set_property IOSTANDARD LVCMOS33 [get_ports {Cout}]
+```
