@@ -77,14 +77,14 @@ include <servo.h>
 
 ## PRACTICAS
 
-### Practica 1
+### Practica_1 Sumador y Restador
 
 ~~SUMADOR Y RESTADOR~~
 
-### Practica 2
+### Practica_2 Comparador
 
 
-### Practica 3
+### Practica 3 ALU
 
 ~~ALU 4 BITS~~
 
@@ -188,4 +188,13 @@ set_property IOSTANDARD LVCMOS33 [get_ports {R[*]}]
 ## LED de Carry
 set_property PACKAGE_PIN W18 [get_ports {Cout}]
 set_property IOSTANDARD LVCMOS33 [get_ports {Cout}]
+```
+
+### Practica_4 Memoria RAM
+
+Implementar una memoria RAM con capacidad de 32 Bits, utilizar registros de 4 Bits
+
+``` vhdl
+
+
 ```
