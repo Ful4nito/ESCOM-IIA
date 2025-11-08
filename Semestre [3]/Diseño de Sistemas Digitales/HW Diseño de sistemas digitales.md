@@ -192,7 +192,7 @@ set_property IOSTANDARD LVCMOS33 [get_ports {Cout}]
 
 ### Practica_4 Memoria RAM
 
-Implementar una memoria RAM con capacidad de 32 Bits, utilizar registros de 4 Bits
+Implementar una memoria RAM 16x8Bits
 
 ``` vhdl
 
