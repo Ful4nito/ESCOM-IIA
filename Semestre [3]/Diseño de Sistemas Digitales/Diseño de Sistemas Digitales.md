@@ -89,10 +89,25 @@ end Behavioral;
 ____
 ## II.  DISEÑO DE SISTEMAS DIGITALES
 ---
+
+
+
 ## III.  CONTADORES
 ____
+
+
+
+
+
+
 ## IV.  MEMORIAS
 ____
+
+
+
+
+
+
 ## V.  MÁQUINA DE ESTADO ALGORÍTMICA
 
 
