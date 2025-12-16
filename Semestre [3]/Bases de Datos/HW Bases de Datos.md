@@ -112,7 +112,7 @@ __09 SEPTIEMBRE 25__
 | Obtención de información acerca del total de clientes por delegación |      Servidor      |
 | Llenado de la forma de alta de un cliente                            |      Cliente       |
 
-### Cres Base de Datos Tienda
+### Crea Base de Datos Tienda
 
 ``` sql
 -- BASE DE DATOS TIENDA
@@ -1074,9 +1074,11 @@ Anidamiento de funciones y concatenaciones
 EJERCICIOS FUNCIONES DE AGRUPAMIENTO
 
 
-1.- Muestra el total de ingresos por ventas en la tienda
+-- 1.- Muestra el total de ingresos por ventas en la tienda
+	SELECT SUM(PrecioVenta) FROM ProductoVendido;
 
 2. Muestra el total de cada venta
+	SELECT SUM(PrecioVenta) FROM Producto vendido WHERE idventa=1;
 
 3.- Muestra el precio mas alto, el mas bajo y el promedio de los precios de los productos vendidos
 
